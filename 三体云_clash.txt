@@ -16,7 +16,7 @@ dns:
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
     - { name: '剩余流量：1.88 GB', type: ss, server: hk1.sknat.top, port: 41471, cipher: chacha20-ietf-poly1305, password: ec62ef9f-ff23-45ca-babe-5765743287cc, udp: true }
-    - { name: '距离下次重置剩余：3 天', type: ss, server: hk1.sknat.top, port: 41471, cipher: chacha20-ietf-poly1305, password: ec62ef9f-ff23-45ca-babe-5765743287cc, udp: true }
+    - { name: '距离下次重置剩余：2 天', type: ss, server: hk1.sknat.top, port: 41471, cipher: chacha20-ietf-poly1305, password: ec62ef9f-ff23-45ca-babe-5765743287cc, udp: true }
     - { name: 套餐到期：2023-07-20, type: ss, server: hk1.sknat.top, port: 41471, cipher: chacha20-ietf-poly1305, password: ec62ef9f-ff23-45ca-babe-5765743287cc, udp: true }
     - { name: 香港1|奈飞, type: ss, server: hk1.sknat.top, port: 41471, cipher: chacha20-ietf-poly1305, password: ec62ef9f-ff23-45ca-babe-5765743287cc, udp: true }
     - { name: 香港2|奈飞, type: ss, server: hk2.sknat.top, port: 27492, cipher: chacha20-ietf-poly1305, password: ec62ef9f-ff23-45ca-babe-5765743287cc, udp: true }
@@ -53,9 +53,9 @@ proxies:
     - { name: 泰国2|GPT, type: ss, server: td2.sknat.top, port: 30762, cipher: chacha20-ietf-poly1305, password: ec62ef9f-ff23-45ca-babe-5765743287cc, udp: true }
     - { name: 泰国3|GPT, type: ss, server: td3.sknat.top, port: 40763, cipher: chacha20-ietf-poly1305, password: ec62ef9f-ff23-45ca-babe-5765743287cc, udp: true }
 proxy-groups:
-    - { name: 三体云, type: select, proxies: [自动选择, 故障转移, '剩余流量：1.88 GB', '距离下次重置剩余：3 天', 套餐到期：2023-07-20, 香港1|奈飞, 香港2|奈飞, 香港3|奈飞, 香港4|奈飞, 香港5|奈飞, 新加坡1|GPT, 新加坡2|GPT, 新加坡3|GPT, 新加坡4|GPT, 新加坡5|GPT, 台湾1|流媒体|GPT, 台湾2|流媒体|GPT, 台湾3|流媒体|GPT, 马来西亚1|流媒体, 马来西亚2|流媒体, 马来西亚3|流媒体, 韩国1|优化, 韩国2|优化, 德国1|流媒体|GPT, 德国2|流媒体|GPT, 美国1|GPT, 美国2|GPT, 日本1|GPT, 日本2|GPT, 日本3|GPT, 韩国3|优化, 韩国4|优化, 香港6|奈飞, 香港7|奈飞, 土耳其1|GPT, 土耳其2|GPT, 泰国1|GPT, 泰国2|GPT, 泰国3|GPT] }
-    - { name: 自动选择, type: url-test, proxies: ['剩余流量：1.88 GB', '距离下次重置剩余：3 天', 套餐到期：2023-07-20, 香港1|奈飞, 香港2|奈飞, 香港3|奈飞, 香港4|奈飞, 香港5|奈飞, 新加坡1|GPT, 新加坡2|GPT, 新加坡3|GPT, 新加坡4|GPT, 新加坡5|GPT, 台湾1|流媒体|GPT, 台湾2|流媒体|GPT, 台湾3|流媒体|GPT, 马来西亚1|流媒体, 马来西亚2|流媒体, 马来西亚3|流媒体, 韩国1|优化, 韩国2|优化, 德国1|流媒体|GPT, 德国2|流媒体|GPT, 美国1|GPT, 美国2|GPT, 日本1|GPT, 日本2|GPT, 日本3|GPT, 韩国3|优化, 韩国4|优化, 香港6|奈飞, 香港7|奈飞, 土耳其1|GPT, 土耳其2|GPT, 泰国1|GPT, 泰国2|GPT, 泰国3|GPT], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
-    - { name: 故障转移, type: fallback, proxies: ['剩余流量：1.88 GB', '距离下次重置剩余：3 天', 套餐到期：2023-07-20, 香港1|奈飞, 香港2|奈飞, 香港3|奈飞, 香港4|奈飞, 香港5|奈飞, 新加坡1|GPT, 新加坡2|GPT, 新加坡3|GPT, 新加坡4|GPT, 新加坡5|GPT, 台湾1|流媒体|GPT, 台湾2|流媒体|GPT, 台湾3|流媒体|GPT, 马来西亚1|流媒体, 马来西亚2|流媒体, 马来西亚3|流媒体, 韩国1|优化, 韩国2|优化, 德国1|流媒体|GPT, 德国2|流媒体|GPT, 美国1|GPT, 美国2|GPT, 日本1|GPT, 日本2|GPT, 日本3|GPT, 韩国3|优化, 韩国4|优化, 香港6|奈飞, 香港7|奈飞, 土耳其1|GPT, 土耳其2|GPT, 泰国1|GPT, 泰国2|GPT, 泰国3|GPT], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
+    - { name: 三体云, type: select, proxies: [自动选择, 故障转移, '剩余流量：1.88 GB', '距离下次重置剩余：2 天', 套餐到期：2023-07-20, 香港1|奈飞, 香港2|奈飞, 香港3|奈飞, 香港4|奈飞, 香港5|奈飞, 新加坡1|GPT, 新加坡2|GPT, 新加坡3|GPT, 新加坡4|GPT, 新加坡5|GPT, 台湾1|流媒体|GPT, 台湾2|流媒体|GPT, 台湾3|流媒体|GPT, 马来西亚1|流媒体, 马来西亚2|流媒体, 马来西亚3|流媒体, 韩国1|优化, 韩国2|优化, 德国1|流媒体|GPT, 德国2|流媒体|GPT, 美国1|GPT, 美国2|GPT, 日本1|GPT, 日本2|GPT, 日本3|GPT, 韩国3|优化, 韩国4|优化, 香港6|奈飞, 香港7|奈飞, 土耳其1|GPT, 土耳其2|GPT, 泰国1|GPT, 泰国2|GPT, 泰国3|GPT] }
+    - { name: 自动选择, type: url-test, proxies: ['剩余流量：1.88 GB', '距离下次重置剩余：2 天', 套餐到期：2023-07-20, 香港1|奈飞, 香港2|奈飞, 香港3|奈飞, 香港4|奈飞, 香港5|奈飞, 新加坡1|GPT, 新加坡2|GPT, 新加坡3|GPT, 新加坡4|GPT, 新加坡5|GPT, 台湾1|流媒体|GPT, 台湾2|流媒体|GPT, 台湾3|流媒体|GPT, 马来西亚1|流媒体, 马来西亚2|流媒体, 马来西亚3|流媒体, 韩国1|优化, 韩国2|优化, 德国1|流媒体|GPT, 德国2|流媒体|GPT, 美国1|GPT, 美国2|GPT, 日本1|GPT, 日本2|GPT, 日本3|GPT, 韩国3|优化, 韩国4|优化, 香港6|奈飞, 香港7|奈飞, 土耳其1|GPT, 土耳其2|GPT, 泰国1|GPT, 泰国2|GPT, 泰国3|GPT], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
+    - { name: 故障转移, type: fallback, proxies: ['剩余流量：1.88 GB', '距离下次重置剩余：2 天', 套餐到期：2023-07-20, 香港1|奈飞, 香港2|奈飞, 香港3|奈飞, 香港4|奈飞, 香港5|奈飞, 新加坡1|GPT, 新加坡2|GPT, 新加坡3|GPT, 新加坡4|GPT, 新加坡5|GPT, 台湾1|流媒体|GPT, 台湾2|流媒体|GPT, 台湾3|流媒体|GPT, 马来西亚1|流媒体, 马来西亚2|流媒体, 马来西亚3|流媒体, 韩国1|优化, 韩国2|优化, 德国1|流媒体|GPT, 德国2|流媒体|GPT, 美国1|GPT, 美国2|GPT, 日本1|GPT, 日本2|GPT, 日本3|GPT, 韩国3|优化, 韩国4|优化, 香港6|奈飞, 香港7|奈飞, 土耳其1|GPT, 土耳其2|GPT, 泰国1|GPT, 泰国2|GPT, 泰国3|GPT], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
 rules:
     - 'DOMAIN,sub.santiyun.cc,DIRECT'
     - 'DOMAIN-SUFFIX,services.googleapis.cn,三体云'
