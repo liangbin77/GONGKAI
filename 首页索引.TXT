@@ -4,6 +4,10 @@ https://ghproxy.com/https://raw.githubusercontent.com/liangbin-foxmail/GONGKAI/m
 
 https://ghproxy.com/https://raw.githubusercontent.com/liangbin-foxmail/GONGKAI/main/proxyvip_shadowrocket.txt
 
+https://ghproxy.com/https://raw.githubusercontent.com/liangbin-foxmail/GONGKAI/main/三体云2_IOS_shadowrocket.txt
+
+https://ghproxy.com/https://raw.githubusercontent.com/liangbin-foxmail/GONGKAI/main/三体云2_clash.txt
+
 https://ghproxy.com/https://raw.githubusercontent.com/liangbin-foxmail/GONGKAI/main/三体云_IOS_shadowrocket.txt
 
 https://ghproxy.com/https://raw.githubusercontent.com/liangbin-foxmail/GONGKAI/main/三体云_clash.txt
