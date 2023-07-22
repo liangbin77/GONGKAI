@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://vipxgyun.com/link/NVDDyzhbJPHPWsrv?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2023-07-22 08:28:10
+## 上次更新于：2023-07-22 08:29:10
 #---------------------------------------------------#
 
 port: 7890
@@ -133,22 +133,6 @@ proxies:
       headers: { Host: suidao.vipxgyun.com }
   -
     name: 'B新加坡03 | 隧道 | 1X | ChatGPT解锁'
-    type: vmess
-    server: suidao.vipxgyun.com
-    port: 10010
-    uuid: 4fb8b3c4-72a7-360e-9409-6b3335bc1f29
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /ny
-    ws-headers:
-      Host: suidao.vipxgyun.com
-    ws-opts:
-      path: /ny
-      headers: { Host: suidao.vipxgyun.com }
-  -
-    name: 'B新加坡04 | 隧道 | 1X | ChatGPT解锁'
     type: vmess
     server: suidao.vipxgyun.com
     port: 10011
@@ -289,7 +273,6 @@ proxy-groups:
       - 'B新加坡01 | 隧道 | 1X | ChatGPT解锁'
       - 'B新加坡02 | 隧道 | 1X | ChatGPT解锁'
       - 'B新加坡03 | 隧道 | 1X | ChatGPT解锁'
-      - 'B新加坡04 | 隧道 | 1X | ChatGPT解锁'
       - ChatGPT专属节点
       - '印度 | 隧道 | 1X |'
       - '台湾 | YouTube免广告 | Tiktok  | 隧道 | 1X | '
@@ -318,7 +301,6 @@ proxy-groups:
       - 'B新加坡01 | 隧道 | 1X | ChatGPT解锁'
       - 'B新加坡02 | 隧道 | 1X | ChatGPT解锁'
       - 'B新加坡03 | 隧道 | 1X | ChatGPT解锁'
-      - 'B新加坡04 | 隧道 | 1X | ChatGPT解锁'
       - ChatGPT专属节点
       - '印度 | 隧道 | 1X |'
       - '台湾 | YouTube免广告 | Tiktok  | 隧道 | 1X | '
@@ -340,7 +322,6 @@ proxy-groups:
       - 'B新加坡01 | 隧道 | 1X | ChatGPT解锁'
       - 'B新加坡02 | 隧道 | 1X | ChatGPT解锁'
       - 'B新加坡03 | 隧道 | 1X | ChatGPT解锁'
-      - 'B新加坡04 | 隧道 | 1X | ChatGPT解锁'
       - ChatGPT专属节点
       - '印度 | 隧道 | 1X |'
       - '台湾 | YouTube免广告 | Tiktok  | 隧道 | 1X | '
@@ -362,7 +343,6 @@ proxy-groups:
       - 'B新加坡01 | 隧道 | 1X | ChatGPT解锁'
       - 'B新加坡02 | 隧道 | 1X | ChatGPT解锁'
       - 'B新加坡03 | 隧道 | 1X | ChatGPT解锁'
-      - 'B新加坡04 | 隧道 | 1X | ChatGPT解锁'
       - ChatGPT专属节点
       - '印度 | 隧道 | 1X |'
       - '台湾 | YouTube免广告 | Tiktok  | 隧道 | 1X | '
@@ -384,7 +364,6 @@ proxy-groups:
       - 'B新加坡01 | 隧道 | 1X | ChatGPT解锁'
       - 'B新加坡02 | 隧道 | 1X | ChatGPT解锁'
       - 'B新加坡03 | 隧道 | 1X | ChatGPT解锁'
-      - 'B新加坡04 | 隧道 | 1X | ChatGPT解锁'
       - ChatGPT专属节点
       - '印度 | 隧道 | 1X |'
       - '台湾 | YouTube免广告 | Tiktok  | 隧道 | 1X | '
@@ -406,7 +385,6 @@ proxy-groups:
       - 'B新加坡01 | 隧道 | 1X | ChatGPT解锁'
       - 'B新加坡02 | 隧道 | 1X | ChatGPT解锁'
       - 'B新加坡03 | 隧道 | 1X | ChatGPT解锁'
-      - 'B新加坡04 | 隧道 | 1X | ChatGPT解锁'
       - ChatGPT专属节点
       - '印度 | 隧道 | 1X |'
       - '台湾 | YouTube免广告 | Tiktok  | 隧道 | 1X | '
