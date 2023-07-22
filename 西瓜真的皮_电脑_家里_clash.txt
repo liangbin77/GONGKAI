@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://vipxgyun.com/link/FOcGf2BqSiuOKAVP?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2023-07-22 08:05:05
+## 上次更新于：2023-07-22 08:06:04
 #---------------------------------------------------#
 
 port: 7890
@@ -35,70 +35,6 @@ proxies:
     protocol-param: ''
     obfs: http_simple
     obfs-param: ''
-  -
-    name: 'A香港01 | 直连 |  ChatGPT解锁'
-    type: vmess
-    server: 1.vipxgyun.com
-    port: 80
-    uuid: 42e00ad3-5a93-37df-b99f-5e30d01227ba
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /ny
-    ws-headers:
-      Host: 1.vipxgyun.com
-    ws-opts:
-      path: /ny
-      headers: { Host: 1.vipxgyun.com }
-  -
-    name: 'A香港02 | 直连 | ChatGPT解锁'
-    type: vmess
-    server: 2.vipxgyun.com
-    port: 80
-    uuid: 42e00ad3-5a93-37df-b99f-5e30d01227ba
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /ny
-    ws-headers:
-      Host: 2.vipxgyun.com
-    ws-opts:
-      path: /ny
-      headers: { Host: 2.vipxgyun.com }
-  -
-    name: 'A香港03 | 隧道 | '
-    type: vmess
-    server: suidao.vipxgyun.com
-    port: 10001
-    uuid: 42e00ad3-5a93-37df-b99f-5e30d01227ba
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /ny
-    ws-headers:
-      Host: suidao.vipxgyun.com
-    ws-opts:
-      path: /ny
-      headers: { Host: suidao.vipxgyun.com }
-  -
-    name: 'A香港04 | 隧道 | '
-    type: vmess
-    server: suidao.vipxgyun.com
-    port: 10002
-    uuid: 42e00ad3-5a93-37df-b99f-5e30d01227ba
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /ny
-    ws-headers:
-      Host: suidao.vipxgyun.com
-    ws-opts:
-      path: /ny
-      headers: { Host: suidao.vipxgyun.com }
   -
     name: 'A香港05 | 隧道 | 奈飞解锁'
     type: vmess
@@ -362,10 +298,6 @@ proxy-groups:
     proxies:
       - '1.西瓜官网 vipxgyun.com【勿连】'
       - 2.断网超时请更新订阅【勿连】
-      - 'A香港01 | 直连 |  ChatGPT解锁'
-      - 'A香港02 | 直连 | ChatGPT解锁'
-      - 'A香港03 | 隧道 | '
-      - 'A香港04 | 隧道 | '
       - 'A香港05 | 隧道 | 奈飞解锁'
       - 'A香港06 | 隧道 | 奈飞解锁'
       - 'A香港07 | 隧道 | 奈飞解锁 | ChatGPT解锁'
@@ -396,10 +328,6 @@ proxy-groups:
       - 🔰国外流量
       - '1.西瓜官网 vipxgyun.com【勿连】'
       - 2.断网超时请更新订阅【勿连】
-      - 'A香港01 | 直连 |  ChatGPT解锁'
-      - 'A香港02 | 直连 | ChatGPT解锁'
-      - 'A香港03 | 隧道 | '
-      - 'A香港04 | 隧道 | '
       - 'A香港05 | 隧道 | 奈飞解锁'
       - 'A香港06 | 隧道 | 奈飞解锁'
       - 'A香港07 | 隧道 | 奈飞解锁 | ChatGPT解锁'
@@ -423,10 +351,6 @@ proxy-groups:
       - 🔰国外流量
       - '1.西瓜官网 vipxgyun.com【勿连】'
       - 2.断网超时请更新订阅【勿连】
-      - 'A香港01 | 直连 |  ChatGPT解锁'
-      - 'A香港02 | 直连 | ChatGPT解锁'
-      - 'A香港03 | 隧道 | '
-      - 'A香港04 | 隧道 | '
       - 'A香港05 | 隧道 | 奈飞解锁'
       - 'A香港06 | 隧道 | 奈飞解锁'
       - 'A香港07 | 隧道 | 奈飞解锁 | ChatGPT解锁'
@@ -450,10 +374,6 @@ proxy-groups:
       - 🔰国外流量
       - '1.西瓜官网 vipxgyun.com【勿连】'
       - 2.断网超时请更新订阅【勿连】
-      - 'A香港01 | 直连 |  ChatGPT解锁'
-      - 'A香港02 | 直连 | ChatGPT解锁'
-      - 'A香港03 | 隧道 | '
-      - 'A香港04 | 隧道 | '
       - 'A香港05 | 隧道 | 奈飞解锁'
       - 'A香港06 | 隧道 | 奈飞解锁'
       - 'A香港07 | 隧道 | 奈飞解锁 | ChatGPT解锁'
@@ -477,10 +397,6 @@ proxy-groups:
       - 🚀直接连接
       - '1.西瓜官网 vipxgyun.com【勿连】'
       - 2.断网超时请更新订阅【勿连】
-      - 'A香港01 | 直连 |  ChatGPT解锁'
-      - 'A香港02 | 直连 | ChatGPT解锁'
-      - 'A香港03 | 隧道 | '
-      - 'A香港04 | 隧道 | '
       - 'A香港05 | 隧道 | 奈飞解锁'
       - 'A香港06 | 隧道 | 奈飞解锁'
       - 'A香港07 | 隧道 | 奈飞解锁 | ChatGPT解锁'
@@ -504,10 +420,6 @@ proxy-groups:
       - 🔰国外流量
       - '1.西瓜官网 vipxgyun.com【勿连】'
       - 2.断网超时请更新订阅【勿连】
-      - 'A香港01 | 直连 |  ChatGPT解锁'
-      - 'A香港02 | 直连 | ChatGPT解锁'
-      - 'A香港03 | 隧道 | '
-      - 'A香港04 | 隧道 | '
       - 'A香港05 | 隧道 | 奈飞解锁'
       - 'A香港06 | 隧道 | 奈飞解锁'
       - 'A香港07 | 隧道 | 奈飞解锁 | ChatGPT解锁'
