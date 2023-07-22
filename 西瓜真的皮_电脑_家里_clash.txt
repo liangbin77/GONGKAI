@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://vipxgyun.com/link/FOcGf2BqSiuOKAVP?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2023-07-22 08:29:03
+## 上次更新于：2023-07-22 08:30:04
 #---------------------------------------------------#
 
 port: 7890
@@ -102,7 +102,7 @@ proxies:
   -
     name: 'B新加坡01 | 隧道 | 1X | ChatGPT解锁'
     type: vmess
-    server: suidao.vipxgyun.com
+    server: zz.vipxgyun.com
     port: 10007
     uuid: 42e00ad3-5a93-37df-b99f-5e30d01227ba
     alterId: 0
@@ -111,14 +111,14 @@ proxies:
     network: ws
     ws-path: /ny
     ws-headers:
-      Host: suidao.vipxgyun.com
+      Host: zz.vipxgyun.com
     ws-opts:
       path: /ny
-      headers: { Host: suidao.vipxgyun.com }
+      headers: { Host: zz.vipxgyun.com }
   -
     name: 'B新加坡02 | 隧道 | 1X | ChatGPT解锁'
     type: vmess
-    server: suidao.vipxgyun.com
+    server: zz.vipxgyun.com
     port: 10023
     uuid: 42e00ad3-5a93-37df-b99f-5e30d01227ba
     alterId: 0
@@ -127,14 +127,14 @@ proxies:
     network: ws
     ws-path: /ny
     ws-headers:
-      Host: suidao.vipxgyun.com
+      Host: zz.vipxgyun.com
     ws-opts:
       path: /ny
-      headers: { Host: suidao.vipxgyun.com }
+      headers: { Host: zz.vipxgyun.com }
   -
     name: 'B新加坡03 | 隧道 | 1X | ChatGPT解锁'
     type: vmess
-    server: suidao.vipxgyun.com
+    server: zz.vipxgyun.com
     port: 10011
     uuid: 42e00ad3-5a93-37df-b99f-5e30d01227ba
     alterId: 0
@@ -143,10 +143,10 @@ proxies:
     network: ws
     ws-path: /ny
     ws-headers:
-      Host: suidao.vipxgyun.com
+      Host: zz.vipxgyun.com
     ws-opts:
       path: /ny
-      headers: { Host: suidao.vipxgyun.com }
+      headers: { Host: zz.vipxgyun.com }
   -
     name: ChatGPT专属节点
     type: vmess
