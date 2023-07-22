@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://vipxgyun.com/link/kpY2Ja0760nHQxxb?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2023-07-22 08:24:08
+## 上次更新于：2023-07-22 08:25:07
 #---------------------------------------------------#
 
 port: 7890
@@ -182,7 +182,7 @@ proxies:
   -
     name: '印度 | 隧道 | 1X |'
     type: vmess
-    server: suidao.vipxgyun.com
+    server: zz.vipxgyun.com
     port: 10013
     uuid: cab93fcb-2213-3616-9071-731f123dc4c9
     alterId: 0
@@ -191,10 +191,10 @@ proxies:
     network: ws
     ws-path: /ny
     ws-headers:
-      Host: suidao.vipxgyun.com
+      Host: zz.vipxgyun.com
     ws-opts:
       path: /ny
-      headers: { Host: suidao.vipxgyun.com }
+      headers: { Host: zz.vipxgyun.com }
   -
     name: '台湾 | YouTube免广告 | Tiktok  | 隧道 | 1X | '
     type: vmess
@@ -230,7 +230,7 @@ proxies:
   -
     name: '巴西 | 隧道 | 1X |'
     type: vmess
-    server: suidao.vipxgyun.com
+    server: zz.vipxgyun.com
     port: 10016
     uuid: cab93fcb-2213-3616-9071-731f123dc4c9
     alterId: 0
@@ -239,14 +239,14 @@ proxies:
     network: ws
     ws-path: /ny
     ws-headers:
-      Host: suidao.vipxgyun.com
+      Host: zz.vipxgyun.com
     ws-opts:
       path: /ny
-      headers: { Host: suidao.vipxgyun.com }
+      headers: { Host: zz.vipxgyun.com }
   -
     name: '日本 | 隧道 | 1X | '
     type: vmess
-    server: suidao.vipxgyun.com
+    server: zz.vipxgyun.com
     port: 10020
     uuid: cab93fcb-2213-3616-9071-731f123dc4c9
     alterId: 0
@@ -255,14 +255,14 @@ proxies:
     network: ws
     ws-path: /ny
     ws-headers:
-      Host: suidao.vipxgyun.com
+      Host: zz.vipxgyun.com
     ws-opts:
       path: /ny
-      headers: { Host: suidao.vipxgyun.com }
+      headers: { Host: zz.vipxgyun.com }
   -
     name: '沙特阿拉伯 | 隧道 | 1X |'
     type: vmess
-    server: suidao.vipxgyun.com
+    server: zz.vipxgyun.com
     port: 10021
     uuid: cab93fcb-2213-3616-9071-731f123dc4c9
     alterId: 0
@@ -271,14 +271,14 @@ proxies:
     network: ws
     ws-path: /ny
     ws-headers:
-      Host: suidao.vipxgyun.com
+      Host: zz.vipxgyun.com
     ws-opts:
       path: /ny
-      headers: { Host: suidao.vipxgyun.com }
+      headers: { Host: zz.vipxgyun.com }
   -
     name: '韩国 | 隧道 | 1X |'
     type: vmess
-    server: suidao.vipxgyun.com
+    server: zz.vipxgyun.com
     port: 10018
     uuid: cab93fcb-2213-3616-9071-731f123dc4c9
     alterId: 0
@@ -287,10 +287,10 @@ proxies:
     network: ws
     ws-path: /ny
     ws-headers:
-      Host: suidao.vipxgyun.com
+      Host: zz.vipxgyun.com
     ws-opts:
       path: /ny
-      headers: { Host: suidao.vipxgyun.com }
+      headers: { Host: zz.vipxgyun.com }
 proxy-groups:
   -
     name: 🔰国外流量
