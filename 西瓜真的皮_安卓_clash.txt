@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://vipxgyun.com/link/NVDDyzhbJPHPWsrv?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2023-07-22 08:23:13
+## 上次更新于：2023-07-22 08:24:11
 #---------------------------------------------------#
 
 port: 7890
@@ -198,7 +198,7 @@ proxies:
   -
     name: '台湾 | YouTube免广告 | Tiktok  | 隧道 | 1X | '
     type: vmess
-    server: suidao.vipxgyun.com
+    server: zz.vipxgyun.com
     port: 10014
     uuid: 4fb8b3c4-72a7-360e-9409-6b3335bc1f29
     alterId: 0
@@ -207,14 +207,14 @@ proxies:
     network: ws
     ws-path: /ny
     ws-headers:
-      Host: suidao.vipxgyun.com
+      Host: zz.vipxgyun.com
     ws-opts:
       path: /ny
-      headers: { Host: suidao.vipxgyun.com }
+      headers: { Host: zz.vipxgyun.com }
   -
     name: '土耳其 | 隧道 | 1X |'
     type: vmess
-    server: suidao.vipxgyun.com
+    server: zz.vipxgyun.com
     port: 10015
     uuid: 4fb8b3c4-72a7-360e-9409-6b3335bc1f29
     alterId: 0
@@ -223,10 +223,10 @@ proxies:
     network: ws
     ws-path: /ny
     ws-headers:
-      Host: suidao.vipxgyun.com
+      Host: zz.vipxgyun.com
     ws-opts:
       path: /ny
-      headers: { Host: suidao.vipxgyun.com }
+      headers: { Host: zz.vipxgyun.com }
   -
     name: '巴西 | 隧道 | 1X |'
     type: vmess
