@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://vipxgyun.com/link/FOcGf2BqSiuOKAVP?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2023-07-22 08:08:05
+## 上次更新于：2023-07-22 08:09:04
 #---------------------------------------------------#
 
 port: 7890
@@ -36,7 +36,7 @@ proxies:
     obfs: http_simple
     obfs-param: ''
   -
-    name: 'A香港05 | 隧道 | 奈飞解锁'
+    name: 'A香港01 | 隧道 | 奈飞解锁'
     type: vmess
     server: 1.vipxgyun.com
     port: 80
@@ -52,37 +52,37 @@ proxies:
       path: /adobe
       headers: { Host: 1.vipxgyun.com }
   -
-    name: 'A香港06 | 隧道 | 奈飞解锁'
+    name: 'A香港02 | 隧道 | 奈飞解锁'
     type: vmess
-    server: suidao.vipxgyun.com
-    port: 10004
+    server: 2.vipxgyun.com
+    port: 80
     uuid: 42e00ad3-5a93-37df-b99f-5e30d01227ba
     alterId: 0
     cipher: auto
     udp: true
     network: ws
-    ws-path: /ny
+    ws-path: /adobe
     ws-headers:
-      Host: suidao.vipxgyun.com
+      Host: 2.vipxgyun.com
     ws-opts:
-      path: /ny
-      headers: { Host: suidao.vipxgyun.com }
+      path: /adobe
+      headers: { Host: 2.vipxgyun.com }
   -
-    name: 'A香港07 | 隧道 | 奈飞解锁 | ChatGPT解锁'
+    name: 'A香港03 | 隧道 | 奈飞解锁 | ChatGPT解锁'
     type: vmess
-    server: suidao.vipxgyun.com
-    port: 10005
+    server: 3.vipxgyun.com
+    port: 80
     uuid: 42e00ad3-5a93-37df-b99f-5e30d01227ba
     alterId: 0
     cipher: auto
     udp: true
     network: ws
-    ws-path: /ny
+    ws-path: /adobe
     ws-headers:
-      Host: suidao.vipxgyun.com
+      Host: 3.vipxgyun.com
     ws-opts:
-      path: /ny
-      headers: { Host: suidao.vipxgyun.com }
+      path: /adobe
+      headers: { Host: 3.vipxgyun.com }
   -
     name: 'A香港08 | 隧道 | 奈飞解锁 | ChatGPT解锁'
     type: vmess
@@ -298,9 +298,9 @@ proxy-groups:
     proxies:
       - '1.西瓜官网 vipxgyun.com【勿连】'
       - 2.断网超时请更新订阅【勿连】
-      - 'A香港05 | 隧道 | 奈飞解锁'
-      - 'A香港06 | 隧道 | 奈飞解锁'
-      - 'A香港07 | 隧道 | 奈飞解锁 | ChatGPT解锁'
+      - 'A香港01 | 隧道 | 奈飞解锁'
+      - 'A香港02 | 隧道 | 奈飞解锁'
+      - 'A香港03 | 隧道 | 奈飞解锁 | ChatGPT解锁'
       - 'A香港08 | 隧道 | 奈飞解锁 | ChatGPT解锁'
       - 'B新加坡01 | 隧道 | 1X | ChatGPT解锁'
       - 'B新加坡02 | 隧道 | 1X | ChatGPT解锁'
@@ -328,9 +328,9 @@ proxy-groups:
       - 🔰国外流量
       - '1.西瓜官网 vipxgyun.com【勿连】'
       - 2.断网超时请更新订阅【勿连】
-      - 'A香港05 | 隧道 | 奈飞解锁'
-      - 'A香港06 | 隧道 | 奈飞解锁'
-      - 'A香港07 | 隧道 | 奈飞解锁 | ChatGPT解锁'
+      - 'A香港01 | 隧道 | 奈飞解锁'
+      - 'A香港02 | 隧道 | 奈飞解锁'
+      - 'A香港03 | 隧道 | 奈飞解锁 | ChatGPT解锁'
       - 'A香港08 | 隧道 | 奈飞解锁 | ChatGPT解锁'
       - 'B新加坡01 | 隧道 | 1X | ChatGPT解锁'
       - 'B新加坡02 | 隧道 | 1X | ChatGPT解锁'
@@ -351,9 +351,9 @@ proxy-groups:
       - 🔰国外流量
       - '1.西瓜官网 vipxgyun.com【勿连】'
       - 2.断网超时请更新订阅【勿连】
-      - 'A香港05 | 隧道 | 奈飞解锁'
-      - 'A香港06 | 隧道 | 奈飞解锁'
-      - 'A香港07 | 隧道 | 奈飞解锁 | ChatGPT解锁'
+      - 'A香港01 | 隧道 | 奈飞解锁'
+      - 'A香港02 | 隧道 | 奈飞解锁'
+      - 'A香港03 | 隧道 | 奈飞解锁 | ChatGPT解锁'
       - 'A香港08 | 隧道 | 奈飞解锁 | ChatGPT解锁'
       - 'B新加坡01 | 隧道 | 1X | ChatGPT解锁'
       - 'B新加坡02 | 隧道 | 1X | ChatGPT解锁'
@@ -374,9 +374,9 @@ proxy-groups:
       - 🔰国外流量
       - '1.西瓜官网 vipxgyun.com【勿连】'
       - 2.断网超时请更新订阅【勿连】
-      - 'A香港05 | 隧道 | 奈飞解锁'
-      - 'A香港06 | 隧道 | 奈飞解锁'
-      - 'A香港07 | 隧道 | 奈飞解锁 | ChatGPT解锁'
+      - 'A香港01 | 隧道 | 奈飞解锁'
+      - 'A香港02 | 隧道 | 奈飞解锁'
+      - 'A香港03 | 隧道 | 奈飞解锁 | ChatGPT解锁'
       - 'A香港08 | 隧道 | 奈飞解锁 | ChatGPT解锁'
       - 'B新加坡01 | 隧道 | 1X | ChatGPT解锁'
       - 'B新加坡02 | 隧道 | 1X | ChatGPT解锁'
@@ -397,9 +397,9 @@ proxy-groups:
       - 🚀直接连接
       - '1.西瓜官网 vipxgyun.com【勿连】'
       - 2.断网超时请更新订阅【勿连】
-      - 'A香港05 | 隧道 | 奈飞解锁'
-      - 'A香港06 | 隧道 | 奈飞解锁'
-      - 'A香港07 | 隧道 | 奈飞解锁 | ChatGPT解锁'
+      - 'A香港01 | 隧道 | 奈飞解锁'
+      - 'A香港02 | 隧道 | 奈飞解锁'
+      - 'A香港03 | 隧道 | 奈飞解锁 | ChatGPT解锁'
       - 'A香港08 | 隧道 | 奈飞解锁 | ChatGPT解锁'
       - 'B新加坡01 | 隧道 | 1X | ChatGPT解锁'
       - 'B新加坡02 | 隧道 | 1X | ChatGPT解锁'
@@ -420,9 +420,9 @@ proxy-groups:
       - 🔰国外流量
       - '1.西瓜官网 vipxgyun.com【勿连】'
       - 2.断网超时请更新订阅【勿连】
-      - 'A香港05 | 隧道 | 奈飞解锁'
-      - 'A香港06 | 隧道 | 奈飞解锁'
-      - 'A香港07 | 隧道 | 奈飞解锁 | ChatGPT解锁'
+      - 'A香港01 | 隧道 | 奈飞解锁'
+      - 'A香港02 | 隧道 | 奈飞解锁'
+      - 'A香港03 | 隧道 | 奈飞解锁 | ChatGPT解锁'
       - 'A香港08 | 隧道 | 奈飞解锁 | ChatGPT解锁'
       - 'B新加坡01 | 隧道 | 1X | ChatGPT解锁'
       - 'B新加坡02 | 隧道 | 1X | ChatGPT解锁'
