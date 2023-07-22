@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://vipxgyun.com/link/bHT4E3nJUGPuAD7w?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2023-07-22 12:44:11
+## 上次更新于：2023-07-22 12:45:11
 #---------------------------------------------------#
 
 port: 7890
@@ -86,19 +86,19 @@ proxies:
   -
     name: 'A香港04 | 隧道 | 奈飞解锁 | ChatGPT解锁'
     type: vmess
-    server: 4.vipxgyun.com
-    port: 80
+    server: suidao2.vipxgyun.com
+    port: 10001
     uuid: 6a8ae19c-279a-3161-a691-f175812fd201
     alterId: 0
     cipher: auto
     udp: true
     network: ws
-    ws-path: /adobe
+    ws-path: /ny
     ws-headers:
-      Host: 4.vipxgyun.com
+      Host: suidao2.vipxgyun.com
     ws-opts:
-      path: /adobe
-      headers: { Host: 4.vipxgyun.com }
+      path: /ny
+      headers: { Host: suidao2.vipxgyun.com }
   -
     name: 'B新加坡01 | 隧道 | 1X | ChatGPT解锁'
     type: vmess
