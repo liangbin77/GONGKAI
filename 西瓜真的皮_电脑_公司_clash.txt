@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://vipxgyun.com/link/KIt8JaUvF4tXu7vz?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2023-07-22 12:50:08
+## 上次更新于：2023-07-22 12:51:08
 #---------------------------------------------------#
 
 port: 7890
@@ -102,8 +102,8 @@ proxies:
   -
     name: 'B新加坡01 | 隧道 | 1X | ChatGPT解锁'
     type: vmess
-    server: zz.vipxgyun.com
-    port: 10007
+    server: suidao2.vipxgyun.com
+    port: 10002
     uuid: 695be58a-89d9-3662-8fc0-aab997aa4bb2
     alterId: 0
     cipher: auto
@@ -111,10 +111,10 @@ proxies:
     network: ws
     ws-path: /ny
     ws-headers:
-      Host: zz.vipxgyun.com
+      Host: suidao2.vipxgyun.com
     ws-opts:
       path: /ny
-      headers: { Host: zz.vipxgyun.com }
+      headers: { Host: suidao2.vipxgyun.com }
   -
     name: 'B新加坡02 | 隧道 | 1X | ChatGPT解锁'
     type: vmess
