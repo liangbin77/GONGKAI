@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://vipxgyun.com/link/mgghNhCiPXiYWpGG?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2023-07-23 10:04:09
+## 上次更新于：2023-07-23 10:05:08
 #---------------------------------------------------#
 
 port: 7890
@@ -70,8 +70,8 @@ proxies:
   -
     name: 'A香港03 | 隧道 | 奈飞解锁 | ChatGPT解锁'
     type: vmess
-    server: suidao2.vipxgyun.com
-    port: 10000
+    server: suidao3.vipxgyun.com
+    port: 30023
     uuid: 493ac22c-1286-3089-a814-6139b1ff50c3
     alterId: 0
     cipher: auto
@@ -79,10 +79,10 @@ proxies:
     network: ws
     ws-path: /ny
     ws-headers:
-      Host: suidao2.vipxgyun.com
+      Host: suidao3.vipxgyun.com
     ws-opts:
       path: /ny
-      headers: { Host: suidao2.vipxgyun.com }
+      headers: { Host: suidao3.vipxgyun.com }
   -
     name: 'A香港04 | 隧道 | 奈飞解锁 | ChatGPT解锁'
     type: vmess
