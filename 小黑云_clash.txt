@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://xiaoheiwang.top/link/hJw7cPWRMVYPRdqw?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2023-07-24 03:27:04
+## 上次更新于：2023-07-24 03:36:06
 #---------------------------------------------------#
 
 port: 7890
@@ -21,39 +21,6 @@ proxies:
     cipher: aes-128-gcm
     password: TVfeEt25aEW59Odo
     udp: true
-  -
-    name: xiaoheiyun66
-    type: ssr
-    server: 45.61.185.888
-    port: 64084
-    cipher: chacha20-ietf
-    password: TVfeEt25aEW59Odo
-    protocol: auth_aes128_sha1
-    protocol-param: ''
-    obfs: http_simple
-    obfs-param: ''
-  -
-    name: 原群主号封了
-    type: ssr
-    server: 45.61.185.118
-    port: 64084
-    cipher: chacha20-ietf
-    password: TVfeEt25aEW59Odo
-    protocol: auth_aes128_sha1
-    protocol-param: ''
-    obfs: http_simple
-    obfs-param: ''
-  -
-    name: 新TG群
-    type: ssr
-    server: 45.61.185.888
-    port: 64084
-    cipher: chacha20-ietf
-    password: TVfeEt25aEW59Odo
-    protocol: auth_aes128_sha1
-    protocol-param: ''
-    obfs: http_simple
-    obfs-param: ''
   -
     name: 新加坡SS
     type: ss
@@ -134,9 +101,6 @@ proxy-groups:
     type: select
     proxies:
       - ss中转测试
-      - xiaoheiyun66
-      - 原群主号封了
-      - 新TG群
       - 新加坡SS
       - 日本-1
       - 法国-1
@@ -156,9 +120,6 @@ proxy-groups:
     proxies:
       - 🔰国外流量
       - ss中转测试
-      - xiaoheiyun66
-      - 原群主号封了
-      - 新TG群
       - 新加坡SS
       - 日本-1
       - 法国-1
@@ -171,9 +132,6 @@ proxy-groups:
     proxies:
       - 🔰国外流量
       - ss中转测试
-      - xiaoheiyun66
-      - 原群主号封了
-      - 新TG群
       - 新加坡SS
       - 日本-1
       - 法国-1
@@ -186,9 +144,6 @@ proxy-groups:
     proxies:
       - 🔰国外流量
       - ss中转测试
-      - xiaoheiyun66
-      - 原群主号封了
-      - 新TG群
       - 新加坡SS
       - 日本-1
       - 法国-1
@@ -201,9 +156,6 @@ proxy-groups:
     proxies:
       - 🚀直接连接
       - ss中转测试
-      - xiaoheiyun66
-      - 原群主号封了
-      - 新TG群
       - 新加坡SS
       - 日本-1
       - 法国-1
@@ -216,9 +168,6 @@ proxy-groups:
     proxies:
       - 🔰国外流量
       - ss中转测试
-      - xiaoheiyun66
-      - 原群主号封了
-      - 新TG群
       - 新加坡SS
       - 日本-1
       - 法国-1
