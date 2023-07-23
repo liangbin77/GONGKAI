@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://xiaoheiwang.top/link/4w7DBRZBXLkwXFmx?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2023-07-24 02:54:12
+## 上次更新于：2023-07-24 03:09:08
 #---------------------------------------------------#
 
 port: 7890
@@ -54,6 +54,14 @@ proxies:
     protocol-param: ''
     obfs: http_simple
     obfs-param: ''
+  -
+    name: 新加坡SS
+    type: ss
+    server: sdyd.ygdyf.com
+    port: 5510
+    cipher: aes-128-gcm
+    password: hAbcOIOgyAxq0W5i
+    udp: true
   -
     name: 日本-1
     type: vmess
@@ -129,6 +137,7 @@ proxy-groups:
       - xiaoheiyun66
       - 原群主号封了
       - 新TG群
+      - 新加坡SS
       - 日本-1
       - 法国-1
       - 纽约-1
@@ -150,6 +159,7 @@ proxy-groups:
       - xiaoheiyun66
       - 原群主号封了
       - 新TG群
+      - 新加坡SS
       - 日本-1
       - 法国-1
       - 纽约-1
@@ -164,6 +174,7 @@ proxy-groups:
       - xiaoheiyun66
       - 原群主号封了
       - 新TG群
+      - 新加坡SS
       - 日本-1
       - 法国-1
       - 纽约-1
@@ -178,6 +189,7 @@ proxy-groups:
       - xiaoheiyun66
       - 原群主号封了
       - 新TG群
+      - 新加坡SS
       - 日本-1
       - 法国-1
       - 纽约-1
@@ -192,6 +204,7 @@ proxy-groups:
       - xiaoheiyun66
       - 原群主号封了
       - 新TG群
+      - 新加坡SS
       - 日本-1
       - 法国-1
       - 纽约-1
@@ -206,6 +219,7 @@ proxy-groups:
       - xiaoheiyun66
       - 原群主号封了
       - 新TG群
+      - 新加坡SS
       - 日本-1
       - 法国-1
       - 纽约-1
