@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://vipxgyun.com/link/mDsuCwH0jW4RdqFA?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2023-07-23 10:21:27
+## 上次更新于：2023-07-23 10:22:18
 #---------------------------------------------------#
 
 port: 7890
@@ -39,7 +39,7 @@ proxies:
     name: 'A香港01 | 直连 | 奈飞解锁'
     type: vmess
     server: suidao2.vipxgyun.com
-    port: 10014
+    port: 10000
     uuid: db7e637a-19a6-3ce2-92ac-c8abf6b95516
     alterId: 0
     cipher: auto
