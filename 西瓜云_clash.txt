@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://vipxgyun.com/link/mgghNhCiPXiYWpGG?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2023-07-23 04:59:08
+## 上次更新于：2023-07-23 06:00:10
 #---------------------------------------------------#
 
 port: 7890
@@ -150,8 +150,8 @@ proxies:
   -
     name: ChatGPT专属节点
     type: vmess
-    server: suidao.vipxgyun.com
-    port: 10022
+    server: suidao2.vipxgyun.com
+    port: 10013
     uuid: 493ac22c-1286-3089-a814-6139b1ff50c3
     alterId: 0
     cipher: auto
@@ -159,10 +159,10 @@ proxies:
     network: ws
     ws-path: /ny
     ws-headers:
-      Host: suidao.vipxgyun.com
+      Host: suidao2.vipxgyun.com
     ws-opts:
       path: /ny
-      headers: { Host: suidao.vipxgyun.com }
+      headers: { Host: suidao2.vipxgyun.com }
   -
     name: '印度 | 隧道 | 1X |'
     type: vmess
