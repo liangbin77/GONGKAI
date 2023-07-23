@@ -1,7 +1,7 @@
-#!MANAGED-CONFIG https://xiaoheiwang.top/link/qa1HUYDNREQMpRDW?clash=1
+#!MANAGED-CONFIG https://xiaoheiwang.top/link/4w7DBRZBXLkwXFmx?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2023-07-23 01:45:31
+## 上次更新于：2023-07-23 01:45:54
 #---------------------------------------------------#
 
 port: 7890
@@ -19,15 +19,15 @@ proxies:
     server: sdyd.ygdyf.com
     port: 54158
     cipher: aes-128-gcm
-    password: Zf2iD9FqohnC2Icq
+    password: hAbcOIOgyAxq0W5i
     udp: true
   -
     name: xiaoheiyun66
     type: ssr
     server: 45.61.185.888
-    port: 64596
+    port: 19148
     cipher: chacha20-ietf
-    password: Zf2iD9FqohnC2Icq
+    password: hAbcOIOgyAxq0W5i
     protocol: auth_aes128_sha1
     protocol-param: ''
     obfs: http_simple
@@ -36,9 +36,9 @@ proxies:
     name: 原群主号封了
     type: ssr
     server: 45.61.185.118
-    port: 64596
+    port: 19148
     cipher: chacha20-ietf
-    password: Zf2iD9FqohnC2Icq
+    password: hAbcOIOgyAxq0W5i
     protocol: auth_aes128_sha1
     protocol-param: ''
     obfs: http_simple
@@ -47,9 +47,9 @@ proxies:
     name: 新TG群
     type: ssr
     server: 45.61.185.888
-    port: 64596
+    port: 19148
     cipher: chacha20-ietf
-    password: Zf2iD9FqohnC2Icq
+    password: hAbcOIOgyAxq0W5i
     protocol: auth_aes128_sha1
     protocol-param: ''
     obfs: http_simple
@@ -59,7 +59,7 @@ proxies:
     type: vmess
     server: sdyd.ygdyf.com
     port: 51170
-    uuid: e5b78632-9723-34df-a159-9d3df5bd01c3
+    uuid: dde528f3-c814-33b6-a33d-b1428b241eff
     alterId: 0
     cipher: auto
     udp: true
@@ -75,7 +75,7 @@ proxies:
     type: vmess
     server: sdyd.ygdyf.com
     port: 54084
-    uuid: e5b78632-9723-34df-a159-9d3df5bd01c3
+    uuid: dde528f3-c814-33b6-a33d-b1428b241eff
     alterId: 0
     cipher: auto
     udp: true
@@ -91,7 +91,7 @@ proxies:
     type: vmess
     server: sdyd.ygdyf.com
     port: 60000
-    uuid: e5b78632-9723-34df-a159-9d3df5bd01c3
+    uuid: dde528f3-c814-33b6-a33d-b1428b241eff
     alterId: 0
     cipher: auto
     udp: true
@@ -100,7 +100,7 @@ proxies:
     type: vmess
     server: sdyd.ygdyf.com
     port: 51576
-    uuid: e5b78632-9723-34df-a159-9d3df5bd01c3
+    uuid: dde528f3-c814-33b6-a33d-b1428b241eff
     alterId: 0
     cipher: auto
     udp: true
@@ -109,7 +109,7 @@ proxies:
     type: vmess
     server: sdyd.ygdyf.com
     port: 51454
-    uuid: e5b78632-9723-34df-a159-9d3df5bd01c3
+    uuid: dde528f3-c814-33b6-a33d-b1428b241eff
     alterId: 0
     cipher: auto
     udp: true
