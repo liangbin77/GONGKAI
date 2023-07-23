@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://vipxgyun.com/link/mgghNhCiPXiYWpGG?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2023-07-23 10:20:09
+## 上次更新于：2023-07-23 10:21:11
 #---------------------------------------------------#
 
 port: 7890
@@ -38,8 +38,8 @@ proxies:
   -
     name: 'A香港01 | 直连 | 奈飞解锁'
     type: vmess
-    server: suidao3.vipxgyun.com
-    port: 30000
+    server: suidao2.vipxgyun.com
+    port: 10014
     uuid: 493ac22c-1286-3089-a814-6139b1ff50c3
     alterId: 0
     cipher: auto
@@ -47,15 +47,15 @@ proxies:
     network: ws
     ws-path: /ny
     ws-headers:
-      Host: suidao3.vipxgyun.com
+      Host: suidao2.vipxgyun.com
     ws-opts:
       path: /ny
-      headers: { Host: suidao3.vipxgyun.com }
+      headers: { Host: suidao2.vipxgyun.com }
   -
     name: 'A香港02 | 直连 | 奈飞解锁'
     type: vmess
-    server: suidao3.vipxgyun.com
-    port: 30022
+    server: suidao2.vipxgyun.com
+    port: 10015
     uuid: 493ac22c-1286-3089-a814-6139b1ff50c3
     alterId: 0
     cipher: auto
@@ -63,10 +63,10 @@ proxies:
     network: ws
     ws-path: /ny
     ws-headers:
-      Host: suidao3.vipxgyun.com
+      Host: suidao2.vipxgyun.com
     ws-opts:
       path: /ny
-      headers: { Host: suidao3.vipxgyun.com }
+      headers: { Host: suidao2.vipxgyun.com }
   -
     name: 'A香港03 | 隧道 | 奈飞解锁 | ChatGPT解锁'
     type: vmess
