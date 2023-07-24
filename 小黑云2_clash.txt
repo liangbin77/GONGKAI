@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://xiaoheiwang.top/link/4w7DBRZBXLkwXFmx?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2023-07-24 07:45:19
+## 上次更新于：2023-07-24 07:54:20
 #---------------------------------------------------#
 
 port: 7890
@@ -21,6 +21,22 @@ proxies:
     cipher: aes-128-gcm
     password: hAbcOIOgyAxq0W5i
     udp: true
+  -
+    name: 土耳其-1
+    type: vmess
+    server: sdyd.ygdyf.com
+    port: 52352
+    uuid: dde528f3-c814-33b6-a33d-b1428b241eff
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /v2ray
+    ws-headers:
+      Host: sdyd.ygdyf.com
+    ws-opts:
+      path: /v2ray
+      headers: { Host: sdyd.ygdyf.com }
   -
     name: 新加坡SS
     type: ss
@@ -101,6 +117,7 @@ proxy-groups:
     type: select
     proxies:
       - ss中转测试
+      - 土耳其-1
       - 新加坡SS
       - 日本-1
       - 法国-1
@@ -120,6 +137,7 @@ proxy-groups:
     proxies:
       - 🔰国外流量
       - ss中转测试
+      - 土耳其-1
       - 新加坡SS
       - 日本-1
       - 法国-1
@@ -132,6 +150,7 @@ proxy-groups:
     proxies:
       - 🔰国外流量
       - ss中转测试
+      - 土耳其-1
       - 新加坡SS
       - 日本-1
       - 法国-1
@@ -144,6 +163,7 @@ proxy-groups:
     proxies:
       - 🔰国外流量
       - ss中转测试
+      - 土耳其-1
       - 新加坡SS
       - 日本-1
       - 法国-1
@@ -156,6 +176,7 @@ proxy-groups:
     proxies:
       - 🚀直接连接
       - ss中转测试
+      - 土耳其-1
       - 新加坡SS
       - 日本-1
       - 法国-1
@@ -168,6 +189,7 @@ proxy-groups:
     proxies:
       - 🔰国外流量
       - ss中转测试
+      - 土耳其-1
       - 新加坡SS
       - 日本-1
       - 法国-1
