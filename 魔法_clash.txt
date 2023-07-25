@@ -16,7 +16,7 @@ dns:
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
     - { name: '新加坡021 沪日', type: vmess, server: 112.65.27.152, port: 36305, uuid: 0426dcd9-4ea0-4de7-90b5-cf597e352aac, alterId: 0, cipher: auto, udp: true }
-    - { name: '巴西 沪日', type: vmess, server: 112.65.27.58, port: 37792, uuid: 0426dcd9-4ea0-4de7-90b5-cf597e352aac, alterId: 0, cipher: auto, udp: true }
+    - { name: '巴西 沪日', type: vmess, server: 112.65.27.152, port: 36481, uuid: 0426dcd9-4ea0-4de7-90b5-cf597e352aac, alterId: 0, cipher: auto, udp: true }
     - { name: '香港 广移', type: vmess, server: ah.xcv2r.com, port: 17614, uuid: 0426dcd9-4ea0-4de7-90b5-cf597e352aac, alterId: 0, cipher: auto, udp: true }
 proxy-groups:
     - { name: 魔法, type: select, proxies: [自动选择, 故障转移, '新加坡021 沪日', '巴西 沪日', '香港 广移'] }
