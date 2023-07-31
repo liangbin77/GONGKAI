@@ -24,7 +24,7 @@ proxies:
     - { name: 香港4|奈飞, type: ss, server: hk4.sknat.top, port: 21474, cipher: chacha20-ietf-poly1305, password: 2e4b1271-8794-43ad-a35e-ce8e06e218a7, udp: true }
     - { name: 香港5|奈飞, type: ss, server: hk5.sknat.top, port: 41475, cipher: chacha20-ietf-poly1305, password: 2e4b1271-8794-43ad-a35e-ce8e06e218a7, udp: true }
     - { name: 新加坡1|优化, type: ss, server: sg1.sknat.top, port: 47181, cipher: chacha20-ietf-poly1305, password: 2e4b1271-8794-43ad-a35e-ce8e06e218a7, udp: true }
-    - { name: 新加坡2|优化, type: ss, server: sg2.sknat.top, port: 27182, cipher: chacha20-ietf-poly1305, password: 2e4b1271-8794-43ad-a35e-ce8e06e218a7, udp: true }
+    - { name: 新加坡2|优化, type: ss, server: sz.xzyunjiasu.icu, port: 27182, cipher: chacha20-ietf-poly1305, password: 2e4b1271-8794-43ad-a35e-ce8e06e218a7, udp: true }
     - { name: 新加坡3|优化, type: ss, server: sg3.sknat.top, port: 47183, cipher: chacha20-ietf-poly1305, password: 2e4b1271-8794-43ad-a35e-ce8e06e218a7, udp: true }
     - { name: 新加坡4|优化, type: ss, server: sg4.sknat.top, port: 27184, cipher: chacha20-ietf-poly1305, password: 2e4b1271-8794-43ad-a35e-ce8e06e218a7, udp: true }
     - { name: 新加坡5|优化, type: ss, server: sg5.sknat.top, port: 47185, cipher: chacha20-ietf-poly1305, password: 2e4b1271-8794-43ad-a35e-ce8e06e218a7, udp: true }
