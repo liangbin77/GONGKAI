@@ -42,7 +42,7 @@ proxies:
     - { name: 美国2|GPT, type: ss, server: us2.sknat.top, port: 23055, cipher: chacha20-ietf-poly1305, password: 70189e3d-012e-43eb-9aa4-c26fd9185034, udp: true }
     - { name: 日本1|GPT, type: ss, server: jp1.sknat.top, port: 14433, cipher: chacha20-ietf-poly1305, password: 70189e3d-012e-43eb-9aa4-c26fd9185034, udp: true }
     - { name: 日本2|GPT, type: ss, server: jp2.sknat.top, port: 14434, cipher: chacha20-ietf-poly1305, password: 70189e3d-012e-43eb-9aa4-c26fd9185034, udp: true }
-    - { name: 日本3|GPT, type: ss, server: jp3.sknat.top, port: 15093, cipher: chacha20-ietf-poly1305, password: 70189e3d-012e-43eb-9aa4-c26fd9185034, udp: true }
+    - { name: 日本3|GPT, type: ss, server: udpn.iuon.cn, port: 39460, cipher: chacha20-ietf-poly1305, password: 70189e3d-012e-43eb-9aa4-c26fd9185034, udp: true }
     - { name: 韩国3|优化, type: ss, server: kr3.sknat.top, port: 44313, cipher: chacha20-ietf-poly1305, password: 70189e3d-012e-43eb-9aa4-c26fd9185034, udp: true }
     - { name: 韩国4|优化, type: ss, server: kr4.sknat.top, port: 24314, cipher: chacha20-ietf-poly1305, password: 70189e3d-012e-43eb-9aa4-c26fd9185034, udp: true }
     - { name: 香港6|奈飞, type: ss, server: hk6.sknat.top, port: 21476, cipher: chacha20-ietf-poly1305, password: 70189e3d-012e-43eb-9aa4-c26fd9185034, udp: true }
