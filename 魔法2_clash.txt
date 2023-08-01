@@ -18,11 +18,10 @@ proxies:
     - { name: '悉尼 沪港', type: vmess, server: 112.65.27.152, port: 26568, uuid: bb23f4e3-8202-4a10-860a-8267646b4414, alterId: 0, cipher: auto, udp: true }
     - { name: '新加坡021 沪日', type: vmess, server: 112.65.27.152, port: 36305, uuid: bb23f4e3-8202-4a10-860a-8267646b4414, alterId: 0, cipher: auto, udp: true }
     - { name: '圣何塞 江苏移动', type: vmess, server: 01.xn--wbr85ozt0asys8qt.net, port: 49360, uuid: bb23f4e3-8202-4a10-860a-8267646b4414, alterId: 0, cipher: auto, udp: true }
-    - { name: '香港 江苏移动', type: vmess, server: 01.xn--wbr85ozt0asys8qt.net, port: 33387, uuid: bb23f4e3-8202-4a10-860a-8267646b4414, alterId: 0, cipher: auto, udp: true }
 proxy-groups:
-    - { name: 魔法, type: select, proxies: [自动选择, 故障转移, '悉尼 沪港', '新加坡021 沪日', '圣何塞 江苏移动', '香港 江苏移动'] }
-    - { name: 自动选择, type: url-test, proxies: ['悉尼 沪港', '新加坡021 沪日', '圣何塞 江苏移动', '香港 江苏移动'], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
-    - { name: 故障转移, type: fallback, proxies: ['悉尼 沪港', '新加坡021 沪日', '圣何塞 江苏移动', '香港 江苏移动'], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
+    - { name: 魔法, type: select, proxies: [自动选择, 故障转移, '悉尼 沪港', '新加坡021 沪日', '圣何塞 江苏移动'] }
+    - { name: 自动选择, type: url-test, proxies: ['悉尼 沪港', '新加坡021 沪日', '圣何塞 江苏移动'], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
+    - { name: 故障转移, type: fallback, proxies: ['悉尼 沪港', '新加坡021 沪日', '圣何塞 江苏移动'], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
 rules:
     - 'DOMAIN,aibei.eu.org,DIRECT'
     - 'DOMAIN-SUFFIX,services.googleapis.cn,魔法'
