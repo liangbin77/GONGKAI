@@ -46,7 +46,7 @@ proxies:
     - { name: 韩国3|优化, type: ss, server: kr3.sknat.top, port: 44313, cipher: chacha20-ietf-poly1305, password: 3fce0962-e3ce-4f6b-9bd3-6b48465bc95c, udp: true }
     - { name: 韩国4|优化, type: ss, server: kr4.sknat.top, port: 24314, cipher: chacha20-ietf-poly1305, password: 3fce0962-e3ce-4f6b-9bd3-6b48465bc95c, udp: true }
     - { name: 香港6|奈飞, type: ss, server: hk6.sknat.top, port: 21476, cipher: chacha20-ietf-poly1305, password: 3fce0962-e3ce-4f6b-9bd3-6b48465bc95c, udp: true }
-    - { name: 香港7|奈飞, type: ss, server: hbcm.r1u.cn, port: 41477, cipher: chacha20-ietf-poly1305, password: 3fce0962-e3ce-4f6b-9bd3-6b48465bc95c, udp: true }
+    - { name: 香港7|奈飞, type: ss, server: hk7.sknat.top, port: 41477, cipher: chacha20-ietf-poly1305, password: 3fce0962-e3ce-4f6b-9bd3-6b48465bc95c, udp: true }
     - { name: 土耳其1|GPT, type: ss, server: tr1.sknat.top, port: 39151, cipher: chacha20-ietf-poly1305, password: 3fce0962-e3ce-4f6b-9bd3-6b48465bc95c, udp: true }
     - { name: 土耳其2|GPT, type: ss, server: tr2.sknat.top, port: 39251, cipher: chacha20-ietf-poly1305, password: 3fce0962-e3ce-4f6b-9bd3-6b48465bc95c, udp: true }
     - { name: 泰国1|GPT, type: ss, server: td1.sknat.top, port: 40761, cipher: chacha20-ietf-poly1305, password: 3fce0962-e3ce-4f6b-9bd3-6b48465bc95c, udp: true }
