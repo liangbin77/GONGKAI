@@ -1,7 +1,7 @@
-#!MANAGED-CONFIG https://vipxgyun.com/link/mDsuCwH0jW4RdqFA?clash=1
+#!MANAGED-CONFIG https://vipxgyun.com/link/gC6hx7dYIC6dxCvr?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2023-07-24 02:59:15
+## 上次更新于：2023-08-05 06:42:44
 #---------------------------------------------------#
 
 port: 7890
@@ -17,9 +17,9 @@ proxies:
     name: '1.西瓜官网 vipxgyun.com【勿连】'
     type: ssr
     server: 1.1.1.1
-    port: 37160
+    port: 24203
     cipher: chacha20-ietf
-    password: cSKtlYN8GC4xPBV2
+    password: XmIPA9xrpHnrWcEn
     protocol: auth_aes128_sha1
     protocol-param: ''
     obfs: http_simple
@@ -28,9 +28,9 @@ proxies:
     name: 2.断网超时请更新订阅【勿连】
     type: ssr
     server: 1.1.1.1
-    port: 37160
+    port: 24203
     cipher: chacha20-ietf
-    password: cSKtlYN8GC4xPBV2
+    password: XmIPA9xrpHnrWcEn
     protocol: auth_aes128_sha1
     protocol-param: ''
     obfs: http_simple
@@ -39,8 +39,8 @@ proxies:
     name: 'A香港01 | 直连 | 奈飞解锁'
     type: vmess
     server: suidao2.vipxgyun.com
-    port: 10000
-    uuid: db7e637a-19a6-3ce2-92ac-c8abf6b95516
+    port: 44034
+    uuid: 26b4b6d2-e3e4-32f2-818e-d5fc7d51f86c
     alterId: 0
     cipher: auto
     udp: true
@@ -55,8 +55,8 @@ proxies:
     name: 'A香港02 | 直连 | 奈飞解锁'
     type: vmess
     server: suidao2.vipxgyun.com
-    port: 10015
-    uuid: db7e637a-19a6-3ce2-92ac-c8abf6b95516
+    port: 18682
+    uuid: 26b4b6d2-e3e4-32f2-818e-d5fc7d51f86c
     alterId: 0
     cipher: auto
     udp: true
@@ -71,8 +71,8 @@ proxies:
     name: 'A香港03 | 隧道 | 奈飞解锁 | ChatGPT解锁'
     type: vmess
     server: suidao2.vipxgyun.com
-    port: 10000
-    uuid: db7e637a-19a6-3ce2-92ac-c8abf6b95516
+    port: 60778
+    uuid: 26b4b6d2-e3e4-32f2-818e-d5fc7d51f86c
     alterId: 0
     cipher: auto
     udp: true
@@ -87,8 +87,8 @@ proxies:
     name: 'A香港04 | 隧道 | 奈飞解锁 | ChatGPT解锁'
     type: vmess
     server: suidao2.vipxgyun.com
-    port: 10001
-    uuid: db7e637a-19a6-3ce2-92ac-c8abf6b95516
+    port: 53055
+    uuid: 26b4b6d2-e3e4-32f2-818e-d5fc7d51f86c
     alterId: 0
     cipher: auto
     udp: true
@@ -100,59 +100,59 @@ proxies:
       path: /ny
       headers: { Host: suidao2.vipxgyun.com }
   -
-    name: 'B新加坡01 | 隧道 | 1X | ChatGPT解锁'
+    name: 'B新加坡01 | 隧道 | 2X | ChatGPT解锁'
     type: vmess
-    server: suidao2.vipxgyun.com
-    port: 10002
-    uuid: db7e637a-19a6-3ce2-92ac-c8abf6b95516
+    server: suidao4.vipxgyun.com
+    port: 38686
+    uuid: 26b4b6d2-e3e4-32f2-818e-d5fc7d51f86c
     alterId: 0
     cipher: auto
     udp: true
     network: ws
     ws-path: /ny
     ws-headers:
-      Host: suidao2.vipxgyun.com
+      Host: suidao4.vipxgyun.com
     ws-opts:
       path: /ny
-      headers: { Host: suidao2.vipxgyun.com }
+      headers: { Host: suidao4.vipxgyun.com }
   -
-    name: 'B新加坡02 | 隧道 | 1X | ChatGPT解锁'
+    name: 'B新加坡02 | 隧道 | 2X | ChatGPT解锁'
     type: vmess
-    server: suidao2.vipxgyun.com
-    port: 10003
-    uuid: db7e637a-19a6-3ce2-92ac-c8abf6b95516
+    server: suidao4.vipxgyun.com
+    port: 10932
+    uuid: 26b4b6d2-e3e4-32f2-818e-d5fc7d51f86c
     alterId: 0
     cipher: auto
     udp: true
     network: ws
     ws-path: /ny
     ws-headers:
-      Host: suidao2.vipxgyun.com
+      Host: suidao4.vipxgyun.com
     ws-opts:
       path: /ny
-      headers: { Host: suidao2.vipxgyun.com }
+      headers: { Host: suidao4.vipxgyun.com }
   -
-    name: 'B新加坡03 | 隧道 | 1X | ChatGPT解锁'
+    name: 'B新加坡03 | 隧道 | 2X | ChatGPT解锁'
     type: vmess
-    server: suidao2.vipxgyun.com
-    port: 10004
-    uuid: db7e637a-19a6-3ce2-92ac-c8abf6b95516
+    server: suidao4.vipxgyun.com
+    port: 55893
+    uuid: 26b4b6d2-e3e4-32f2-818e-d5fc7d51f86c
     alterId: 0
     cipher: auto
     udp: true
     network: ws
     ws-path: /ny
     ws-headers:
-      Host: suidao2.vipxgyun.com
+      Host: suidao4.vipxgyun.com
     ws-opts:
       path: /ny
-      headers: { Host: suidao2.vipxgyun.com }
+      headers: { Host: suidao4.vipxgyun.com }
   -
     name: ChatGPT专属节点
     type: vmess
     server: suidao2.vipxgyun.com
-    port: 10013
-    uuid: db7e637a-19a6-3ce2-92ac-c8abf6b95516
+    port: 60779
+    uuid: 26b4b6d2-e3e4-32f2-818e-d5fc7d51f86c
     alterId: 0
     cipher: auto
     udp: true
@@ -166,99 +166,99 @@ proxies:
   -
     name: '印度 | 隧道 | 1X |'
     type: vmess
-    server: suidao2.vipxgyun.com
-    port: 10012
-    uuid: db7e637a-19a6-3ce2-92ac-c8abf6b95516
+    server: suidao3.vipxgyun.com
+    port: 30258
+    uuid: 26b4b6d2-e3e4-32f2-818e-d5fc7d51f86c
     alterId: 0
     cipher: auto
     udp: true
     network: ws
     ws-path: /ny
     ws-headers:
-      Host: suidao2.vipxgyun.com
+      Host: suidao3.vipxgyun.com
     ws-opts:
       path: /ny
-      headers: { Host: suidao2.vipxgyun.com }
+      headers: { Host: suidao3.vipxgyun.com }
   -
     name: '台湾 | YouTube免广告 | Tiktok  | 隧道 | 1X | '
     type: vmess
-    server: suidao2.vipxgyun.com
-    port: 10010
-    uuid: db7e637a-19a6-3ce2-92ac-c8abf6b95516
+    server: suidao3.vipxgyun.com
+    port: 17518
+    uuid: 26b4b6d2-e3e4-32f2-818e-d5fc7d51f86c
     alterId: 0
     cipher: auto
     udp: true
     network: ws
     ws-path: /ny
     ws-headers:
-      Host: suidao2.vipxgyun.com
+      Host: suidao3.vipxgyun.com
     ws-opts:
       path: /ny
-      headers: { Host: suidao2.vipxgyun.com }
+      headers: { Host: suidao3.vipxgyun.com }
   -
     name: '土耳其 | 隧道 | 1X |'
     type: vmess
-    server: suidao2.vipxgyun.com
-    port: 10011
-    uuid: db7e637a-19a6-3ce2-92ac-c8abf6b95516
+    server: suidao3.vipxgyun.com
+    port: 19333
+    uuid: 26b4b6d2-e3e4-32f2-818e-d5fc7d51f86c
     alterId: 0
     cipher: auto
     udp: true
     network: ws
     ws-path: /ny
     ws-headers:
-      Host: suidao2.vipxgyun.com
+      Host: suidao3.vipxgyun.com
     ws-opts:
       path: /ny
-      headers: { Host: suidao2.vipxgyun.com }
+      headers: { Host: suidao3.vipxgyun.com }
   -
     name: '巴西 | 隧道 | 1X |'
     type: vmess
-    server: suidao2.vipxgyun.com
-    port: 10005
-    uuid: db7e637a-19a6-3ce2-92ac-c8abf6b95516
+    server: suidao3.vipxgyun.com
+    port: 65390
+    uuid: 26b4b6d2-e3e4-32f2-818e-d5fc7d51f86c
     alterId: 0
     cipher: auto
     udp: true
     network: ws
     ws-path: /ny
     ws-headers:
-      Host: suidao2.vipxgyun.com
+      Host: suidao3.vipxgyun.com
     ws-opts:
       path: /ny
-      headers: { Host: suidao2.vipxgyun.com }
+      headers: { Host: suidao3.vipxgyun.com }
   -
     name: '日本 | 隧道 | 1X | '
     type: vmess
-    server: suidao2.vipxgyun.com
-    port: 10008
-    uuid: db7e637a-19a6-3ce2-92ac-c8abf6b95516
+    server: suidao3.vipxgyun.com
+    port: 30449
+    uuid: 26b4b6d2-e3e4-32f2-818e-d5fc7d51f86c
     alterId: 0
     cipher: auto
     udp: true
     network: ws
     ws-path: /ny
     ws-headers:
-      Host: suidao2.vipxgyun.com
+      Host: suidao3.vipxgyun.com
     ws-opts:
       path: /ny
-      headers: { Host: suidao2.vipxgyun.com }
+      headers: { Host: suidao3.vipxgyun.com }
   -
     name: '韩国 | 隧道 | 1X |'
     type: vmess
-    server: suidao2.vipxgyun.com
-    port: 10006
-    uuid: db7e637a-19a6-3ce2-92ac-c8abf6b95516
+    server: suidao3.vipxgyun.com
+    port: 64261
+    uuid: 26b4b6d2-e3e4-32f2-818e-d5fc7d51f86c
     alterId: 0
     cipher: auto
     udp: true
     network: ws
     ws-path: /ny
     ws-headers:
-      Host: suidao2.vipxgyun.com
+      Host: suidao3.vipxgyun.com
     ws-opts:
       path: /ny
-      headers: { Host: suidao2.vipxgyun.com }
+      headers: { Host: suidao3.vipxgyun.com }
 proxy-groups:
   -
     name: 🔰国外流量
@@ -270,9 +270,9 @@ proxy-groups:
       - 'A香港02 | 直连 | 奈飞解锁'
       - 'A香港03 | 隧道 | 奈飞解锁 | ChatGPT解锁'
       - 'A香港04 | 隧道 | 奈飞解锁 | ChatGPT解锁'
-      - 'B新加坡01 | 隧道 | 1X | ChatGPT解锁'
-      - 'B新加坡02 | 隧道 | 1X | ChatGPT解锁'
-      - 'B新加坡03 | 隧道 | 1X | ChatGPT解锁'
+      - 'B新加坡01 | 隧道 | 2X | ChatGPT解锁'
+      - 'B新加坡02 | 隧道 | 2X | ChatGPT解锁'
+      - 'B新加坡03 | 隧道 | 2X | ChatGPT解锁'
       - ChatGPT专属节点
       - '印度 | 隧道 | 1X |'
       - '台湾 | YouTube免广告 | Tiktok  | 隧道 | 1X | '
@@ -298,9 +298,9 @@ proxy-groups:
       - 'A香港02 | 直连 | 奈飞解锁'
       - 'A香港03 | 隧道 | 奈飞解锁 | ChatGPT解锁'
       - 'A香港04 | 隧道 | 奈飞解锁 | ChatGPT解锁'
-      - 'B新加坡01 | 隧道 | 1X | ChatGPT解锁'
-      - 'B新加坡02 | 隧道 | 1X | ChatGPT解锁'
-      - 'B新加坡03 | 隧道 | 1X | ChatGPT解锁'
+      - 'B新加坡01 | 隧道 | 2X | ChatGPT解锁'
+      - 'B新加坡02 | 隧道 | 2X | ChatGPT解锁'
+      - 'B新加坡03 | 隧道 | 2X | ChatGPT解锁'
       - ChatGPT专属节点
       - '印度 | 隧道 | 1X |'
       - '台湾 | YouTube免广告 | Tiktok  | 隧道 | 1X | '
@@ -319,9 +319,9 @@ proxy-groups:
       - 'A香港02 | 直连 | 奈飞解锁'
       - 'A香港03 | 隧道 | 奈飞解锁 | ChatGPT解锁'
       - 'A香港04 | 隧道 | 奈飞解锁 | ChatGPT解锁'
-      - 'B新加坡01 | 隧道 | 1X | ChatGPT解锁'
-      - 'B新加坡02 | 隧道 | 1X | ChatGPT解锁'
-      - 'B新加坡03 | 隧道 | 1X | ChatGPT解锁'
+      - 'B新加坡01 | 隧道 | 2X | ChatGPT解锁'
+      - 'B新加坡02 | 隧道 | 2X | ChatGPT解锁'
+      - 'B新加坡03 | 隧道 | 2X | ChatGPT解锁'
       - ChatGPT专属节点
       - '印度 | 隧道 | 1X |'
       - '台湾 | YouTube免广告 | Tiktok  | 隧道 | 1X | '
@@ -340,9 +340,9 @@ proxy-groups:
       - 'A香港02 | 直连 | 奈飞解锁'
       - 'A香港03 | 隧道 | 奈飞解锁 | ChatGPT解锁'
       - 'A香港04 | 隧道 | 奈飞解锁 | ChatGPT解锁'
-      - 'B新加坡01 | 隧道 | 1X | ChatGPT解锁'
-      - 'B新加坡02 | 隧道 | 1X | ChatGPT解锁'
-      - 'B新加坡03 | 隧道 | 1X | ChatGPT解锁'
+      - 'B新加坡01 | 隧道 | 2X | ChatGPT解锁'
+      - 'B新加坡02 | 隧道 | 2X | ChatGPT解锁'
+      - 'B新加坡03 | 隧道 | 2X | ChatGPT解锁'
       - ChatGPT专属节点
       - '印度 | 隧道 | 1X |'
       - '台湾 | YouTube免广告 | Tiktok  | 隧道 | 1X | '
@@ -361,9 +361,9 @@ proxy-groups:
       - 'A香港02 | 直连 | 奈飞解锁'
       - 'A香港03 | 隧道 | 奈飞解锁 | ChatGPT解锁'
       - 'A香港04 | 隧道 | 奈飞解锁 | ChatGPT解锁'
-      - 'B新加坡01 | 隧道 | 1X | ChatGPT解锁'
-      - 'B新加坡02 | 隧道 | 1X | ChatGPT解锁'
-      - 'B新加坡03 | 隧道 | 1X | ChatGPT解锁'
+      - 'B新加坡01 | 隧道 | 2X | ChatGPT解锁'
+      - 'B新加坡02 | 隧道 | 2X | ChatGPT解锁'
+      - 'B新加坡03 | 隧道 | 2X | ChatGPT解锁'
       - ChatGPT专属节点
       - '印度 | 隧道 | 1X |'
       - '台湾 | YouTube免广告 | Tiktok  | 隧道 | 1X | '
@@ -382,9 +382,9 @@ proxy-groups:
       - 'A香港02 | 直连 | 奈飞解锁'
       - 'A香港03 | 隧道 | 奈飞解锁 | ChatGPT解锁'
       - 'A香港04 | 隧道 | 奈飞解锁 | ChatGPT解锁'
-      - 'B新加坡01 | 隧道 | 1X | ChatGPT解锁'
-      - 'B新加坡02 | 隧道 | 1X | ChatGPT解锁'
-      - 'B新加坡03 | 隧道 | 1X | ChatGPT解锁'
+      - 'B新加坡01 | 隧道 | 2X | ChatGPT解锁'
+      - 'B新加坡02 | 隧道 | 2X | ChatGPT解锁'
+      - 'B新加坡03 | 隧道 | 2X | ChatGPT解锁'
       - ChatGPT专属节点
       - '印度 | 隧道 | 1X |'
       - '台湾 | YouTube免广告 | Tiktok  | 隧道 | 1X | '
