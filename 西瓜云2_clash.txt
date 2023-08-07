@@ -1,7 +1,7 @@
-#!MANAGED-CONFIG https://vipxgyun.com/link/xU1c135D1dlhw0Pv?clash=1
+#!MANAGED-CONFIG https://vipxgyun.com/link/FhDTcPcTOTBXsg04?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2023-08-07 12:01:17
+## 上次更新于：2023-08-07 12:02:24
 #---------------------------------------------------#
 
 port: 7890
@@ -17,9 +17,9 @@ proxies:
     name: '1.西瓜官网 vipxgyun.com【勿连】'
     type: ssr
     server: 1.1.1.1
-    port: 17481
+    port: 14614
     cipher: chacha20-ietf
-    password: ZQZUlO4VrY8LI8H6
+    password: 8cgVpLO0vy5gBoNT
     protocol: auth_aes128_sha1
     protocol-param: ''
     obfs: http_simple
@@ -28,9 +28,9 @@ proxies:
     name: 2.断网超时请更新订阅【勿连】
     type: ssr
     server: 1.1.1.1
-    port: 17481
+    port: 14614
     cipher: chacha20-ietf
-    password: ZQZUlO4VrY8LI8H6
+    password: 8cgVpLO0vy5gBoNT
     protocol: auth_aes128_sha1
     protocol-param: ''
     obfs: http_simple
@@ -40,7 +40,7 @@ proxies:
     type: vmess
     server: suidao2.vipxgyun.com
     port: 44034
-    uuid: 32c27691-ada5-3afe-841b-6f9fb2155c31
+    uuid: d66a2b53-ea2c-324d-99ce-6796a5127316
     alterId: 0
     cipher: auto
     udp: true
@@ -56,7 +56,7 @@ proxies:
     type: vmess
     server: suidao2.vipxgyun.com
     port: 18682
-    uuid: 32c27691-ada5-3afe-841b-6f9fb2155c31
+    uuid: d66a2b53-ea2c-324d-99ce-6796a5127316
     alterId: 0
     cipher: auto
     udp: true
@@ -72,7 +72,7 @@ proxies:
     type: vmess
     server: suidao2.vipxgyun.com
     port: 60778
-    uuid: 32c27691-ada5-3afe-841b-6f9fb2155c31
+    uuid: d66a2b53-ea2c-324d-99ce-6796a5127316
     alterId: 0
     cipher: auto
     udp: true
@@ -88,7 +88,7 @@ proxies:
     type: vmess
     server: suidao2.vipxgyun.com
     port: 53055
-    uuid: 32c27691-ada5-3afe-841b-6f9fb2155c31
+    uuid: d66a2b53-ea2c-324d-99ce-6796a5127316
     alterId: 0
     cipher: auto
     udp: true
@@ -104,7 +104,7 @@ proxies:
     type: vmess
     server: suidao4.vipxgyun.com
     port: 38686
-    uuid: 32c27691-ada5-3afe-841b-6f9fb2155c31
+    uuid: d66a2b53-ea2c-324d-99ce-6796a5127316
     alterId: 0
     cipher: auto
     udp: true
@@ -120,7 +120,7 @@ proxies:
     type: vmess
     server: suidao4.vipxgyun.com
     port: 10932
-    uuid: 32c27691-ada5-3afe-841b-6f9fb2155c31
+    uuid: d66a2b53-ea2c-324d-99ce-6796a5127316
     alterId: 0
     cipher: auto
     udp: true
@@ -136,7 +136,7 @@ proxies:
     type: vmess
     server: suidao4.vipxgyun.com
     port: 55893
-    uuid: 32c27691-ada5-3afe-841b-6f9fb2155c31
+    uuid: d66a2b53-ea2c-324d-99ce-6796a5127316
     alterId: 0
     cipher: auto
     udp: true
@@ -152,7 +152,7 @@ proxies:
     type: vmess
     server: suidao2.vipxgyun.com
     port: 60779
-    uuid: 32c27691-ada5-3afe-841b-6f9fb2155c31
+    uuid: d66a2b53-ea2c-324d-99ce-6796a5127316
     alterId: 0
     cipher: auto
     udp: true
@@ -168,7 +168,7 @@ proxies:
     type: vmess
     server: suidao3.vipxgyun.com
     port: 30258
-    uuid: 32c27691-ada5-3afe-841b-6f9fb2155c31
+    uuid: d66a2b53-ea2c-324d-99ce-6796a5127316
     alterId: 0
     cipher: auto
     udp: true
@@ -184,7 +184,7 @@ proxies:
     type: vmess
     server: suidao3.vipxgyun.com
     port: 17518
-    uuid: 32c27691-ada5-3afe-841b-6f9fb2155c31
+    uuid: d66a2b53-ea2c-324d-99ce-6796a5127316
     alterId: 0
     cipher: auto
     udp: true
@@ -200,7 +200,7 @@ proxies:
     type: vmess
     server: suidao3.vipxgyun.com
     port: 19333
-    uuid: 32c27691-ada5-3afe-841b-6f9fb2155c31
+    uuid: d66a2b53-ea2c-324d-99ce-6796a5127316
     alterId: 0
     cipher: auto
     udp: true
@@ -216,7 +216,7 @@ proxies:
     type: vmess
     server: suidao3.vipxgyun.com
     port: 65390
-    uuid: 32c27691-ada5-3afe-841b-6f9fb2155c31
+    uuid: d66a2b53-ea2c-324d-99ce-6796a5127316
     alterId: 0
     cipher: auto
     udp: true
@@ -232,7 +232,7 @@ proxies:
     type: vmess
     server: suidao3.vipxgyun.com
     port: 30449
-    uuid: 32c27691-ada5-3afe-841b-6f9fb2155c31
+    uuid: d66a2b53-ea2c-324d-99ce-6796a5127316
     alterId: 0
     cipher: auto
     udp: true
@@ -248,7 +248,7 @@ proxies:
     type: vmess
     server: suidao3.vipxgyun.com
     port: 64261
-    uuid: 32c27691-ada5-3afe-841b-6f9fb2155c31
+    uuid: d66a2b53-ea2c-324d-99ce-6796a5127316
     alterId: 0
     cipher: auto
     udp: true
