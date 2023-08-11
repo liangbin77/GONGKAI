@@ -1,7 +1,7 @@
-#!MANAGED-CONFIG https://vipxgyun.com/link/7xMP7qDwsPP5qBjU?clash=1
+#!MANAGED-CONFIG https://vipxgyun.com/link/VynequUj6LJnR4sF?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2023-08-11 03:01:29
+## 上次更新于：2023-08-11 04:05:14
 #---------------------------------------------------#
 
 port: 7890
@@ -18,7 +18,7 @@ proxies:
     type: vmess
     server: cm1-xg.go001.buzz
     port: 19821
-    uuid: 11d1b5d0-7298-36bc-b148-50076c009a7b
+    uuid: 221c6ce0-f588-3091-800c-d578c2d5ad2e
     alterId: 0
     cipher: auto
     udp: true
@@ -27,7 +27,7 @@ proxies:
     type: vmess
     server: ct1-xg.go001.buzz
     port: 19822
-    uuid: 11d1b5d0-7298-36bc-b148-50076c009a7b
+    uuid: 221c6ce0-f588-3091-800c-d578c2d5ad2e
     alterId: 0
     cipher: auto
     udp: true
@@ -36,7 +36,7 @@ proxies:
     type: vmess
     server: cm1-xg.go001.buzz
     port: 19841
-    uuid: 11d1b5d0-7298-36bc-b148-50076c009a7b
+    uuid: 221c6ce0-f588-3091-800c-d578c2d5ad2e
     alterId: 0
     cipher: auto
     udp: true
@@ -45,7 +45,7 @@ proxies:
     type: vmess
     server: ct1-xg.go001.buzz
     port: 19842
-    uuid: 11d1b5d0-7298-36bc-b148-50076c009a7b
+    uuid: 221c6ce0-f588-3091-800c-d578c2d5ad2e
     alterId: 0
     cipher: auto
     udp: true
@@ -54,7 +54,7 @@ proxies:
     type: vmess
     server: cm1-xg.go001.buzz
     port: 19831
-    uuid: 11d1b5d0-7298-36bc-b148-50076c009a7b
+    uuid: 221c6ce0-f588-3091-800c-d578c2d5ad2e
     alterId: 0
     cipher: auto
     udp: true
@@ -63,7 +63,7 @@ proxies:
     type: vmess
     server: ct1-xg.go001.buzz
     port: 19832
-    uuid: 11d1b5d0-7298-36bc-b148-50076c009a7b
+    uuid: 221c6ce0-f588-3091-800c-d578c2d5ad2e
     alterId: 0
     cipher: auto
     udp: true
@@ -72,7 +72,7 @@ proxies:
     type: vmess
     server: cm1-xg.go001.buzz
     port: 19861
-    uuid: 11d1b5d0-7298-36bc-b148-50076c009a7b
+    uuid: 221c6ce0-f588-3091-800c-d578c2d5ad2e
     alterId: 0
     cipher: auto
     udp: true
@@ -81,7 +81,7 @@ proxies:
     type: vmess
     server: ct1-xg.go001.buzz
     port: 19862
-    uuid: 11d1b5d0-7298-36bc-b148-50076c009a7b
+    uuid: 221c6ce0-f588-3091-800c-d578c2d5ad2e
     alterId: 0
     cipher: auto
     udp: true
@@ -90,7 +90,7 @@ proxies:
     type: vmess
     server: cm1-xg.go001.buzz
     port: 19811
-    uuid: 11d1b5d0-7298-36bc-b148-50076c009a7b
+    uuid: 221c6ce0-f588-3091-800c-d578c2d5ad2e
     alterId: 0
     cipher: auto
     udp: true
@@ -99,256 +99,10 @@ proxies:
     type: vmess
     server: ct1-xg.go001.buzz
     port: 19812
-    uuid: 11d1b5d0-7298-36bc-b148-50076c009a7b
+    uuid: 221c6ce0-f588-3091-800c-d578c2d5ad2e
     alterId: 0
     cipher: auto
     udp: true
-  -
-    name: '1.西瓜官网 vipxgyun.com【勿连】'
-    type: ssr
-    server: 1.1.1.1
-    port: 40249
-    cipher: chacha20-ietf
-    password: XF9AVLMI4FyIgIIO
-    protocol: auth_aes128_sha1
-    protocol-param: ''
-    obfs: http_simple
-    obfs-param: ''
-  -
-    name: 2.断网超时请更新订阅【勿连】
-    type: ssr
-    server: 1.1.1.1
-    port: 40249
-    cipher: chacha20-ietf
-    password: XF9AVLMI4FyIgIIO
-    protocol: auth_aes128_sha1
-    protocol-param: ''
-    obfs: http_simple
-    obfs-param: ''
-  -
-    name: 'A香港01 | 直连 | 奈飞解锁'
-    type: vmess
-    server: suidao2.vipxgyun.com
-    port: 44034
-    uuid: 11d1b5d0-7298-36bc-b148-50076c009a7b
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /ny
-    ws-headers:
-      Host: suidao2.vipxgyun.com
-    ws-opts:
-      path: /ny
-      headers: { Host: suidao2.vipxgyun.com }
-  -
-    name: 'A香港02 | 直连 | 奈飞解锁'
-    type: vmess
-    server: suidao2.vipxgyun.com
-    port: 18682
-    uuid: 11d1b5d0-7298-36bc-b148-50076c009a7b
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /ny
-    ws-headers:
-      Host: suidao2.vipxgyun.com
-    ws-opts:
-      path: /ny
-      headers: { Host: suidao2.vipxgyun.com }
-  -
-    name: 'A香港03 | 隧道 | 奈飞解锁 | ChatGPT解锁'
-    type: vmess
-    server: suidao2.vipxgyun.com
-    port: 60778
-    uuid: 11d1b5d0-7298-36bc-b148-50076c009a7b
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /ny
-    ws-headers:
-      Host: suidao2.vipxgyun.com
-    ws-opts:
-      path: /ny
-      headers: { Host: suidao2.vipxgyun.com }
-  -
-    name: 'A香港04 | 隧道 | 奈飞解锁 | ChatGPT解锁'
-    type: vmess
-    server: suidao2.vipxgyun.com
-    port: 53055
-    uuid: 11d1b5d0-7298-36bc-b148-50076c009a7b
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /ny
-    ws-headers:
-      Host: suidao2.vipxgyun.com
-    ws-opts:
-      path: /ny
-      headers: { Host: suidao2.vipxgyun.com }
-  -
-    name: 'B新加坡01 | 隧道 | 2X | ChatGPT解锁'
-    type: vmess
-    server: suidao4.vipxgyun.com
-    port: 38686
-    uuid: 11d1b5d0-7298-36bc-b148-50076c009a7b
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /ny
-    ws-headers:
-      Host: suidao4.vipxgyun.com
-    ws-opts:
-      path: /ny
-      headers: { Host: suidao4.vipxgyun.com }
-  -
-    name: 'B新加坡02 | 隧道 | 2X | ChatGPT解锁'
-    type: vmess
-    server: suidao4.vipxgyun.com
-    port: 10932
-    uuid: 11d1b5d0-7298-36bc-b148-50076c009a7b
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /ny
-    ws-headers:
-      Host: suidao4.vipxgyun.com
-    ws-opts:
-      path: /ny
-      headers: { Host: suidao4.vipxgyun.com }
-  -
-    name: 'B新加坡03 | 隧道 | 2X | ChatGPT解锁'
-    type: vmess
-    server: suidao4.vipxgyun.com
-    port: 55893
-    uuid: 11d1b5d0-7298-36bc-b148-50076c009a7b
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /ny
-    ws-headers:
-      Host: suidao4.vipxgyun.com
-    ws-opts:
-      path: /ny
-      headers: { Host: suidao4.vipxgyun.com }
-  -
-    name: ChatGPT专属节点
-    type: vmess
-    server: suidao2.vipxgyun.com
-    port: 60779
-    uuid: 11d1b5d0-7298-36bc-b148-50076c009a7b
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /ny
-    ws-headers:
-      Host: suidao2.vipxgyun.com
-    ws-opts:
-      path: /ny
-      headers: { Host: suidao2.vipxgyun.com }
-  -
-    name: '印度 | 隧道 | 1X |'
-    type: vmess
-    server: suidao3.vipxgyun.com
-    port: 30258
-    uuid: 11d1b5d0-7298-36bc-b148-50076c009a7b
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /ny
-    ws-headers:
-      Host: suidao3.vipxgyun.com
-    ws-opts:
-      path: /ny
-      headers: { Host: suidao3.vipxgyun.com }
-  -
-    name: '台湾 | YouTube免广告 | Tiktok  | 隧道 | 1X | '
-    type: vmess
-    server: suidao3.vipxgyun.com
-    port: 17518
-    uuid: 11d1b5d0-7298-36bc-b148-50076c009a7b
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /ny
-    ws-headers:
-      Host: suidao3.vipxgyun.com
-    ws-opts:
-      path: /ny
-      headers: { Host: suidao3.vipxgyun.com }
-  -
-    name: '土耳其 | 隧道 | 1X |'
-    type: vmess
-    server: suidao3.vipxgyun.com
-    port: 19333
-    uuid: 11d1b5d0-7298-36bc-b148-50076c009a7b
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /ny
-    ws-headers:
-      Host: suidao3.vipxgyun.com
-    ws-opts:
-      path: /ny
-      headers: { Host: suidao3.vipxgyun.com }
-  -
-    name: '巴西 | 隧道 | 1X |'
-    type: vmess
-    server: suidao3.vipxgyun.com
-    port: 65390
-    uuid: 11d1b5d0-7298-36bc-b148-50076c009a7b
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /ny
-    ws-headers:
-      Host: suidao3.vipxgyun.com
-    ws-opts:
-      path: /ny
-      headers: { Host: suidao3.vipxgyun.com }
-  -
-    name: '日本 | 隧道 | 1X | '
-    type: vmess
-    server: suidao3.vipxgyun.com
-    port: 30449
-    uuid: 11d1b5d0-7298-36bc-b148-50076c009a7b
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /ny
-    ws-headers:
-      Host: suidao3.vipxgyun.com
-    ws-opts:
-      path: /ny
-      headers: { Host: suidao3.vipxgyun.com }
-  -
-    name: '韩国 | 隧道 | 1X |'
-    type: vmess
-    server: suidao3.vipxgyun.com
-    port: 64261
-    uuid: 11d1b5d0-7298-36bc-b148-50076c009a7b
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /ny
-    ws-headers:
-      Host: suidao3.vipxgyun.com
-    ws-opts:
-      path: /ny
-      headers: { Host: suidao3.vipxgyun.com }
 proxy-groups:
   -
     name: 🔰国外流量
@@ -364,22 +118,6 @@ proxy-groups:
       - '美国 2'
       - '香港 1'
       - '香港 2'
-      - '1.西瓜官网 vipxgyun.com【勿连】'
-      - 2.断网超时请更新订阅【勿连】
-      - 'A香港01 | 直连 | 奈飞解锁'
-      - 'A香港02 | 直连 | 奈飞解锁'
-      - 'A香港03 | 隧道 | 奈飞解锁 | ChatGPT解锁'
-      - 'A香港04 | 隧道 | 奈飞解锁 | ChatGPT解锁'
-      - 'B新加坡01 | 隧道 | 2X | ChatGPT解锁'
-      - 'B新加坡02 | 隧道 | 2X | ChatGPT解锁'
-      - 'B新加坡03 | 隧道 | 2X | ChatGPT解锁'
-      - ChatGPT专属节点
-      - '印度 | 隧道 | 1X |'
-      - '台湾 | YouTube免广告 | Tiktok  | 隧道 | 1X | '
-      - '土耳其 | 隧道 | 1X |'
-      - '巴西 | 隧道 | 1X |'
-      - '日本 | 隧道 | 1X | '
-      - '韩国 | 隧道 | 1X |'
       - 🚀直接连接
   -
     name: ⚓️其他流量
@@ -402,22 +140,6 @@ proxy-groups:
       - '美国 2'
       - '香港 1'
       - '香港 2'
-      - '1.西瓜官网 vipxgyun.com【勿连】'
-      - 2.断网超时请更新订阅【勿连】
-      - 'A香港01 | 直连 | 奈飞解锁'
-      - 'A香港02 | 直连 | 奈飞解锁'
-      - 'A香港03 | 隧道 | 奈飞解锁 | ChatGPT解锁'
-      - 'A香港04 | 隧道 | 奈飞解锁 | ChatGPT解锁'
-      - 'B新加坡01 | 隧道 | 2X | ChatGPT解锁'
-      - 'B新加坡02 | 隧道 | 2X | ChatGPT解锁'
-      - 'B新加坡03 | 隧道 | 2X | ChatGPT解锁'
-      - ChatGPT专属节点
-      - '印度 | 隧道 | 1X |'
-      - '台湾 | YouTube免广告 | Tiktok  | 隧道 | 1X | '
-      - '土耳其 | 隧道 | 1X |'
-      - '巴西 | 隧道 | 1X |'
-      - '日本 | 隧道 | 1X | '
-      - '韩国 | 隧道 | 1X |'
   -
     name: 🎬Youtube
     type: select
@@ -433,22 +155,6 @@ proxy-groups:
       - '美国 2'
       - '香港 1'
       - '香港 2'
-      - '1.西瓜官网 vipxgyun.com【勿连】'
-      - 2.断网超时请更新订阅【勿连】
-      - 'A香港01 | 直连 | 奈飞解锁'
-      - 'A香港02 | 直连 | 奈飞解锁'
-      - 'A香港03 | 隧道 | 奈飞解锁 | ChatGPT解锁'
-      - 'A香港04 | 隧道 | 奈飞解锁 | ChatGPT解锁'
-      - 'B新加坡01 | 隧道 | 2X | ChatGPT解锁'
-      - 'B新加坡02 | 隧道 | 2X | ChatGPT解锁'
-      - 'B新加坡03 | 隧道 | 2X | ChatGPT解锁'
-      - ChatGPT专属节点
-      - '印度 | 隧道 | 1X |'
-      - '台湾 | YouTube免广告 | Tiktok  | 隧道 | 1X | '
-      - '土耳其 | 隧道 | 1X |'
-      - '巴西 | 隧道 | 1X |'
-      - '日本 | 隧道 | 1X | '
-      - '韩国 | 隧道 | 1X |'
   -
     name: 🎬Netflix
     type: select
@@ -464,22 +170,6 @@ proxy-groups:
       - '美国 2'
       - '香港 1'
       - '香港 2'
-      - '1.西瓜官网 vipxgyun.com【勿连】'
-      - 2.断网超时请更新订阅【勿连】
-      - 'A香港01 | 直连 | 奈飞解锁'
-      - 'A香港02 | 直连 | 奈飞解锁'
-      - 'A香港03 | 隧道 | 奈飞解锁 | ChatGPT解锁'
-      - 'A香港04 | 隧道 | 奈飞解锁 | ChatGPT解锁'
-      - 'B新加坡01 | 隧道 | 2X | ChatGPT解锁'
-      - 'B新加坡02 | 隧道 | 2X | ChatGPT解锁'
-      - 'B新加坡03 | 隧道 | 2X | ChatGPT解锁'
-      - ChatGPT专属节点
-      - '印度 | 隧道 | 1X |'
-      - '台湾 | YouTube免广告 | Tiktok  | 隧道 | 1X | '
-      - '土耳其 | 隧道 | 1X |'
-      - '巴西 | 隧道 | 1X |'
-      - '日本 | 隧道 | 1X | '
-      - '韩国 | 隧道 | 1X |'
   -
     name: 🎬哔哩哔哩
     type: select
@@ -495,22 +185,6 @@ proxy-groups:
       - '美国 2'
       - '香港 1'
       - '香港 2'
-      - '1.西瓜官网 vipxgyun.com【勿连】'
-      - 2.断网超时请更新订阅【勿连】
-      - 'A香港01 | 直连 | 奈飞解锁'
-      - 'A香港02 | 直连 | 奈飞解锁'
-      - 'A香港03 | 隧道 | 奈飞解锁 | ChatGPT解锁'
-      - 'A香港04 | 隧道 | 奈飞解锁 | ChatGPT解锁'
-      - 'B新加坡01 | 隧道 | 2X | ChatGPT解锁'
-      - 'B新加坡02 | 隧道 | 2X | ChatGPT解锁'
-      - 'B新加坡03 | 隧道 | 2X | ChatGPT解锁'
-      - ChatGPT专属节点
-      - '印度 | 隧道 | 1X |'
-      - '台湾 | YouTube免广告 | Tiktok  | 隧道 | 1X | '
-      - '土耳其 | 隧道 | 1X |'
-      - '巴西 | 隧道 | 1X |'
-      - '日本 | 隧道 | 1X | '
-      - '韩国 | 隧道 | 1X |'
   -
     name: 🎬国外媒体
     type: select
@@ -526,22 +200,6 @@ proxy-groups:
       - '美国 2'
       - '香港 1'
       - '香港 2'
-      - '1.西瓜官网 vipxgyun.com【勿连】'
-      - 2.断网超时请更新订阅【勿连】
-      - 'A香港01 | 直连 | 奈飞解锁'
-      - 'A香港02 | 直连 | 奈飞解锁'
-      - 'A香港03 | 隧道 | 奈飞解锁 | ChatGPT解锁'
-      - 'A香港04 | 隧道 | 奈飞解锁 | ChatGPT解锁'
-      - 'B新加坡01 | 隧道 | 2X | ChatGPT解锁'
-      - 'B新加坡02 | 隧道 | 2X | ChatGPT解锁'
-      - 'B新加坡03 | 隧道 | 2X | ChatGPT解锁'
-      - ChatGPT专属节点
-      - '印度 | 隧道 | 1X |'
-      - '台湾 | YouTube免广告 | Tiktok  | 隧道 | 1X | '
-      - '土耳其 | 隧道 | 1X |'
-      - '巴西 | 隧道 | 1X |'
-      - '日本 | 隧道 | 1X | '
-      - '韩国 | 隧道 | 1X |'
   -
     name: 🍎苹果服务
     type: select
