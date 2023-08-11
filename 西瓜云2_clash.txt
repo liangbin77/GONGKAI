@@ -1,7 +1,7 @@
-#!MANAGED-CONFIG https://vipxgyun.com/link/Jfi659WE0VoWm0EI?clash=1
+#!MANAGED-CONFIG https://vipxgyun.com/link/OCm3ZqcWOP0el0ZM?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2023-08-11 10:57:27
+## 上次更新于：2023-08-11 12:03:06
 #---------------------------------------------------#
 
 port: 7890
@@ -18,7 +18,7 @@ proxies:
     type: vmess
     server: cm1-xg.go001.buzz
     port: 19821
-    uuid: ad755596-80ee-3bfc-a0c4-b574ef1f29ca
+    uuid: d1deb562-8528-306b-aa4c-c446a4bd2f22
     alterId: 0
     cipher: auto
     udp: true
@@ -27,7 +27,7 @@ proxies:
     type: vmess
     server: ct1-xg.go001.buzz
     port: 19822
-    uuid: ad755596-80ee-3bfc-a0c4-b574ef1f29ca
+    uuid: d1deb562-8528-306b-aa4c-c446a4bd2f22
     alterId: 0
     cipher: auto
     udp: true
@@ -36,7 +36,7 @@ proxies:
     type: vmess
     server: cm1-xg.go001.buzz
     port: 19841
-    uuid: ad755596-80ee-3bfc-a0c4-b574ef1f29ca
+    uuid: d1deb562-8528-306b-aa4c-c446a4bd2f22
     alterId: 0
     cipher: auto
     udp: true
@@ -45,7 +45,7 @@ proxies:
     type: vmess
     server: ct1-xg.go001.buzz
     port: 19842
-    uuid: ad755596-80ee-3bfc-a0c4-b574ef1f29ca
+    uuid: d1deb562-8528-306b-aa4c-c446a4bd2f22
     alterId: 0
     cipher: auto
     udp: true
@@ -54,7 +54,7 @@ proxies:
     type: vmess
     server: cm1-xg.go001.buzz
     port: 19831
-    uuid: ad755596-80ee-3bfc-a0c4-b574ef1f29ca
+    uuid: d1deb562-8528-306b-aa4c-c446a4bd2f22
     alterId: 0
     cipher: auto
     udp: true
@@ -63,7 +63,7 @@ proxies:
     type: vmess
     server: ct1-xg.go001.buzz
     port: 19832
-    uuid: ad755596-80ee-3bfc-a0c4-b574ef1f29ca
+    uuid: d1deb562-8528-306b-aa4c-c446a4bd2f22
     alterId: 0
     cipher: auto
     udp: true
@@ -72,7 +72,7 @@ proxies:
     type: vmess
     server: cm1-xg.go001.buzz
     port: 19861
-    uuid: ad755596-80ee-3bfc-a0c4-b574ef1f29ca
+    uuid: d1deb562-8528-306b-aa4c-c446a4bd2f22
     alterId: 0
     cipher: auto
     udp: true
@@ -81,7 +81,7 @@ proxies:
     type: vmess
     server: ct1-xg.go001.buzz
     port: 19862
-    uuid: ad755596-80ee-3bfc-a0c4-b574ef1f29ca
+    uuid: d1deb562-8528-306b-aa4c-c446a4bd2f22
     alterId: 0
     cipher: auto
     udp: true
@@ -90,7 +90,7 @@ proxies:
     type: vmess
     server: cm1-xg.go001.buzz
     port: 19811
-    uuid: ad755596-80ee-3bfc-a0c4-b574ef1f29ca
+    uuid: d1deb562-8528-306b-aa4c-c446a4bd2f22
     alterId: 0
     cipher: auto
     udp: true
@@ -99,7 +99,7 @@ proxies:
     type: vmess
     server: ct1-xg.go001.buzz
     port: 19812
-    uuid: ad755596-80ee-3bfc-a0c4-b574ef1f29ca
+    uuid: d1deb562-8528-306b-aa4c-c446a4bd2f22
     alterId: 0
     cipher: auto
     udp: true
@@ -107,9 +107,9 @@ proxies:
     name: '1.西瓜官网 vipxgyun.com【勿连】'
     type: ssr
     server: 1.1.1.1
-    port: 29152
+    port: 45716
     cipher: chacha20-ietf
-    password: fhAdJD2iS679QTMo
+    password: 5fqMTcPQFwsQNxGV
     protocol: auth_aes128_sha1
     protocol-param: ''
     obfs: http_simple
@@ -118,9 +118,9 @@ proxies:
     name: 2.断网超时请更新订阅【勿连】
     type: ssr
     server: 1.1.1.1
-    port: 29152
+    port: 45716
     cipher: chacha20-ietf
-    password: fhAdJD2iS679QTMo
+    password: 5fqMTcPQFwsQNxGV
     protocol: auth_aes128_sha1
     protocol-param: ''
     obfs: http_simple
@@ -130,7 +130,7 @@ proxies:
     type: vmess
     server: suidao2.vipxgyun.com
     port: 44034
-    uuid: ad755596-80ee-3bfc-a0c4-b574ef1f29ca
+    uuid: d1deb562-8528-306b-aa4c-c446a4bd2f22
     alterId: 0
     cipher: auto
     udp: true
@@ -146,7 +146,7 @@ proxies:
     type: vmess
     server: suidao2.vipxgyun.com
     port: 18682
-    uuid: ad755596-80ee-3bfc-a0c4-b574ef1f29ca
+    uuid: d1deb562-8528-306b-aa4c-c446a4bd2f22
     alterId: 0
     cipher: auto
     udp: true
@@ -162,7 +162,7 @@ proxies:
     type: vmess
     server: suidao2.vipxgyun.com
     port: 60778
-    uuid: ad755596-80ee-3bfc-a0c4-b574ef1f29ca
+    uuid: d1deb562-8528-306b-aa4c-c446a4bd2f22
     alterId: 0
     cipher: auto
     udp: true
@@ -178,7 +178,7 @@ proxies:
     type: vmess
     server: suidao2.vipxgyun.com
     port: 53055
-    uuid: ad755596-80ee-3bfc-a0c4-b574ef1f29ca
+    uuid: d1deb562-8528-306b-aa4c-c446a4bd2f22
     alterId: 0
     cipher: auto
     udp: true
@@ -194,7 +194,7 @@ proxies:
     type: vmess
     server: suidao4.vipxgyun.com
     port: 38686
-    uuid: ad755596-80ee-3bfc-a0c4-b574ef1f29ca
+    uuid: d1deb562-8528-306b-aa4c-c446a4bd2f22
     alterId: 0
     cipher: auto
     udp: true
@@ -210,7 +210,7 @@ proxies:
     type: vmess
     server: suidao4.vipxgyun.com
     port: 10932
-    uuid: ad755596-80ee-3bfc-a0c4-b574ef1f29ca
+    uuid: d1deb562-8528-306b-aa4c-c446a4bd2f22
     alterId: 0
     cipher: auto
     udp: true
@@ -226,7 +226,7 @@ proxies:
     type: vmess
     server: suidao4.vipxgyun.com
     port: 55893
-    uuid: ad755596-80ee-3bfc-a0c4-b574ef1f29ca
+    uuid: d1deb562-8528-306b-aa4c-c446a4bd2f22
     alterId: 0
     cipher: auto
     udp: true
@@ -242,7 +242,7 @@ proxies:
     type: vmess
     server: suidao2.vipxgyun.com
     port: 60779
-    uuid: ad755596-80ee-3bfc-a0c4-b574ef1f29ca
+    uuid: d1deb562-8528-306b-aa4c-c446a4bd2f22
     alterId: 0
     cipher: auto
     udp: true
@@ -258,7 +258,7 @@ proxies:
     type: vmess
     server: suidao3.vipxgyun.com
     port: 30258
-    uuid: ad755596-80ee-3bfc-a0c4-b574ef1f29ca
+    uuid: d1deb562-8528-306b-aa4c-c446a4bd2f22
     alterId: 0
     cipher: auto
     udp: true
@@ -274,7 +274,7 @@ proxies:
     type: vmess
     server: suidao3.vipxgyun.com
     port: 17518
-    uuid: ad755596-80ee-3bfc-a0c4-b574ef1f29ca
+    uuid: d1deb562-8528-306b-aa4c-c446a4bd2f22
     alterId: 0
     cipher: auto
     udp: true
@@ -290,7 +290,7 @@ proxies:
     type: vmess
     server: suidao3.vipxgyun.com
     port: 19333
-    uuid: ad755596-80ee-3bfc-a0c4-b574ef1f29ca
+    uuid: d1deb562-8528-306b-aa4c-c446a4bd2f22
     alterId: 0
     cipher: auto
     udp: true
@@ -306,7 +306,7 @@ proxies:
     type: vmess
     server: suidao3.vipxgyun.com
     port: 65390
-    uuid: ad755596-80ee-3bfc-a0c4-b574ef1f29ca
+    uuid: d1deb562-8528-306b-aa4c-c446a4bd2f22
     alterId: 0
     cipher: auto
     udp: true
@@ -322,7 +322,7 @@ proxies:
     type: vmess
     server: suidao3.vipxgyun.com
     port: 30449
-    uuid: ad755596-80ee-3bfc-a0c4-b574ef1f29ca
+    uuid: d1deb562-8528-306b-aa4c-c446a4bd2f22
     alterId: 0
     cipher: auto
     udp: true
@@ -338,7 +338,7 @@ proxies:
     type: vmess
     server: suidao3.vipxgyun.com
     port: 64261
-    uuid: ad755596-80ee-3bfc-a0c4-b574ef1f29ca
+    uuid: d1deb562-8528-306b-aa4c-c446a4bd2f22
     alterId: 0
     cipher: auto
     udp: true
