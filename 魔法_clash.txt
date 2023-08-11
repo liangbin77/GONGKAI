@@ -15,11 +15,12 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - { name: 'xjp Oracle', type: vmess, server: 168.138.181.226, port: 60042, uuid: 0426dcd9-4ea0-4de7-90b5-cf597e352aac, alterId: 0, cipher: auto, udp: true }
+    - { name: '新加坡021 广港', type: vmess, server: 01.xn--wbr85ozt0asys8qt.net, port: 18406, uuid: 0426dcd9-4ea0-4de7-90b5-cf597e352aac, alterId: 0, cipher: auto, udp: true }
+    - { name: '圣何塞 江苏移动', type: vmess, server: 01.xn--wbr85ozt0asys8qt.net, port: 45998, uuid: 0426dcd9-4ea0-4de7-90b5-cf597e352aac, alterId: 0, cipher: auto, udp: true }
 proxy-groups:
-    - { name: 魔法, type: select, proxies: [自动选择, 故障转移, 'xjp Oracle'] }
-    - { name: 自动选择, type: url-test, proxies: ['xjp Oracle'], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
-    - { name: 故障转移, type: fallback, proxies: ['xjp Oracle'], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
+    - { name: 魔法, type: select, proxies: [自动选择, 故障转移, '新加坡021 广港', '圣何塞 江苏移动'] }
+    - { name: 自动选择, type: url-test, proxies: ['新加坡021 广港', '圣何塞 江苏移动'], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
+    - { name: 故障转移, type: fallback, proxies: ['新加坡021 广港', '圣何塞 江苏移动'], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
 rules:
     - 'DOMAIN,aibei.eu.org,DIRECT'
     - 'DOMAIN-SUFFIX,services.googleapis.cn,魔法'
