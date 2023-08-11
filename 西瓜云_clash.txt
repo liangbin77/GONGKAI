@@ -1,7 +1,7 @@
-#!MANAGED-CONFIG https://vipxgyun.com/link/YrRD9X9q2YcM41Bt?clash=1
+#!MANAGED-CONFIG https://vipxgyun.com/link/DqznwJbjqiLEg3lt?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2023-08-11 04:58:06
+## 上次更新于：2023-08-11 06:00:13
 #---------------------------------------------------#
 
 port: 7890
@@ -14,83 +14,11 @@ external-controller: '0.0.0.0:9090'
 secret: ''
 proxies:
   -
-    name: '台湾 1'
-    type: vmess
-    server: cm1-xg.go001.buzz
-    port: 19821
-    uuid: a4478b2f-04ae-3e73-9695-d57ee5683f9c
-    alterId: 0
-    cipher: auto
-    udp: true
-  -
-    name: '台湾 2'
-    type: vmess
-    server: ct1-xg.go001.buzz
-    port: 19822
-    uuid: a4478b2f-04ae-3e73-9695-d57ee5683f9c
-    alterId: 0
-    cipher: auto
-    udp: true
-  -
-    name: '新加坡 1'
-    type: vmess
-    server: cm1-xg.go001.buzz
-    port: 19841
-    uuid: a4478b2f-04ae-3e73-9695-d57ee5683f9c
-    alterId: 0
-    cipher: auto
-    udp: true
-  -
-    name: '新加坡 2'
-    type: vmess
-    server: ct1-xg.go001.buzz
-    port: 19842
-    uuid: a4478b2f-04ae-3e73-9695-d57ee5683f9c
-    alterId: 0
-    cipher: auto
-    udp: true
-  -
-    name: '日本 1'
-    type: vmess
-    server: cm1-xg.go001.buzz
-    port: 19831
-    uuid: a4478b2f-04ae-3e73-9695-d57ee5683f9c
-    alterId: 0
-    cipher: auto
-    udp: true
-  -
-    name: '日本 2'
-    type: vmess
-    server: ct1-xg.go001.buzz
-    port: 19832
-    uuid: a4478b2f-04ae-3e73-9695-d57ee5683f9c
-    alterId: 0
-    cipher: auto
-    udp: true
-  -
-    name: '美国 1'
-    type: vmess
-    server: cm1-xg.go001.buzz
-    port: 19861
-    uuid: a4478b2f-04ae-3e73-9695-d57ee5683f9c
-    alterId: 0
-    cipher: auto
-    udp: true
-  -
-    name: '美国 2'
-    type: vmess
-    server: ct1-xg.go001.buzz
-    port: 19862
-    uuid: a4478b2f-04ae-3e73-9695-d57ee5683f9c
-    alterId: 0
-    cipher: auto
-    udp: true
-  -
     name: '香港 1'
     type: vmess
     server: cm1-xg.go001.buzz
     port: 19811
-    uuid: a4478b2f-04ae-3e73-9695-d57ee5683f9c
+    uuid: 15ff9038-ba9a-3746-bcd6-e354ec709793
     alterId: 0
     cipher: auto
     udp: true
@@ -99,7 +27,124 @@ proxies:
     type: vmess
     server: ct1-xg.go001.buzz
     port: 19812
-    uuid: a4478b2f-04ae-3e73-9695-d57ee5683f9c
+    uuid: 15ff9038-ba9a-3746-bcd6-e354ec709793
+    alterId: 0
+    cipher: auto
+    udp: true
+  -
+    name: '台湾 1'
+    type: vmess
+    server: cm1-xg.go001.buzz
+    port: 19821
+    uuid: 15ff9038-ba9a-3746-bcd6-e354ec709793
+    alterId: 0
+    cipher: auto
+    udp: true
+  -
+    name: '台湾 2'
+    type: vmess
+    server: ct1-xg.go001.buzz
+    port: 19822
+    uuid: 15ff9038-ba9a-3746-bcd6-e354ec709793
+    alterId: 0
+    cipher: auto
+    udp: true
+  -
+    name: '日本 1'
+    type: vmess
+    server: cm1-xg.go001.buzz
+    port: 19831
+    uuid: 15ff9038-ba9a-3746-bcd6-e354ec709793
+    alterId: 0
+    cipher: auto
+    udp: true
+  -
+    name: '日本 2'
+    type: vmess
+    server: ct1-xg.go001.buzz
+    port: 19832
+    uuid: 15ff9038-ba9a-3746-bcd6-e354ec709793
+    alterId: 0
+    cipher: auto
+    udp: true
+  -
+    name: '新加坡 1'
+    type: vmess
+    server: cm1-xg.go001.buzz
+    port: 19841
+    uuid: 15ff9038-ba9a-3746-bcd6-e354ec709793
+    alterId: 0
+    cipher: auto
+    udp: true
+  -
+    name: '新加坡 2'
+    type: vmess
+    server: ct1-xg.go001.buzz
+    port: 19842
+    uuid: 15ff9038-ba9a-3746-bcd6-e354ec709793
+    alterId: 0
+    cipher: auto
+    udp: true
+  -
+    name: '美国 1'
+    type: vmess
+    server: cm1-xg.go001.buzz
+    port: 19861
+    uuid: 15ff9038-ba9a-3746-bcd6-e354ec709793
+    alterId: 0
+    cipher: auto
+    udp: true
+  -
+    name: '美国 2'
+    type: vmess
+    server: ct1-xg.go001.buzz
+    port: 19862
+    uuid: 15ff9038-ba9a-3746-bcd6-e354ec709793
+    alterId: 0
+    cipher: auto
+    udp: true
+  -
+    name: '法国 1'
+    type: vmess
+    server: cm1-xg.go001.buzz
+    port: 19892
+    uuid: 15ff9038-ba9a-3746-bcd6-e354ec709793
+    alterId: 0
+    cipher: auto
+    udp: true
+  -
+    name: '德国 1'
+    type: vmess
+    server: cm1-xg.go001.buzz
+    port: 19891
+    uuid: 15ff9038-ba9a-3746-bcd6-e354ec709793
+    alterId: 0
+    cipher: auto
+    udp: true
+  -
+    name: '印度尼西亚 1'
+    type: vmess
+    server: cm1-xg.go001.buzz
+    port: 19883
+    uuid: 15ff9038-ba9a-3746-bcd6-e354ec709793
+    alterId: 0
+    cipher: auto
+    udp: true
+  -
+    name: '印度 1'
+    type: vmess
+    server: cm1-xg.go001.buzz
+    port: 19882
+    uuid: 15ff9038-ba9a-3746-bcd6-e354ec709793
+    alterId: 0
+    cipher: auto
+    udp: true
+  -
+    name: '土耳其 1'
+    type: vmess
+    server: cm1-xg.go001.buzz
+    port: 19881
+    uuid: 15ff9038-ba9a-3746-bcd6-e354ec709793
     alterId: 0
     cipher: auto
     udp: true
@@ -108,16 +153,21 @@ proxy-groups:
     name: 🔰国外流量
     type: select
     proxies:
-      - '台湾 1'
-      - '台湾 2'
-      - '新加坡 1'
-      - '新加坡 2'
-      - '日本 1'
-      - '日本 2'
-      - '美国 1'
-      - '美国 2'
       - '香港 1'
       - '香港 2'
+      - '台湾 1'
+      - '台湾 2'
+      - '日本 1'
+      - '日本 2'
+      - '新加坡 1'
+      - '新加坡 2'
+      - '美国 1'
+      - '美国 2'
+      - '法国 1'
+      - '德国 1'
+      - '印度尼西亚 1'
+      - '印度 1'
+      - '土耳其 1'
       - 🚀直接连接
   -
     name: ⚓️其他流量
@@ -130,76 +180,101 @@ proxy-groups:
     type: select
     proxies:
       - 🔰国外流量
-      - '台湾 1'
-      - '台湾 2'
-      - '新加坡 1'
-      - '新加坡 2'
-      - '日本 1'
-      - '日本 2'
-      - '美国 1'
-      - '美国 2'
       - '香港 1'
       - '香港 2'
+      - '台湾 1'
+      - '台湾 2'
+      - '日本 1'
+      - '日本 2'
+      - '新加坡 1'
+      - '新加坡 2'
+      - '美国 1'
+      - '美国 2'
+      - '法国 1'
+      - '德国 1'
+      - '印度尼西亚 1'
+      - '印度 1'
+      - '土耳其 1'
   -
     name: 🎬Youtube
     type: select
     proxies:
       - 🔰国外流量
-      - '台湾 1'
-      - '台湾 2'
-      - '新加坡 1'
-      - '新加坡 2'
-      - '日本 1'
-      - '日本 2'
-      - '美国 1'
-      - '美国 2'
       - '香港 1'
       - '香港 2'
+      - '台湾 1'
+      - '台湾 2'
+      - '日本 1'
+      - '日本 2'
+      - '新加坡 1'
+      - '新加坡 2'
+      - '美国 1'
+      - '美国 2'
+      - '法国 1'
+      - '德国 1'
+      - '印度尼西亚 1'
+      - '印度 1'
+      - '土耳其 1'
   -
     name: 🎬Netflix
     type: select
     proxies:
       - 🔰国外流量
-      - '台湾 1'
-      - '台湾 2'
-      - '新加坡 1'
-      - '新加坡 2'
-      - '日本 1'
-      - '日本 2'
-      - '美国 1'
-      - '美国 2'
       - '香港 1'
       - '香港 2'
+      - '台湾 1'
+      - '台湾 2'
+      - '日本 1'
+      - '日本 2'
+      - '新加坡 1'
+      - '新加坡 2'
+      - '美国 1'
+      - '美国 2'
+      - '法国 1'
+      - '德国 1'
+      - '印度尼西亚 1'
+      - '印度 1'
+      - '土耳其 1'
   -
     name: 🎬哔哩哔哩
     type: select
     proxies:
       - 🚀直接连接
-      - '台湾 1'
-      - '台湾 2'
-      - '新加坡 1'
-      - '新加坡 2'
-      - '日本 1'
-      - '日本 2'
-      - '美国 1'
-      - '美国 2'
       - '香港 1'
       - '香港 2'
+      - '台湾 1'
+      - '台湾 2'
+      - '日本 1'
+      - '日本 2'
+      - '新加坡 1'
+      - '新加坡 2'
+      - '美国 1'
+      - '美国 2'
+      - '法国 1'
+      - '德国 1'
+      - '印度尼西亚 1'
+      - '印度 1'
+      - '土耳其 1'
   -
     name: 🎬国外媒体
     type: select
     proxies:
       - 🔰国外流量
-      - '台湾 1'
-      - '台湾 2'
-      - '新加坡 1'
-      - '新加坡 2'
-      - '日本 1'
-      - '日本 2'
-      - '美国 1'
-      - '美国 2'
       - '香港 1'
       - '香港 2'
+      - '台湾 1'
+      - '台湾 2'
+      - '日本 1'
+      - '日本 2'
+      - '新加坡 1'
+      - '新加坡 2'
+      - '美国 1'
+      - '美国 2'
+      - '法国 1'
+      - '德国 1'
+      - '印度尼西亚 1'
+      - '印度 1'
+      - '土耳其 1'
   -
     name: 🍎苹果服务
     type: select
