@@ -1,7 +1,7 @@
-#!MANAGED-CONFIG https://vipxgyun.com/link/25zUfh9EYxY2pEgE?clash=1
+#!MANAGED-CONFIG https://vipxgyun.com/link/eZ4SGgKeTAzetEfU?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2023-08-12 10:03:39
+## 上次更新于：2023-08-12 10:05:32
 #---------------------------------------------------#
 
 port: 7890
@@ -18,7 +18,7 @@ proxies:
     type: vmess
     server: cm1-xg.go001.buzz
     port: 19811
-    uuid: d6e7dbbf-1832-388a-8d7a-4fa617f31655
+    uuid: 47a6d626-aa3e-3559-a111-3bcc83288b65
     alterId: 0
     cipher: auto
     udp: true
@@ -27,7 +27,7 @@ proxies:
     type: vmess
     server: ct1-xg.go001.buzz
     port: 19812
-    uuid: d6e7dbbf-1832-388a-8d7a-4fa617f31655
+    uuid: 47a6d626-aa3e-3559-a111-3bcc83288b65
     alterId: 0
     cipher: auto
     udp: true
@@ -36,7 +36,7 @@ proxies:
     type: vmess
     server: cm1-xg.go001.buzz
     port: 19821
-    uuid: d6e7dbbf-1832-388a-8d7a-4fa617f31655
+    uuid: 47a6d626-aa3e-3559-a111-3bcc83288b65
     alterId: 0
     cipher: auto
     udp: true
@@ -45,7 +45,7 @@ proxies:
     type: vmess
     server: ct1-xg.go001.buzz
     port: 19822
-    uuid: d6e7dbbf-1832-388a-8d7a-4fa617f31655
+    uuid: 47a6d626-aa3e-3559-a111-3bcc83288b65
     alterId: 0
     cipher: auto
     udp: true
@@ -54,7 +54,7 @@ proxies:
     type: vmess
     server: cm1-xg.go001.buzz
     port: 19831
-    uuid: d6e7dbbf-1832-388a-8d7a-4fa617f31655
+    uuid: 47a6d626-aa3e-3559-a111-3bcc83288b65
     alterId: 0
     cipher: auto
     udp: true
@@ -63,7 +63,7 @@ proxies:
     type: vmess
     server: ct1-xg.go001.buzz
     port: 19832
-    uuid: d6e7dbbf-1832-388a-8d7a-4fa617f31655
+    uuid: 47a6d626-aa3e-3559-a111-3bcc83288b65
     alterId: 0
     cipher: auto
     udp: true
@@ -72,7 +72,7 @@ proxies:
     type: vmess
     server: cm1-xg.go001.buzz
     port: 19841
-    uuid: d6e7dbbf-1832-388a-8d7a-4fa617f31655
+    uuid: 47a6d626-aa3e-3559-a111-3bcc83288b65
     alterId: 0
     cipher: auto
     udp: true
@@ -81,7 +81,7 @@ proxies:
     type: vmess
     server: ct1-xg.go001.buzz
     port: 19842
-    uuid: d6e7dbbf-1832-388a-8d7a-4fa617f31655
+    uuid: 47a6d626-aa3e-3559-a111-3bcc83288b65
     alterId: 0
     cipher: auto
     udp: true
@@ -90,7 +90,7 @@ proxies:
     type: vmess
     server: cm1-xg.go001.buzz
     port: 19861
-    uuid: d6e7dbbf-1832-388a-8d7a-4fa617f31655
+    uuid: 47a6d626-aa3e-3559-a111-3bcc83288b65
     alterId: 0
     cipher: auto
     udp: true
@@ -99,7 +99,7 @@ proxies:
     type: vmess
     server: ct1-xg.go001.buzz
     port: 19862
-    uuid: d6e7dbbf-1832-388a-8d7a-4fa617f31655
+    uuid: 47a6d626-aa3e-3559-a111-3bcc83288b65
     alterId: 0
     cipher: auto
     udp: true
@@ -108,7 +108,7 @@ proxies:
     type: vmess
     server: cm1-xg.go001.buzz
     port: 19892
-    uuid: d6e7dbbf-1832-388a-8d7a-4fa617f31655
+    uuid: 47a6d626-aa3e-3559-a111-3bcc83288b65
     alterId: 0
     cipher: auto
     udp: true
@@ -117,7 +117,7 @@ proxies:
     type: vmess
     server: cm1-xg.go001.buzz
     port: 19891
-    uuid: d6e7dbbf-1832-388a-8d7a-4fa617f31655
+    uuid: 47a6d626-aa3e-3559-a111-3bcc83288b65
     alterId: 0
     cipher: auto
     udp: true
@@ -126,7 +126,7 @@ proxies:
     type: vmess
     server: cm1-xg.go001.buzz
     port: 19883
-    uuid: d6e7dbbf-1832-388a-8d7a-4fa617f31655
+    uuid: 47a6d626-aa3e-3559-a111-3bcc83288b65
     alterId: 0
     cipher: auto
     udp: true
@@ -135,7 +135,7 @@ proxies:
     type: vmess
     server: cm1-xg.go001.buzz
     port: 19882
-    uuid: d6e7dbbf-1832-388a-8d7a-4fa617f31655
+    uuid: 47a6d626-aa3e-3559-a111-3bcc83288b65
     alterId: 0
     cipher: auto
     udp: true
@@ -144,7 +144,7 @@ proxies:
     type: vmess
     server: cm1-xg.go001.buzz
     port: 19881
-    uuid: d6e7dbbf-1832-388a-8d7a-4fa617f31655
+    uuid: 47a6d626-aa3e-3559-a111-3bcc83288b65
     alterId: 0
     cipher: auto
     udp: true
