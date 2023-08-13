@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://vipxgyun.com/link/GOIyiTxBR3OOFRlw?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2023-08-14 12:04:07
+## 上次更新于：2023-08-14 12:08:09
 #---------------------------------------------------#
 
 port: 7890
@@ -50,7 +50,7 @@ proxies:
     cipher: auto
     udp: true
   -
-    name: '日本 1'
+    name: '日本 1 Nico Abema'
     type: vmess
     server: cm1-xg.go001.buzz
     port: 19831
@@ -68,7 +68,7 @@ proxies:
     cipher: auto
     udp: true
   -
-    name: '新加坡 1'
+    name: '新加坡 1 Netflix '
     type: vmess
     server: cm1-xg.go001.buzz
     port: 19841
@@ -86,7 +86,7 @@ proxies:
     cipher: auto
     udp: true
   -
-    name: '美国 1'
+    name: '美国 1 ChatGPT'
     type: vmess
     server: cm1-xg.go001.buzz
     port: 19861
@@ -157,11 +157,11 @@ proxy-groups:
       - '香港 2'
       - '台湾 1'
       - '台湾 2'
-      - '日本 1'
+      - '日本 1 Nico Abema'
       - '日本 2'
-      - '新加坡 1'
+      - '新加坡 1 Netflix '
       - '新加坡 2'
-      - '美国 1'
+      - '美国 1 ChatGPT'
       - '美国 2'
       - '法国 1'
       - '德国 1'
@@ -184,11 +184,11 @@ proxy-groups:
       - '香港 2'
       - '台湾 1'
       - '台湾 2'
-      - '日本 1'
+      - '日本 1 Nico Abema'
       - '日本 2'
-      - '新加坡 1'
+      - '新加坡 1 Netflix '
       - '新加坡 2'
-      - '美国 1'
+      - '美国 1 ChatGPT'
       - '美国 2'
       - '法国 1'
       - '德国 1'
@@ -204,11 +204,11 @@ proxy-groups:
       - '香港 2'
       - '台湾 1'
       - '台湾 2'
-      - '日本 1'
+      - '日本 1 Nico Abema'
       - '日本 2'
-      - '新加坡 1'
+      - '新加坡 1 Netflix '
       - '新加坡 2'
-      - '美国 1'
+      - '美国 1 ChatGPT'
       - '美国 2'
       - '法国 1'
       - '德国 1'
@@ -224,11 +224,11 @@ proxy-groups:
       - '香港 2'
       - '台湾 1'
       - '台湾 2'
-      - '日本 1'
+      - '日本 1 Nico Abema'
       - '日本 2'
-      - '新加坡 1'
+      - '新加坡 1 Netflix '
       - '新加坡 2'
-      - '美国 1'
+      - '美国 1 ChatGPT'
       - '美国 2'
       - '法国 1'
       - '德国 1'
@@ -244,11 +244,11 @@ proxy-groups:
       - '香港 2'
       - '台湾 1'
       - '台湾 2'
-      - '日本 1'
+      - '日本 1 Nico Abema'
       - '日本 2'
-      - '新加坡 1'
+      - '新加坡 1 Netflix '
       - '新加坡 2'
-      - '美国 1'
+      - '美国 1 ChatGPT'
       - '美国 2'
       - '法国 1'
       - '德国 1'
@@ -264,11 +264,11 @@ proxy-groups:
       - '香港 2'
       - '台湾 1'
       - '台湾 2'
-      - '日本 1'
+      - '日本 1 Nico Abema'
       - '日本 2'
-      - '新加坡 1'
+      - '新加坡 1 Netflix '
       - '新加坡 2'
-      - '美国 1'
+      - '美国 1 ChatGPT'
       - '美国 2'
       - '法国 1'
       - '德国 1'
