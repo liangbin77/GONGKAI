@@ -1,7 +1,7 @@
 #!MANAGED-CONFIG https://vipxgyun.com/link/XVnd5wco5tWt5Y8i?clash=1
 
 #---------------------------------------------------#
-## 上次更新于：2023-08-14 06:08:05
+## 上次更新于：2023-08-14 06:11:08
 #---------------------------------------------------#
 
 port: 7890
@@ -41,7 +41,7 @@ proxies:
     cipher: auto
     udp: true
   -
-    name: '台湾 2'
+    name: '台湾 2 动画疯'
     type: vmess
     server: ct1-xg.go001.buzz
     port: 19822
@@ -59,7 +59,7 @@ proxies:
     cipher: auto
     udp: true
   -
-    name: '日本 2'
+    name: '日本 2 Nico Abema'
     type: vmess
     server: ct1-xg.go001.buzz
     port: 19832
@@ -77,7 +77,7 @@ proxies:
     cipher: auto
     udp: true
   -
-    name: '新加坡 2'
+    name: '新加坡 2 Netflix'
     type: vmess
     server: ct1-xg.go001.buzz
     port: 19842
@@ -95,7 +95,7 @@ proxies:
     cipher: auto
     udp: true
   -
-    name: '美国 2'
+    name: '美国 2 ChatGPT'
     type: vmess
     server: ct1-xg.go001.buzz
     port: 19862
@@ -156,13 +156,13 @@ proxy-groups:
       - '香港 1'
       - '香港 2'
       - '台湾 1 动画疯'
-      - '台湾 2'
+      - '台湾 2 动画疯'
       - '日本 1 Nico Abema'
-      - '日本 2'
+      - '日本 2 Nico Abema'
       - '新加坡 1 Netflix '
-      - '新加坡 2'
+      - '新加坡 2 Netflix'
       - '美国 1 ChatGPT'
-      - '美国 2'
+      - '美国 2 ChatGPT'
       - '法国 1'
       - '德国 1'
       - '印度尼西亚 1'
@@ -183,13 +183,13 @@ proxy-groups:
       - '香港 1'
       - '香港 2'
       - '台湾 1 动画疯'
-      - '台湾 2'
+      - '台湾 2 动画疯'
       - '日本 1 Nico Abema'
-      - '日本 2'
+      - '日本 2 Nico Abema'
       - '新加坡 1 Netflix '
-      - '新加坡 2'
+      - '新加坡 2 Netflix'
       - '美国 1 ChatGPT'
-      - '美国 2'
+      - '美国 2 ChatGPT'
       - '法国 1'
       - '德国 1'
       - '印度尼西亚 1'
@@ -203,13 +203,13 @@ proxy-groups:
       - '香港 1'
       - '香港 2'
       - '台湾 1 动画疯'
-      - '台湾 2'
+      - '台湾 2 动画疯'
       - '日本 1 Nico Abema'
-      - '日本 2'
+      - '日本 2 Nico Abema'
       - '新加坡 1 Netflix '
-      - '新加坡 2'
+      - '新加坡 2 Netflix'
       - '美国 1 ChatGPT'
-      - '美国 2'
+      - '美国 2 ChatGPT'
       - '法国 1'
       - '德国 1'
       - '印度尼西亚 1'
@@ -223,13 +223,13 @@ proxy-groups:
       - '香港 1'
       - '香港 2'
       - '台湾 1 动画疯'
-      - '台湾 2'
+      - '台湾 2 动画疯'
       - '日本 1 Nico Abema'
-      - '日本 2'
+      - '日本 2 Nico Abema'
       - '新加坡 1 Netflix '
-      - '新加坡 2'
+      - '新加坡 2 Netflix'
       - '美国 1 ChatGPT'
-      - '美国 2'
+      - '美国 2 ChatGPT'
       - '法国 1'
       - '德国 1'
       - '印度尼西亚 1'
@@ -243,13 +243,13 @@ proxy-groups:
       - '香港 1'
       - '香港 2'
       - '台湾 1 动画疯'
-      - '台湾 2'
+      - '台湾 2 动画疯'
       - '日本 1 Nico Abema'
-      - '日本 2'
+      - '日本 2 Nico Abema'
       - '新加坡 1 Netflix '
-      - '新加坡 2'
+      - '新加坡 2 Netflix'
       - '美国 1 ChatGPT'
-      - '美国 2'
+      - '美国 2 ChatGPT'
       - '法国 1'
       - '德国 1'
       - '印度尼西亚 1'
@@ -263,13 +263,13 @@ proxy-groups:
       - '香港 1'
       - '香港 2'
       - '台湾 1 动画疯'
-      - '台湾 2'
+      - '台湾 2 动画疯'
       - '日本 1 Nico Abema'
-      - '日本 2'
+      - '日本 2 Nico Abema'
       - '新加坡 1 Netflix '
-      - '新加坡 2'
+      - '新加坡 2 Netflix'
       - '美国 1 ChatGPT'
-      - '美国 2'
+      - '美国 2 ChatGPT'
       - '法国 1'
       - '德国 1'
       - '印度尼西亚 1'
