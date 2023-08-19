@@ -16,7 +16,7 @@ dns:
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
     - { name: '新加坡021 广港', type: vmess, server: 01.xn--wbr85ozt0asys8qt.net, port: 32862, uuid: bb23f4e3-8202-4a10-860a-8267646b4414, alterId: 0, cipher: auto, udp: true }
-    - { name: '洛杉矶 江苏移动', type: vmess, server: 01.xn--wbr85ozt0asys8qt.net, port: 34399, uuid: bb23f4e3-8202-4a10-860a-8267646b4414, alterId: 0, cipher: auto, udp: true }
+    - { name: '洛杉矶 江苏移动', type: vmess, server: 01.xn--wbr85ozt0asys8qt.net, port: 20187, uuid: bb23f4e3-8202-4a10-860a-8267646b4414, alterId: 0, cipher: auto, udp: true }
 proxy-groups:
     - { name: 魔法, type: select, proxies: [自动选择, 故障转移, '新加坡021 广港', '洛杉矶 江苏移动'] }
     - { name: 自动选择, type: url-test, proxies: ['新加坡021 广港', '洛杉矶 江苏移动'], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
