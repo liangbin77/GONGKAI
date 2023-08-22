@@ -32,7 +32,7 @@ proxies:
     - { name: '日本 3', type: ss, server: 183.232.170.37, port: 43003, cipher: aes-128-gcm, password: 8b8f5ce6-c1ff-411d-969a-69572fc41dce, udp: true }
     - { name: '日本 4', type: ss, server: 183.232.170.37, port: 43004, cipher: aes-128-gcm, password: 8b8f5ce6-c1ff-411d-969a-69572fc41dce, udp: true }
     - { name: '日本 5', type: ss, server: 183.232.170.37, port: 43005, cipher: aes-128-gcm, password: 8b8f5ce6-c1ff-411d-969a-69572fc41dce, udp: true }
-    - { name: '日本 6', type: ss, server: 183.232.170.37, port: 42006, cipher: aes-128-gcm, password: 8b8f5ce6-c1ff-411d-969a-69572fc41dce, udp: true }
+    - { name: '日本 6', type: ss, server: 183.232.170.37, port: 43006, cipher: aes-128-gcm, password: 8b8f5ce6-c1ff-411d-969a-69572fc41dce, udp: true }
     - { name: '美国 1', type: ss, server: 183.232.170.37, port: 44001, cipher: aes-128-gcm, password: 8b8f5ce6-c1ff-411d-969a-69572fc41dce, udp: true }
     - { name: '美国 2', type: ss, server: 183.232.170.37, port: 44002, cipher: aes-128-gcm, password: 8b8f5ce6-c1ff-411d-969a-69572fc41dce, udp: true }
     - { name: '美国 3', type: ss, server: 183.232.170.37, port: 44003, cipher: aes-128-gcm, password: 8b8f5ce6-c1ff-411d-969a-69572fc41dce, udp: true }
