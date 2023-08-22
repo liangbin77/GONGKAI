@@ -33,27 +33,20 @@ proxies:
     - { name: '日本 4', type: ss, server: 183.232.170.37, port: 42004, cipher: aes-128-gcm, password: 924624c2-fe67-444c-b75d-1b04daa61fed, udp: true }
     - { name: '日本 5', type: ss, server: 183.232.170.37, port: 42005, cipher: aes-128-gcm, password: 924624c2-fe67-444c-b75d-1b04daa61fed, udp: true }
     - { name: '日本 6', type: ss, server: 183.232.170.37, port: 42006, cipher: aes-128-gcm, password: 924624c2-fe67-444c-b75d-1b04daa61fed, udp: true }
-    - { name: 香港.2|gcp|广移高速, type: vmess, server: shk.cd1223.xyz, port: 50333, uuid: 924624c2-fe67-444c-b75d-1b04daa61fed, alterId: 0, cipher: auto, udp: true }
-    - { name: 台湾.1|gcp|广港高速, type: vmess, server: shk.cd1223.xyz, port: 31778, uuid: 924624c2-fe67-444c-b75d-1b04daa61fed, alterId: 0, cipher: auto, udp: true }
-    - { name: 新加坡|do|广港高速, type: vmess, server: sxjp.cd1223.xyz, port: 33064, uuid: 924624c2-fe67-444c-b75d-1b04daa61fed, alterId: 0, cipher: auto, udp: true }
-    - { name: 台湾.2|gcp|广港高速, type: vmess, server: shk.cd1223.xyz, port: 26401, uuid: 924624c2-fe67-444c-b75d-1b04daa61fed, alterId: 0, cipher: auto, udp: true }
-    - { name: 香港.3|gcp|广移高速, type: vmess, server: shk.cd1223.xyz, port: 50111, uuid: 924624c2-fe67-444c-b75d-1b04daa61fed, alterId: 0, cipher: auto, udp: true }
-    - { name: 雅加达.1|隧道|chatgtp, type: vmess, server: so.cd1223.xyz, port: 32835, uuid: 924624c2-fe67-444c-b75d-1b04daa61fed, alterId: 0, cipher: auto, udp: true }
-    - { name: 新加坡.1|linode|广港高速, type: vmess, server: sxjp.cd1223.xyz, port: 50010, uuid: 924624c2-fe67-444c-b75d-1b04daa61fed, alterId: 0, cipher: auto, udp: true }
-    - { name: 雅加达.2|隧道|chatgtp, type: vmess, server: so.cd1223.xyz, port: 34606, uuid: 924624c2-fe67-444c-b75d-1b04daa61fed, alterId: 0, cipher: auto, udp: true }
-    - { name: 新加坡.2|linode|广港高速, type: vmess, server: sxjp.cd1223.xyz, port: 50030, uuid: 924624c2-fe67-444c-b75d-1b04daa61fed, alterId: 0, cipher: auto, udp: true }
-    - { name: 香港.1|gcp|广移高速, type: vmess, server: shk.cd1223.xyz, port: 50222, uuid: 924624c2-fe67-444c-b75d-1b04daa61fed, alterId: 0, cipher: auto, udp: true }
-    - { name: 香港.2|gcp|广港高速, type: vmess, server: shk.cd1223.xyz, port: 33000, uuid: 924624c2-fe67-444c-b75d-1b04daa61fed, alterId: 0, cipher: auto, udp: true }
-    - { name: 日本|gcp|皖日隧道, type: vmess, server: sjp.cd1223.xyz, port: 14891, uuid: 924624c2-fe67-444c-b75d-1b04daa61fed, alterId: 0, cipher: auto, udp: true }
-    - { name: 日本|linode|皖日隧道, type: vmess, server: sjp.cd1223.xyz, port: 50127, uuid: 924624c2-fe67-444c-b75d-1b04daa61fed, alterId: 0, cipher: auto, udp: true }
-    - { name: 台湾|gcp|广移高速, type: vmess, server: shk.cd1223.xyz, port: 50444, uuid: 924624c2-fe67-444c-b75d-1b04daa61fed, alterId: 0, cipher: auto, udp: true }
-    - { name: 德国|隧道|chatgtp, type: vmess, server: so.cd1223.xyz, port: 50050, uuid: 924624c2-fe67-444c-b75d-1b04daa61fed, alterId: 0, cipher: auto, udp: true }
-    - { name: 英国|隧道|chatgtp, type: vmess, server: so.cd1223.xyz, port: 42078, uuid: 924624c2-fe67-444c-b75d-1b04daa61fed, alterId: 0, cipher: auto, udp: true }
-    - { name: 美国|高速通道|chatgtp, type: vmess, server: so.cd1223.xyz, port: 19003, uuid: 924624c2-fe67-444c-b75d-1b04daa61fed, alterId: 0, cipher: auto, udp: true }
+    - { name: '美国 1', type: ss, server: 183.232.170.37, port: 44001, cipher: aes-128-gcm, password: 924624c2-fe67-444c-b75d-1b04daa61fed, udp: true }
+    - { name: '美国 2', type: ss, server: 183.232.170.37, port: 44002, cipher: aes-128-gcm, password: 924624c2-fe67-444c-b75d-1b04daa61fed, udp: true }
+    - { name: '美国 3', type: ss, server: 183.232.170.37, port: 44003, cipher: aes-128-gcm, password: 924624c2-fe67-444c-b75d-1b04daa61fed, udp: true }
+    - { name: '美国 4', type: ss, server: 183.232.170.37, port: 44004, cipher: aes-128-gcm, password: 924624c2-fe67-444c-b75d-1b04daa61fed, udp: true }
+    - { name: '美国 5', type: ss, server: 183.232.170.37, port: 44005, cipher: aes-128-gcm, password: 924624c2-fe67-444c-b75d-1b04daa61fed, udp: true }
+    - { name: '美国 6', type: ss, server: 183.232.170.37, port: 44006, cipher: aes-128-gcm, password: 924624c2-fe67-444c-b75d-1b04daa61fed, udp: true }
+    - { name: '土耳其 1', type: ss, server: 183.232.170.37, port: 45001, cipher: aes-128-gcm, password: 924624c2-fe67-444c-b75d-1b04daa61fed, udp: true }
+    - { name: '土耳其 2', type: ss, server: 183.232.170.37, port: 45002, cipher: aes-128-gcm, password: 924624c2-fe67-444c-b75d-1b04daa61fed, udp: true }
+    - { name: '土耳其 3', type: ss, server: 183.232.170.37, port: 45003, cipher: aes-128-gcm, password: 924624c2-fe67-444c-b75d-1b04daa61fed, udp: true }
+    - { name: '土耳其 4', type: ss, server: 183.232.170.37, port: 45004, cipher: aes-128-gcm, password: 924624c2-fe67-444c-b75d-1b04daa61fed, udp: true }
 proxy-groups:
-    - { name: 星河云, type: select, proxies: [自动选择, 故障转移, '香港 1', '香港 2', '香港 3', '香港 4', '香港 5', '香港 6', '新加坡 1', '新加坡 2', '新加坡 3', '新加坡 4', '新加坡 5', '新加坡 6', '日本 1', '日本 2', '日本 3', '日本 4', '日本 5', '日本 6', 香港.2|gcp|广移高速, 台湾.1|gcp|广港高速, 新加坡|do|广港高速, 台湾.2|gcp|广港高速, 香港.3|gcp|广移高速, 雅加达.1|隧道|chatgtp, 新加坡.1|linode|广港高速, 雅加达.2|隧道|chatgtp, 新加坡.2|linode|广港高速, 香港.1|gcp|广移高速, 香港.2|gcp|广港高速, 日本|gcp|皖日隧道, 日本|linode|皖日隧道, 台湾|gcp|广移高速, 德国|隧道|chatgtp, 英国|隧道|chatgtp, 美国|高速通道|chatgtp] }
-    - { name: 自动选择, type: url-test, proxies: ['香港 1', '香港 2', '香港 3', '香港 4', '香港 5', '香港 6', '新加坡 1', '新加坡 2', '新加坡 3', '新加坡 4', '新加坡 5', '新加坡 6', '日本 1', '日本 2', '日本 3', '日本 4', '日本 5', '日本 6', 香港.2|gcp|广移高速, 台湾.1|gcp|广港高速, 新加坡|do|广港高速, 台湾.2|gcp|广港高速, 香港.3|gcp|广移高速, 雅加达.1|隧道|chatgtp, 新加坡.1|linode|广港高速, 雅加达.2|隧道|chatgtp, 新加坡.2|linode|广港高速, 香港.1|gcp|广移高速, 香港.2|gcp|广港高速, 日本|gcp|皖日隧道, 日本|linode|皖日隧道, 台湾|gcp|广移高速, 德国|隧道|chatgtp, 英国|隧道|chatgtp, 美国|高速通道|chatgtp], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
-    - { name: 故障转移, type: fallback, proxies: ['香港 1', '香港 2', '香港 3', '香港 4', '香港 5', '香港 6', '新加坡 1', '新加坡 2', '新加坡 3', '新加坡 4', '新加坡 5', '新加坡 6', '日本 1', '日本 2', '日本 3', '日本 4', '日本 5', '日本 6', 香港.2|gcp|广移高速, 台湾.1|gcp|广港高速, 新加坡|do|广港高速, 台湾.2|gcp|广港高速, 香港.3|gcp|广移高速, 雅加达.1|隧道|chatgtp, 新加坡.1|linode|广港高速, 雅加达.2|隧道|chatgtp, 新加坡.2|linode|广港高速, 香港.1|gcp|广移高速, 香港.2|gcp|广港高速, 日本|gcp|皖日隧道, 日本|linode|皖日隧道, 台湾|gcp|广移高速, 德国|隧道|chatgtp, 英国|隧道|chatgtp, 美国|高速通道|chatgtp], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
+    - { name: 星河云, type: select, proxies: [自动选择, 故障转移, '香港 1', '香港 2', '香港 3', '香港 4', '香港 5', '香港 6', '新加坡 1', '新加坡 2', '新加坡 3', '新加坡 4', '新加坡 5', '新加坡 6', '日本 1', '日本 2', '日本 3', '日本 4', '日本 5', '日本 6', '美国 1', '美国 2', '美国 3', '美国 4', '美国 5', '美国 6', '土耳其 1', '土耳其 2', '土耳其 3', '土耳其 4'] }
+    - { name: 自动选择, type: url-test, proxies: ['香港 1', '香港 2', '香港 3', '香港 4', '香港 5', '香港 6', '新加坡 1', '新加坡 2', '新加坡 3', '新加坡 4', '新加坡 5', '新加坡 6', '日本 1', '日本 2', '日本 3', '日本 4', '日本 5', '日本 6', '美国 1', '美国 2', '美国 3', '美国 4', '美国 5', '美国 6', '土耳其 1', '土耳其 2', '土耳其 3', '土耳其 4'], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
+    - { name: 故障转移, type: fallback, proxies: ['香港 1', '香港 2', '香港 3', '香港 4', '香港 5', '香港 6', '新加坡 1', '新加坡 2', '新加坡 3', '新加坡 4', '新加坡 5', '新加坡 6', '日本 1', '日本 2', '日本 3', '日本 4', '日本 5', '日本 6', '美国 1', '美国 2', '美国 3', '美国 4', '美国 5', '美国 6', '土耳其 1', '土耳其 2', '土耳其 3', '土耳其 4'], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
 rules:
     - 'DOMAIN,srive.xyz,DIRECT'
     - 'DOMAIN-SUFFIX,services.googleapis.cn,星河云'
