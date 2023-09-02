@@ -15,25 +15,25 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - { name: '香港 1', type: ss, server: 183.232.170.37, port: 41001, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
+    - { name: '香港 1', type: ss, server: 120.241.39.235, port: 41001, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
     - { name: '香港 2', type: ss, server: 183.232.170.37, port: 41002, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
-    - { name: '香港 3', type: ss, server: 183.232.170.37, port: 41003, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
+    - { name: '香港 3', type: ss, server: 120.241.39.235, port: 41003, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
     - { name: '香港 4', type: ss, server: 183.232.170.37, port: 41004, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
-    - { name: '香港 5', type: ss, server: 183.232.170.37, port: 41005, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
+    - { name: '香港 5', type: ss, server: 120.241.39.235, port: 41005, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
     - { name: '香港 6', type: ss, server: 183.232.170.37, port: 41006, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
-    - { name: '台湾 1', type: ss, server: 183.232.170.37, port: 40001, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
+    - { name: '台湾 1', type: ss, server: 120.241.39.235, port: 40001, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
     - { name: '台湾 2', type: ss, server: 183.232.170.37, port: 40002, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
-    - { name: '台湾 3', type: ss, server: 183.232.170.37, port: 40003, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
+    - { name: '台湾 3', type: ss, server: 120.241.39.235, port: 40003, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
     - { name: '台湾 4', type: ss, server: 183.232.170.37, port: 40004, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
-    - { name: '新加坡 1', type: ss, server: 183.232.170.37, port: 42001, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
+    - { name: '新加坡 1', type: ss, server: 120.241.39.235, port: 42001, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
     - { name: '新加坡 2', type: ss, server: 183.232.170.37, port: 42001, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
-    - { name: '新加坡 3', type: ss, server: 183.232.170.37, port: 42003, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
+    - { name: '新加坡 3', type: ss, server: 120.241.39.235, port: 42003, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
     - { name: '新加坡 4', type: ss, server: 183.232.170.37, port: 42004, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
-    - { name: '新加坡 5', type: ss, server: 183.232.170.37, port: 42005, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
+    - { name: '新加坡 5', type: ss, server: 120.241.39.235, port: 42005, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
     - { name: '新加坡 6', type: ss, server: 183.232.170.37, port: 42006, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
-    - { name: '日本 1', type: ss, server: 183.232.170.37, port: 43001, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
+    - { name: '日本 1', type: ss, server: 120.241.39.235, port: 43001, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
     - { name: '日本 2', type: ss, server: 183.232.170.37, port: 43002, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
-    - { name: '日本 3', type: ss, server: 183.232.170.37, port: 43003, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
+    - { name: '日本 3', type: ss, server: 120.241.39.235, port: 43003, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
     - { name: '日本 4', type: ss, server: 183.232.170.37, port: 43004, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
     - { name: '日本 5', type: ss, server: 183.232.170.37, port: 43005, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
     - { name: '日本 6', type: ss, server: 183.232.170.37, port: 43006, cipher: aes-128-gcm, password: ad41d738-4fed-4a5b-840b-29ea9ee0ae60, udp: true }
