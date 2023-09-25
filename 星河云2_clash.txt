@@ -15,50 +15,50 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - { name: '香港 1 9-15 卡就换奇数或者beta节点', type: ss, server: 120.233.42.60, port: 41001, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '香港 2 tg客服:@xingh8', type: ss, server: 183.232.170.37, port: 41002, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '香港 3 qq群570532241', type: ss, server: 120.233.42.60, port: 41003, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '香港 4 最新官网：srive.xyz', type: ss, server: 183.232.170.37, port: 41004, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '香港 5', type: ss, server: 120.233.42.60, port: 41005, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '香港 6', type: ss, server: 183.232.170.37, port: 41006, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '香港 Beta - 1', type: ss, server: 111.47.212.76, port: 41006, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '香港 Beta - 2', type: ss, server: 111.47.212.76, port: 41006, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '台湾 1', type: ss, server: 120.233.42.60, port: 40001, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '台湾 2', type: ss, server: 183.232.170.37, port: 40002, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '台湾 3', type: ss, server: 120.233.42.60, port: 40003, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '台湾 4', type: ss, server: 183.232.170.37, port: 40004, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '台湾 Beta - 1', type: ss, server: 111.47.212.76, port: 40004, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '台湾 Beta - 2', type: ss, server: 111.47.212.76, port: 40004, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '新加坡 1', type: ss, server: 120.233.42.60, port: 42001, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '新加坡 2', type: ss, server: 183.232.170.37, port: 42001, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '新加坡 3', type: ss, server: 120.233.42.60, port: 42003, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '新加坡 4', type: ss, server: 183.232.170.37, port: 42004, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '新加坡 5', type: ss, server: 120.233.42.60, port: 42005, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '新加坡 6', type: ss, server: 183.232.170.37, port: 42006, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '新加坡 Beta - 1', type: ss, server: 111.47.212.76, port: 42006, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '新加坡 Beta - 2', type: ss, server: 111.47.212.76, port: 42006, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '日本 1', type: ss, server: 120.233.42.60, port: 43001, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '日本 2', type: ss, server: 183.232.170.37, port: 43002, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '日本 3', type: ss, server: 120.233.42.60, port: 43003, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '日本 4', type: ss, server: 183.232.170.37, port: 43004, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '日本 5', type: ss, server: 120.233.42.60, port: 43005, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '日本 6', type: ss, server: 183.232.170.37, port: 43006, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '日本 Beta - 1', type: ss, server: 111.47.212.76, port: 43006, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '日本 Beta - 2', type: ss, server: 111.47.212.76, port: 43006, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '美国 1', type: ss, server: 120.233.42.60, port: 44001, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '美国 2', type: ss, server: 183.232.170.37, port: 44002, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '美国 3', type: ss, server: 120.233.42.60, port: 44003, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '美国 4', type: ss, server: 183.232.170.37, port: 44004, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '美国 5', type: ss, server: 120.233.42.60, port: 44005, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '美国 6', type: ss, server: 183.232.170.37, port: 44006, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '美国 Beta - 1', type: ss, server: 111.47.212.76, port: 44006, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '美国 Beta - 2', type: ss, server: 111.47.212.76, port: 44006, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '土耳其 1', type: ss, server: 120.233.42.60, port: 45001, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '土耳其 2', type: ss, server: 183.232.170.37, port: 45002, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '土耳其 3', type: ss, server: 120.233.42.60, port: 45003, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '土耳其 4', type: ss, server: 183.232.170.37, port: 45004, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '土耳其 Beta - 1', type: ss, server: 111.47.212.76, port: 45004, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
-    - { name: '土耳其 Beta - 2', type: ss, server: 111.47.212.76, port: 45004, cipher: aes-128-gcm, password: 8c784f97-08d2-496f-bb0d-df72e9e34317, udp: true }
+    - { name: '香港 1 9-15 卡就换奇数或者beta节点', type: ss, server: 120.233.42.60, port: 41001, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '香港 2 tg客服:@xingh8', type: ss, server: 183.232.170.37, port: 41002, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '香港 3 qq群570532241', type: ss, server: 120.233.42.60, port: 41003, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '香港 4 最新官网：srive.xyz', type: ss, server: 183.232.170.37, port: 41004, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '香港 5', type: ss, server: 120.233.42.60, port: 41005, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '香港 6', type: ss, server: 183.232.170.37, port: 41006, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '香港 Beta - 1', type: ss, server: 111.47.212.76, port: 41006, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '香港 Beta - 2', type: ss, server: 111.47.212.76, port: 41006, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '台湾 1', type: ss, server: 120.233.42.60, port: 40001, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '台湾 2', type: ss, server: 183.232.170.37, port: 40002, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '台湾 3', type: ss, server: 120.233.42.60, port: 40003, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '台湾 4', type: ss, server: 183.232.170.37, port: 40004, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '台湾 Beta - 1', type: ss, server: 111.47.212.76, port: 40004, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '台湾 Beta - 2', type: ss, server: 111.47.212.76, port: 40004, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '新加坡 1', type: ss, server: 120.233.42.60, port: 42001, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '新加坡 2', type: ss, server: 183.232.170.37, port: 42001, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '新加坡 3', type: ss, server: 120.233.42.60, port: 42003, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '新加坡 4', type: ss, server: 183.232.170.37, port: 42004, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '新加坡 5', type: ss, server: 120.233.42.60, port: 42005, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '新加坡 6', type: ss, server: 183.232.170.37, port: 42006, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '新加坡 Beta - 1', type: ss, server: 111.47.212.76, port: 42006, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '新加坡 Beta - 2', type: ss, server: 111.47.212.76, port: 42006, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '日本 1', type: ss, server: 120.233.42.60, port: 43001, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '日本 2', type: ss, server: 183.232.170.37, port: 43002, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '日本 3', type: ss, server: 120.233.42.60, port: 43003, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '日本 4', type: ss, server: 183.232.170.37, port: 43004, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '日本 5', type: ss, server: 120.233.42.60, port: 43005, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '日本 6', type: ss, server: 183.232.170.37, port: 43006, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '日本 Beta - 1', type: ss, server: 111.47.212.76, port: 43006, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '日本 Beta - 2', type: ss, server: 111.47.212.76, port: 43006, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '美国 1', type: ss, server: 120.233.42.60, port: 44001, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '美国 2', type: ss, server: 183.232.170.37, port: 44002, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '美国 3', type: ss, server: 120.233.42.60, port: 44003, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '美国 4', type: ss, server: 183.232.170.37, port: 44004, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '美国 5', type: ss, server: 120.233.42.60, port: 44005, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '美国 6', type: ss, server: 183.232.170.37, port: 44006, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '美国 Beta - 1', type: ss, server: 111.47.212.76, port: 44006, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '美国 Beta - 2', type: ss, server: 111.47.212.76, port: 44006, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '土耳其 1', type: ss, server: 120.233.42.60, port: 45001, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '土耳其 2', type: ss, server: 183.232.170.37, port: 45002, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '土耳其 3', type: ss, server: 120.233.42.60, port: 45003, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '土耳其 4', type: ss, server: 183.232.170.37, port: 45004, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '土耳其 Beta - 1', type: ss, server: 111.47.212.76, port: 45004, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
+    - { name: '土耳其 Beta - 2', type: ss, server: 111.47.212.76, port: 45004, cipher: aes-128-gcm, password: 2209f6ee-d263-41df-8055-2ee6fc859d0d, udp: true }
 proxy-groups:
     - { name: 星河云, type: select, proxies: [自动选择, 故障转移, '香港 1 9-15 卡就换奇数或者beta节点', '香港 2 tg客服:@xingh8', '香港 3 qq群570532241', '香港 4 最新官网：srive.xyz', '香港 5', '香港 6', '香港 Beta - 1', '香港 Beta - 2', '台湾 1', '台湾 2', '台湾 3', '台湾 4', '台湾 Beta - 1', '台湾 Beta - 2', '新加坡 1', '新加坡 2', '新加坡 3', '新加坡 4', '新加坡 5', '新加坡 6', '新加坡 Beta - 1', '新加坡 Beta - 2', '日本 1', '日本 2', '日本 3', '日本 4', '日本 5', '日本 6', '日本 Beta - 1', '日本 Beta - 2', '美国 1', '美国 2', '美国 3', '美国 4', '美国 5', '美国 6', '美国 Beta - 1', '美国 Beta - 2', '土耳其 1', '土耳其 2', '土耳其 3', '土耳其 4', '土耳其 Beta - 1', '土耳其 Beta - 2'] }
     - { name: 自动选择, type: url-test, proxies: ['香港 1 9-15 卡就换奇数或者beta节点', '香港 2 tg客服:@xingh8', '香港 3 qq群570532241', '香港 4 最新官网：srive.xyz', '香港 5', '香港 6', '香港 Beta - 1', '香港 Beta - 2', '台湾 1', '台湾 2', '台湾 3', '台湾 4', '台湾 Beta - 1', '台湾 Beta - 2', '新加坡 1', '新加坡 2', '新加坡 3', '新加坡 4', '新加坡 5', '新加坡 6', '新加坡 Beta - 1', '新加坡 Beta - 2', '日本 1', '日本 2', '日本 3', '日本 4', '日本 5', '日本 6', '日本 Beta - 1', '日本 Beta - 2', '美国 1', '美国 2', '美国 3', '美国 4', '美国 5', '美国 6', '美国 Beta - 1', '美国 Beta - 2', '土耳其 1', '土耳其 2', '土耳其 3', '土耳其 4', '土耳其 Beta - 1', '土耳其 Beta - 2'], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
