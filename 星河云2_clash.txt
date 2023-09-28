@@ -15,10 +15,10 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - { name: '香港 1 9-15 卡就换奇数或者beta节点', type: ss, server: gddx.fosi.hk, port: 50010, cipher: aes-128-gcm, password: aa137522-e365-46dc-a7c3-f6b5509e759e, udp: true }
-    - { name: '香港 2 tg客服:@xingh8', type: ss, server: gddx.fosi.hk, port: 50011, cipher: aes-128-gcm, password: aa137522-e365-46dc-a7c3-f6b5509e759e, udp: true }
-    - { name: '香港 3 qq群570532241 密码:星河云（一定要加，防墙)', type: ss, server: gddx.fosi.hk, port: 50012, cipher: aes-128-gcm, password: aa137522-e365-46dc-a7c3-f6b5509e759e, udp: true }
-    - { name: '香港 4 最新官网：srive.xyz (前面没有www)', type: ss, server: gddx.fosi.hk, port: 50013, cipher: aes-128-gcm, password: aa137522-e365-46dc-a7c3-f6b5509e759e, udp: true }
+    - { name: '香港 1 9-15 卡就换奇数或者beta节点', type: ss, server: shdx.donghui.tech, port: 50010, cipher: aes-128-gcm, password: aa137522-e365-46dc-a7c3-f6b5509e759e, udp: true }
+    - { name: '香港 2 tg客服:@xingh8', type: ss, server: shdx.donghui.tech, port: 50011, cipher: aes-128-gcm, password: aa137522-e365-46dc-a7c3-f6b5509e759e, udp: true }
+    - { name: '香港 3 qq群570532241 密码:星河云（一定要加，防墙)', type: ss, server: shdx.donghui.tech, port: 50012, cipher: aes-128-gcm, password: aa137522-e365-46dc-a7c3-f6b5509e759e, udp: true }
+    - { name: '香港 4 最新官网：srive.xyz (前面没有www)', type: ss, server: shdx.donghui.tech, port: 50013, cipher: aes-128-gcm, password: aa137522-e365-46dc-a7c3-f6b5509e759e, udp: true }
     - { name: '香港 5', type: ss, server: 120.233.42.60, port: 41005, cipher: aes-128-gcm, password: aa137522-e365-46dc-a7c3-f6b5509e759e, udp: true }
     - { name: '香港 6', type: ss, server: 183.232.170.37, port: 41006, cipher: aes-128-gcm, password: aa137522-e365-46dc-a7c3-f6b5509e759e, udp: true }
     - { name: '香港 Beta - 1', type: ss, server: 111.47.212.76, port: 41006, cipher: aes-128-gcm, password: aa137522-e365-46dc-a7c3-f6b5509e759e, udp: true }
