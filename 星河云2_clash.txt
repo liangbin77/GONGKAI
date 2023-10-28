@@ -15,16 +15,19 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - { name: 香港|临时节点, type: ss, server: shdx.donghui.tech, port: 23623, cipher: aes-128-gcm, password: 587350a7-4c85-4f44-81d2-ccaa68abfccb, udp: true }
+    - { name: 美国|临时节点, type: vmess, server: shcmwdhuiqwnfwq.fucat.top, port: 46516, uuid: 587350a7-4c85-4f44-81d2-ccaa68abfccb, alterId: 0, cipher: auto, udp: true }
+    - { name: 香港2|临时节点, type: vmess, server: wzcmfwqhuifnwq.dfcloud.xyz, port: 39364, uuid: 587350a7-4c85-4f44-81d2-ccaa68abfccb, alterId: 0, cipher: auto, udp: true }
+    - { name: 香港|临时节点。有事找网页客服qq客服943793367, type: ss, server: shdx.donghui.tech, port: 23623, cipher: aes-128-gcm, password: 587350a7-4c85-4f44-81d2-ccaa68abfccb, udp: true }
     - { name: 日本|临时节点, type: ss, server: shshcub.donghui.tech, port: 15266, cipher: aes-128-gcm, password: 587350a7-4c85-4f44-81d2-ccaa68abfccb, udp: true }
     - { name: 新加坡|临时节点, type: ss, server: gddxc.fosi.hk, port: 50853, cipher: aes-128-gcm, password: 587350a7-4c85-4f44-81d2-ccaa68abfccb, udp: true }
     - { name: 俄罗斯|临时节点, type: ss, server: gddx.fosi.hk, port: 29710, cipher: aes-128-gcm, password: 587350a7-4c85-4f44-81d2-ccaa68abfccb, udp: true }
+    - { name: 英国|临时节点, type: ss, server: gddx.fosi.hk, port: 61618, cipher: aes-128-gcm, password: 587350a7-4c85-4f44-81d2-ccaa68abfccb, udp: true }
     - { name: '香港 1 9-15 请暂时使用临时节点，国内风控，尽快恢复', type: ss, server: 183.232.170.37, port: 41001, cipher: aes-128-gcm, password: 587350a7-4c85-4f44-81d2-ccaa68abfccb, udp: true }
     - { name: '香港 4 最新官网：srive.xyz (前面没有www)', type: ss, server: 183.232.170.37, port: 41004, cipher: aes-128-gcm, password: 587350a7-4c85-4f44-81d2-ccaa68abfccb, udp: true }
 proxy-groups:
-    - { name: 星河云, type: select, proxies: [自动选择, 故障转移, 香港|临时节点, 日本|临时节点, 新加坡|临时节点, 俄罗斯|临时节点, '香港 1 9-15 请暂时使用临时节点，国内风控，尽快恢复', '香港 4 最新官网：srive.xyz (前面没有www)'] }
-    - { name: 自动选择, type: url-test, proxies: [香港|临时节点, 日本|临时节点, 新加坡|临时节点, 俄罗斯|临时节点, '香港 1 9-15 请暂时使用临时节点，国内风控，尽快恢复', '香港 4 最新官网：srive.xyz (前面没有www)'], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
-    - { name: 故障转移, type: fallback, proxies: [香港|临时节点, 日本|临时节点, 新加坡|临时节点, 俄罗斯|临时节点, '香港 1 9-15 请暂时使用临时节点，国内风控，尽快恢复', '香港 4 最新官网：srive.xyz (前面没有www)'], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
+    - { name: 星河云, type: select, proxies: [自动选择, 故障转移, 美国|临时节点, 香港2|临时节点, 香港|临时节点。有事找网页客服qq客服943793367, 日本|临时节点, 新加坡|临时节点, 俄罗斯|临时节点, 英国|临时节点, '香港 1 9-15 请暂时使用临时节点，国内风控，尽快恢复', '香港 4 最新官网：srive.xyz (前面没有www)'] }
+    - { name: 自动选择, type: url-test, proxies: [美国|临时节点, 香港2|临时节点, 香港|临时节点。有事找网页客服qq客服943793367, 日本|临时节点, 新加坡|临时节点, 俄罗斯|临时节点, 英国|临时节点, '香港 1 9-15 请暂时使用临时节点，国内风控，尽快恢复', '香港 4 最新官网：srive.xyz (前面没有www)'], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
+    - { name: 故障转移, type: fallback, proxies: [美国|临时节点, 香港2|临时节点, 香港|临时节点。有事找网页客服qq客服943793367, 日本|临时节点, 新加坡|临时节点, 俄罗斯|临时节点, 英国|临时节点, '香港 1 9-15 请暂时使用临时节点，国内风控，尽快恢复', '香港 4 最新官网：srive.xyz (前面没有www)'], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
 rules:
     - 'DOMAIN,srive.xyz,DIRECT'
     - 'DOMAIN-SUFFIX,services.googleapis.cn,星河云'
