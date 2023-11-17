@@ -61,7 +61,7 @@ proxies:
     - { name: '美国 1', type: ss, server: 183.232.170.37, port: 44001, cipher: aes-128-gcm, password: 7346ee0e-84e8-4622-a6d0-9fe97e43249b, udp: true }
     - { name: '美国 2', type: ss, server: 183.232.170.37, port: 44002, cipher: aes-128-gcm, password: 7346ee0e-84e8-4622-a6d0-9fe97e43249b, udp: true }
     - { name: '美国 3', type: ss, server: 183.232.170.37, port: 44003, cipher: aes-128-gcm, password: 7346ee0e-84e8-4622-a6d0-9fe97e43249b, udp: true }
-    - { name: 美国|临时节点, type: vmess, server: mix.alidns.moe233.org, port: 80, uuid: 7346ee0e-84e8-4622-a6d0-9fe97e43249b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /qwsr/1, headers: { Host: uspz.edge.233.tw } }, ws-path: /qwsr/1, ws-headers: { Host: uspz.edge.233.tw } }
+    - { name: 美国|临时节点, type: vmess, server: us-west-anycast.lnaspiring.com, port: 80, uuid: 7346ee0e-84e8-4622-a6d0-9fe97e43249b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /qwsr/1, headers: { Host: uspz.edge.233.tw } }, ws-path: /qwsr/1, ws-headers: { Host: uspz.edge.233.tw } }
     - { name: 美国|临时节点2, type: vmess, server: us-west.lnaspiring.com, port: 443, uuid: 7346ee0e-84e8-4622-a6d0-9fe97e43249b, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: dh6o13fm1a0bv.cloudfront.net, network: ws, ws-opts: { path: /qwsr/1, headers: { Host: dh6o13fm1a0bv.cloudfront.net } }, ws-path: /qwsr/1, ws-headers: { Host: dh6o13fm1a0bv.cloudfront.net } }
     - { name: '美国 4', type: ss, server: 183.232.170.37, port: 44004, cipher: aes-128-gcm, password: 7346ee0e-84e8-4622-a6d0-9fe97e43249b, udp: true }
     - { name: '美国 5', type: ss, server: 183.232.170.37, port: 44005, cipher: aes-128-gcm, password: 7346ee0e-84e8-4622-a6d0-9fe97e43249b, udp: true }
