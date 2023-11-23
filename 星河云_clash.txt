@@ -15,73 +15,73 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - { name: '香港 1 有问题上官网找客服 卡就换节点 开全局模式，开tun模式', type: ss, server: 183.232.170.37, port: 41001, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '香港 2 qq客服943793367（没回答就加群372537686找管理临时会话）', type: ss, server: 183.232.170.37, port: 41002, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '香港 3 最新客户端雪绒花去官网下载', type: ss, server: 183.232.170.37, port: 41003, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '香港 4 最新官网：srive.xyz (前面没有www)', type: ss, server: 183.232.170.37, port: 41004, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '香港 5 tg群：@xingheyun 从这里点按钮进群', type: ss, server: 183.232.170.37, port: 41005, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '香港 6 防失联域名务必收藏jump.srive.xyz 用谷歌浏览器清理缓存进入', type: ss, server: 183.232.170.37, port: 41006, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '香港|备用节点1  平时不要用备用节点', type: ss, server: shdx.donghui.tech, port: 23623, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: 香港|备用节点2, type: vmess, server: mix.alidns.moe233.org, port: 80, uuid: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /qwsr/2, headers: { Host: hkbn.edge.233.tw } }, ws-path: /qwsr/2, ws-headers: { Host: hkbn.edge.233.tw } }
-    - { name: 香港|备用节点3, type: vmess, server: ap-east-hkt.lnaspiring.com, port: 80, uuid: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /qwsr/5, headers: { Host: hkt.edge.233.tw } }, ws-path: /qwsr/5, ws-headers: { Host: hkt.edge.233.tw } }
-    - { name: 香港|备用节点4, type: vmess, server: cfn.alidns.moe233.org, port: 443, uuid: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: dwkkjsobgvi09.cloudfront.net, network: ws, ws-opts: { path: /qwsr/2, headers: { Host: dwkkjsobgvi09.cloudfront.net } }, ws-path: /qwsr/2, ws-headers: { Host: dwkkjsobgvi09.cloudfront.net } }
-    - { name: 香港|备用节点5, type: vmess, server: mix.alidns.moe233.org, port: 80, uuid: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /qwsr/5, headers: { Host: hkt.edge.233.tw } }, ws-path: /qwsr/5, ws-headers: { Host: hkt.edge.233.tw } }
-    - { name: '香港 Beta - 1  主节点用不了就去用备用节点', type: ss, server: 183.232.170.37, port: 41006, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '香港 Beta - 2 香港 2 二号qq客服2461250552', type: ss, server: 183.232.170.37, port: 41006, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: 台湾。台湾线路是动态ip, type: ss, server: nf.cd1223.xyz, port: 21225, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '台湾 1。台湾线路都为动态IP', type: ss, server: 183.232.170.37, port: 46001, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '台湾 2', type: ss, server: 183.232.170.37, port: 46002, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '台湾 3', type: ss, server: 183.232.170.37, port: 46003, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '台湾 4', type: ss, server: 183.232.170.37, port: 46004, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: 台湾|备用节点, type: vmess, server: mix.alidns.moe233.org, port: 80, uuid: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /qwsr/3, headers: { Host: tw.edge.233.tw } }, ws-path: /qwsr/3, ws-headers: { Host: tw.edge.233.tw } }
-    - { name: 台湾|备用节点2, type: vmess, server: cfn.alidns.moe233.org, port: 443, uuid: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: d2lqppgzknfiyy.cloudfront.net, network: ws, ws-opts: { path: /qwsr/3, headers: { Host: d2lqppgzknfiyy.cloudfront.net } }, ws-path: /qwsr/3, ws-headers: { Host: d2lqppgzknfiyy.cloudfront.net } }
-    - { name: '台湾 Beta - 1', type: ss, server: 183.232.170.37, port: 46004, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '台湾 Beta - 2', type: ss, server: 183.232.170.37, port: 46004, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '新加坡 1', type: ss, server: 183.232.170.37, port: 42001, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '新加坡 2', type: ss, server: 183.232.170.37, port: 42001, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '新加坡 3', type: ss, server: 183.232.170.37, port: 42003, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '新加坡 4', type: ss, server: 183.232.170.37, port: 42004, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '新加坡 5', type: ss, server: 183.232.170.37, port: 42005, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: 新加坡|备用节点1, type: ss, server: gddxc.fosi.hk, port: 50853, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: 新加坡|备用节点2, type: vmess, server: mix.alidns.moe233.org, port: 80, uuid: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /qwsr/4, headers: { Host: sgli.edge.233.tw } }, ws-path: /qwsr/4, ws-headers: { Host: sgli.edge.233.tw } }
-    - { name: 新加坡|备用节点3, type: vmess, server: ap-southeast.lnaspiring.com, port: 443, uuid: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: d2fwlvqtw6v2rh.cloudfront.net, network: ws, ws-opts: { path: /qwsr/4, headers: { Host: d2fwlvqtw6v2rh.cloudfront.net } }, ws-path: /qwsr/4, ws-headers: { Host: d2fwlvqtw6v2rh.cloudfront.net } }
-    - { name: '新加坡 6', type: ss, server: 183.232.170.37, port: 42006, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '新加坡 Beta - 1', type: ss, server: 183.232.170.37, port: 42006, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '新加坡 Beta - 2', type: ss, server: 183.232.170.37, port: 42006, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '日本 1', type: ss, server: 183.232.170.37, port: 43001, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '日本 2', type: ss, server: 183.232.170.37, port: 43002, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '日本 3', type: ss, server: 183.232.170.37, port: 43003, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: 日本2|临时节点, type: vmess, server: mix.alidns.moe233.org, port: 80, uuid: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /qwsr/7, headers: { Host: jpli.edge.233.tw } }, ws-path: /qwsr/7, ws-headers: { Host: jpli.edge.233.tw } }
-    - { name: 日本|临时节点, type: ss, server: shshcub.donghui.tech, port: 15266, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '日本 4', type: ss, server: 183.232.170.37, port: 43004, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '日本 5', type: ss, server: 183.232.170.37, port: 43005, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '日本 6', type: ss, server: 183.232.170.37, port: 43006, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '日本 Beta - 1', type: ss, server: 183.232.170.37, port: 43006, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '日本 Beta - 2', type: ss, server: 183.232.170.37, port: 43006, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '美国 1', type: ss, server: 183.232.170.37, port: 44001, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '美国 2', type: ss, server: 183.232.170.37, port: 44002, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '美国 3', type: ss, server: 183.232.170.37, port: 44003, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: 美国|临时节点, type: vmess, server: us-west-anycast.lnaspiring.com, port: 80, uuid: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /qwsr/1, headers: { Host: uspz.edge.233.tw } }, ws-path: /qwsr/1, ws-headers: { Host: uspz.edge.233.tw } }
-    - { name: 美国|临时节点2, type: vmess, server: us-west.lnaspiring.com, port: 443, uuid: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: dh6o13fm1a0bv.cloudfront.net, network: ws, ws-opts: { path: /qwsr/1, headers: { Host: dh6o13fm1a0bv.cloudfront.net } }, ws-path: /qwsr/1, ws-headers: { Host: dh6o13fm1a0bv.cloudfront.net } }
-    - { name: '美国 4', type: ss, server: 183.232.170.37, port: 44004, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '美国 5', type: ss, server: 183.232.170.37, port: 44005, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '美国 6', type: ss, server: 183.232.170.37, port: 44006, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '美国 Beta - 1', type: ss, server: 183.232.170.37, port: 44006, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '美国 Beta - 2', type: ss, server: 183.232.170.37, port: 44006, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '土耳其 1', type: ss, server: 183.232.170.37, port: 45001, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '土耳其 2', type: ss, server: 183.232.170.37, port: 45002, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: 英国|临时节点, type: ss, server: gddx.fosi.hk, port: 61618, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '土耳其 3', type: ss, server: 183.232.170.37, port: 45003, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: 英国1, type: ss, server: 183.232.170.37, port: 47001, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '土耳其 4', type: ss, server: 183.232.170.37, port: 45004, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: 英国2, type: ss, server: 183.232.170.37, port: 47002, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '土耳其 Beta - 1', type: ss, server: 183.232.170.37, port: 45004, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: 俄罗斯1, type: ss, server: 183.232.170.37, port: 46001, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: 韩国2, type: ss, server: 183.232.170.37, port: 49002, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: '土耳其 Beta - 2', type: ss, server: 183.232.170.37, port: 45004, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: 俄罗斯|临时节点, type: ss, server: gddx.fosi.hk, port: 29710, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: 俄罗斯2, type: ss, server: 183.232.170.37, port: 46002, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
-    - { name: 韩国1, type: ss, server: 183.232.170.37, port: 49001, cipher: aes-128-gcm, password: a2a5091b-86d5-4e03-b9fc-ad9ac885aac9, udp: true }
+    - { name: '香港 1 有问题上官网找客服 卡就换节点 开全局模式，开tun模式', type: ss, server: 183.232.170.37, port: 41001, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '香港 2 qq客服943793367（没回答就加群372537686找管理临时会话）', type: ss, server: 183.232.170.37, port: 41002, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '香港 3 最新客户端雪绒花去官网下载', type: ss, server: 183.232.170.37, port: 41003, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '香港 4 最新官网：srive.xyz (前面没有www)', type: ss, server: 183.232.170.37, port: 41004, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '香港 5 tg群：@xingheyun 从这里点按钮进群', type: ss, server: 183.232.170.37, port: 41005, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '香港 6 防失联域名务必收藏jump.srive.xyz 用谷歌浏览器清理缓存进入', type: ss, server: 183.232.170.37, port: 41006, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '香港|备用节点1  平时不要用备用节点', type: ss, server: shdx.donghui.tech, port: 23623, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: 香港|备用节点2, type: vmess, server: mix.alidns.moe233.org, port: 80, uuid: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /qwsr/2, headers: { Host: hkbn.edge.233.tw } }, ws-path: /qwsr/2, ws-headers: { Host: hkbn.edge.233.tw } }
+    - { name: 香港|备用节点3, type: vmess, server: ap-east-hkt.lnaspiring.com, port: 80, uuid: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /qwsr/5, headers: { Host: hkt.edge.233.tw } }, ws-path: /qwsr/5, ws-headers: { Host: hkt.edge.233.tw } }
+    - { name: 香港|备用节点4, type: vmess, server: cfn.alidns.moe233.org, port: 443, uuid: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: dwkkjsobgvi09.cloudfront.net, network: ws, ws-opts: { path: /qwsr/2, headers: { Host: dwkkjsobgvi09.cloudfront.net } }, ws-path: /qwsr/2, ws-headers: { Host: dwkkjsobgvi09.cloudfront.net } }
+    - { name: 香港|备用节点5, type: vmess, server: mix.alidns.moe233.org, port: 80, uuid: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /qwsr/5, headers: { Host: hkt.edge.233.tw } }, ws-path: /qwsr/5, ws-headers: { Host: hkt.edge.233.tw } }
+    - { name: '香港 Beta - 1  主节点用不了就去用备用节点', type: ss, server: 183.232.170.37, port: 41006, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '香港 Beta - 2 香港 2 二号qq客服2461250552', type: ss, server: 183.232.170.37, port: 41006, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: 台湾。台湾线路是动态ip, type: ss, server: nf.cd1223.xyz, port: 21225, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '台湾 1。台湾线路都为动态IP', type: ss, server: 183.232.170.37, port: 46001, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '台湾 2', type: ss, server: 183.232.170.37, port: 46002, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '台湾 3', type: ss, server: 183.232.170.37, port: 46003, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '台湾 4', type: ss, server: 183.232.170.37, port: 46004, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: 台湾|备用节点, type: vmess, server: mix.alidns.moe233.org, port: 80, uuid: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /qwsr/3, headers: { Host: tw.edge.233.tw } }, ws-path: /qwsr/3, ws-headers: { Host: tw.edge.233.tw } }
+    - { name: 台湾|备用节点2, type: vmess, server: cfn.alidns.moe233.org, port: 443, uuid: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: d2lqppgzknfiyy.cloudfront.net, network: ws, ws-opts: { path: /qwsr/3, headers: { Host: d2lqppgzknfiyy.cloudfront.net } }, ws-path: /qwsr/3, ws-headers: { Host: d2lqppgzknfiyy.cloudfront.net } }
+    - { name: '台湾 Beta - 1', type: ss, server: 183.232.170.37, port: 46004, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '台湾 Beta - 2', type: ss, server: 183.232.170.37, port: 46004, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '新加坡 1', type: ss, server: 183.232.170.37, port: 42001, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '新加坡 2', type: ss, server: 183.232.170.37, port: 42001, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '新加坡 3', type: ss, server: 183.232.170.37, port: 42003, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '新加坡 4', type: ss, server: 183.232.170.37, port: 42004, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '新加坡 5', type: ss, server: 183.232.170.37, port: 42005, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: 新加坡|备用节点1, type: ss, server: gddxc.fosi.hk, port: 50853, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: 新加坡|备用节点2, type: vmess, server: mix.alidns.moe233.org, port: 80, uuid: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /qwsr/4, headers: { Host: sgli.edge.233.tw } }, ws-path: /qwsr/4, ws-headers: { Host: sgli.edge.233.tw } }
+    - { name: 新加坡|备用节点3, type: vmess, server: ap-southeast.lnaspiring.com, port: 443, uuid: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: d2fwlvqtw6v2rh.cloudfront.net, network: ws, ws-opts: { path: /qwsr/4, headers: { Host: d2fwlvqtw6v2rh.cloudfront.net } }, ws-path: /qwsr/4, ws-headers: { Host: d2fwlvqtw6v2rh.cloudfront.net } }
+    - { name: '新加坡 6', type: ss, server: 183.232.170.37, port: 42006, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '新加坡 Beta - 1', type: ss, server: 183.232.170.37, port: 42006, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '新加坡 Beta - 2', type: ss, server: 183.232.170.37, port: 42006, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '日本 1', type: ss, server: 183.232.170.37, port: 43001, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '日本 2', type: ss, server: 183.232.170.37, port: 43002, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '日本 3', type: ss, server: 183.232.170.37, port: 43003, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: 日本2|临时节点, type: vmess, server: mix.alidns.moe233.org, port: 80, uuid: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /qwsr/7, headers: { Host: jpli.edge.233.tw } }, ws-path: /qwsr/7, ws-headers: { Host: jpli.edge.233.tw } }
+    - { name: 日本|临时节点, type: ss, server: shshcub.donghui.tech, port: 15266, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '日本 4', type: ss, server: 183.232.170.37, port: 43004, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '日本 5', type: ss, server: 183.232.170.37, port: 43005, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '日本 6', type: ss, server: 183.232.170.37, port: 43006, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '日本 Beta - 1', type: ss, server: 183.232.170.37, port: 43006, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '日本 Beta - 2', type: ss, server: 183.232.170.37, port: 43006, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '美国 1', type: ss, server: 183.232.170.37, port: 44001, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '美国 2', type: ss, server: 183.232.170.37, port: 44002, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '美国 3', type: ss, server: 183.232.170.37, port: 44003, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: 美国|临时节点, type: vmess, server: us-west-anycast.lnaspiring.com, port: 80, uuid: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /qwsr/1, headers: { Host: uspz.edge.233.tw } }, ws-path: /qwsr/1, ws-headers: { Host: uspz.edge.233.tw } }
+    - { name: 美国|临时节点2, type: vmess, server: us-west.lnaspiring.com, port: 443, uuid: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: dh6o13fm1a0bv.cloudfront.net, network: ws, ws-opts: { path: /qwsr/1, headers: { Host: dh6o13fm1a0bv.cloudfront.net } }, ws-path: /qwsr/1, ws-headers: { Host: dh6o13fm1a0bv.cloudfront.net } }
+    - { name: '美国 4', type: ss, server: 183.232.170.37, port: 44004, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '美国 5', type: ss, server: 183.232.170.37, port: 44005, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '美国 6', type: ss, server: 183.232.170.37, port: 44006, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '美国 Beta - 1', type: ss, server: 183.232.170.37, port: 44006, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '美国 Beta - 2', type: ss, server: 183.232.170.37, port: 44006, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '土耳其 1', type: ss, server: 183.232.170.37, port: 45001, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '土耳其 2', type: ss, server: 183.232.170.37, port: 45002, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: 英国|临时节点, type: ss, server: gddx.fosi.hk, port: 61618, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '土耳其 3', type: ss, server: 183.232.170.37, port: 45003, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: 英国1, type: ss, server: 183.232.170.37, port: 47001, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '土耳其 4', type: ss, server: 183.232.170.37, port: 45004, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: 英国2, type: ss, server: 183.232.170.37, port: 47002, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '土耳其 Beta - 1', type: ss, server: 183.232.170.37, port: 45004, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: 俄罗斯1, type: ss, server: 183.232.170.37, port: 46001, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: 韩国2, type: ss, server: 183.232.170.37, port: 49002, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: '土耳其 Beta - 2', type: ss, server: 183.232.170.37, port: 45004, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: 俄罗斯|临时节点, type: ss, server: gddx.fosi.hk, port: 29710, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: 俄罗斯2, type: ss, server: 183.232.170.37, port: 46002, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
+    - { name: 韩国1, type: ss, server: 183.232.170.37, port: 49001, cipher: aes-128-gcm, password: 24214346-7854-4ab1-9ff9-d9aa3dc048f2, udp: true }
 proxy-groups:
     - { name: 星河云, type: select, proxies: [自动选择, 故障转移, '香港 1 有问题上官网找客服 卡就换节点 开全局模式，开tun模式', '香港 2 qq客服943793367（没回答就加群372537686找管理临时会话）', '香港 3 最新客户端雪绒花去官网下载', '香港 4 最新官网：srive.xyz (前面没有www)', '香港 5 tg群：@xingheyun 从这里点按钮进群', '香港 6 防失联域名务必收藏jump.srive.xyz 用谷歌浏览器清理缓存进入', '香港|备用节点1  平时不要用备用节点', 香港|备用节点2, 香港|备用节点3, 香港|备用节点4, 香港|备用节点5, '香港 Beta - 1  主节点用不了就去用备用节点', '香港 Beta - 2 香港 2 二号qq客服2461250552', 台湾。台湾线路是动态ip, '台湾 1。台湾线路都为动态IP', '台湾 2', '台湾 3', '台湾 4', 台湾|备用节点, 台湾|备用节点2, '台湾 Beta - 1', '台湾 Beta - 2', '新加坡 1', '新加坡 2', '新加坡 3', '新加坡 4', '新加坡 5', 新加坡|备用节点1, 新加坡|备用节点2, 新加坡|备用节点3, '新加坡 6', '新加坡 Beta - 1', '新加坡 Beta - 2', '日本 1', '日本 2', '日本 3', 日本2|临时节点, 日本|临时节点, '日本 4', '日本 5', '日本 6', '日本 Beta - 1', '日本 Beta - 2', '美国 1', '美国 2', '美国 3', 美国|临时节点, 美国|临时节点2, '美国 4', '美国 5', '美国 6', '美国 Beta - 1', '美国 Beta - 2', '土耳其 1', '土耳其 2', 英国|临时节点, '土耳其 3', 英国1, '土耳其 4', 英国2, '土耳其 Beta - 1', 俄罗斯1, 韩国2, '土耳其 Beta - 2', 俄罗斯|临时节点, 俄罗斯2, 韩国1] }
     - { name: 自动选择, type: url-test, proxies: ['香港 1 有问题上官网找客服 卡就换节点 开全局模式，开tun模式', '香港 2 qq客服943793367（没回答就加群372537686找管理临时会话）', '香港 3 最新客户端雪绒花去官网下载', '香港 4 最新官网：srive.xyz (前面没有www)', '香港 5 tg群：@xingheyun 从这里点按钮进群', '香港 6 防失联域名务必收藏jump.srive.xyz 用谷歌浏览器清理缓存进入', '香港|备用节点1  平时不要用备用节点', 香港|备用节点2, 香港|备用节点3, 香港|备用节点4, 香港|备用节点5, '香港 Beta - 1  主节点用不了就去用备用节点', '香港 Beta - 2 香港 2 二号qq客服2461250552', 台湾。台湾线路是动态ip, '台湾 1。台湾线路都为动态IP', '台湾 2', '台湾 3', '台湾 4', 台湾|备用节点, 台湾|备用节点2, '台湾 Beta - 1', '台湾 Beta - 2', '新加坡 1', '新加坡 2', '新加坡 3', '新加坡 4', '新加坡 5', 新加坡|备用节点1, 新加坡|备用节点2, 新加坡|备用节点3, '新加坡 6', '新加坡 Beta - 1', '新加坡 Beta - 2', '日本 1', '日本 2', '日本 3', 日本2|临时节点, 日本|临时节点, '日本 4', '日本 5', '日本 6', '日本 Beta - 1', '日本 Beta - 2', '美国 1', '美国 2', '美国 3', 美国|临时节点, 美国|临时节点2, '美国 4', '美国 5', '美国 6', '美国 Beta - 1', '美国 Beta - 2', '土耳其 1', '土耳其 2', 英国|临时节点, '土耳其 3', 英国1, '土耳其 4', 英国2, '土耳其 Beta - 1', 俄罗斯1, 韩国2, '土耳其 Beta - 2', 俄罗斯|临时节点, 俄罗斯2, 韩国1], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
