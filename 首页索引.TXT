@@ -1,5 +1,11 @@
 https://mirror.ghproxy.com/https://raw.githubusercontent.com/liangbin-foxmail/GONGKAI/main/README.md
 
+https://mirror.ghproxy.com/https://raw.githubusercontent.com/liangbin-foxmail/GONGKAI/main/proxyvip2_IOS_shadowrocket.txt
+
+https://mirror.ghproxy.com/https://raw.githubusercontent.com/liangbin-foxmail/GONGKAI/main/proxyvip2_clash.txt
+
+https://mirror.ghproxy.com/https://raw.githubusercontent.com/liangbin-foxmail/GONGKAI/main/proxyvip_IOS_shadowrocket.txt
+
 https://mirror.ghproxy.com/https://raw.githubusercontent.com/liangbin-foxmail/GONGKAI/main/proxyvip_clash.txt
 
 https://mirror.ghproxy.com/https://raw.githubusercontent.com/liangbin-foxmail/GONGKAI/main/proxyvip_shadowrocket.txt
