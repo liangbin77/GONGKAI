@@ -15,10 +15,10 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - { name: '导航网址：https://proxyvip.github.io', type: trojan, server: 154.12.176.31, port: 31001, password: 03fee54f-f329-4857-80ea-cd5aedd6e024, udp: true, sni: 154.12.176.31 }
-    - { name: '剩余流量：0.96 GB', type: trojan, server: 154.12.176.31, port: 31001, password: 03fee54f-f329-4857-80ea-cd5aedd6e024, udp: true, sni: 154.12.176.31 }
-    - { name: 套餐到期：2024-02-18, type: trojan, server: 154.12.176.31, port: 31001, password: 03fee54f-f329-4857-80ea-cd5aedd6e024, udp: true, sni: 154.12.176.31 }
-    - { name: 🇭🇰香港中继Ⅰ-Trojan, type: trojan, server: 154.12.176.31, port: 31001, password: 03fee54f-f329-4857-80ea-cd5aedd6e024, udp: true, sni: 154.12.176.31 }
+    - { name: '导航网址：https://proxyvip.github.io', type: trojan, server: cqyyds.76po.com, port: 31001, password: 03fee54f-f329-4857-80ea-cd5aedd6e024, udp: true, sni: hk-01.v4vip.top }
+    - { name: '剩余流量：0.96 GB', type: trojan, server: cqyyds.76po.com, port: 31001, password: 03fee54f-f329-4857-80ea-cd5aedd6e024, udp: true, sni: hk-01.v4vip.top }
+    - { name: 套餐到期：2024-02-18, type: trojan, server: cqyyds.76po.com, port: 31001, password: 03fee54f-f329-4857-80ea-cd5aedd6e024, udp: true, sni: hk-01.v4vip.top }
+    - { name: 🇭🇰香港中继Ⅰ-Trojan, type: trojan, server: cqyyds.76po.com, port: 31001, password: 03fee54f-f329-4857-80ea-cd5aedd6e024, udp: true, sni: hk-01.v4vip.top }
     - { name: 🇭🇰香港中继Ⅱ-Trojan, type: trojan, server: cqyyds.76po.com, port: 31002, password: 03fee54f-f329-4857-80ea-cd5aedd6e024, udp: true, sni: hk-02.v4vip.top }
     - { name: 🇭🇰香港中继Ⅲ-Trojan, type: trojan, server: cqyyds.76po.com, port: 31003, password: 03fee54f-f329-4857-80ea-cd5aedd6e024, udp: true, sni: hk-03.v4vip.top }
     - { name: 🇭🇰香港中继Ⅳ-Trojan, type: trojan, server: cqyyds.76po.com, port: 31004, password: 03fee54f-f329-4857-80ea-cd5aedd6e024, udp: true, sni: hk-04.v4vip.top }
