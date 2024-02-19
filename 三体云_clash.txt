@@ -51,7 +51,7 @@ proxies:
     - { name: 泰国1|GPT, type: ss, server: td1.sknat.top, port: 40761, cipher: chacha20-ietf-poly1305, password: 6d50f518-f5cc-440c-9472-f1f362cfc1ce, udp: true }
     - { name: 泰国2|GPT, type: ss, server: td2.sknat.top, port: 30762, cipher: chacha20-ietf-poly1305, password: 6d50f518-f5cc-440c-9472-f1f362cfc1ce, udp: true }
     - { name: 印度|GPT, type: ss, server: in1.sknat.top, port: 31723, cipher: chacha20-ietf-poly1305, password: 6d50f518-f5cc-440c-9472-f1f362cfc1ce, udp: true }
-    - { name: 香港7|奈飞, type: ss, server: hk7.sknat.top, port: 21020, cipher: chacha20-ietf-poly1305, password: 6d50f518-f5cc-440c-9472-f1f362cfc1ce, udp: true }
+    - { name: 香港7|奈飞, type: ss, server: hk7.sknat.top, port: 41477, cipher: chacha20-ietf-poly1305, password: 6d50f518-f5cc-440c-9472-f1f362cfc1ce, udp: true }
     - { name: 澳大利亚|GPT, type: ss, server: au1.sknat.top, port: 36491, cipher: chacha20-ietf-poly1305, password: 6d50f518-f5cc-440c-9472-f1f362cfc1ce, udp: true }
     - { name: 韩国|直连|甲骨文, type: ss, server: kr4.sknat.top, port: 20652, cipher: chacha20-ietf-poly1305, password: 6d50f518-f5cc-440c-9472-f1f362cfc1ce, udp: true }
     - { name: 日本|直连|甲骨文, type: ss, server: jp4.sknat.top, port: 51352, cipher: chacha20-ietf-poly1305, password: 6d50f518-f5cc-440c-9472-f1f362cfc1ce, udp: true }
