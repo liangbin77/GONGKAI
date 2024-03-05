@@ -27,9 +27,9 @@ proxies:
     - { name: 新加坡2|奈飞|GPT, type: ss, server: sg2.sknat.top, port: 27182, cipher: chacha20-ietf-poly1305, password: 7ae5a539-5a93-433e-92a7-4950b53d339e, udp: true }
     - { name: 新加坡3|奈飞|GPT, type: ss, server: sg3.sknat.top, port: 47183, cipher: chacha20-ietf-poly1305, password: 7ae5a539-5a93-433e-92a7-4950b53d339e, udp: true }
     - { name: 新加坡5|奈飞|GPT, type: ss, server: sg5.sknat.top, port: 47185, cipher: chacha20-ietf-poly1305, password: 7ae5a539-5a93-433e-92a7-4950b53d339e, udp: true }
-    - { name: 台湾1|流媒体, type: ss, server: tw1.sknat.top, port: 21681, cipher: chacha20-ietf-poly1305, password: 7ae5a539-5a93-433e-92a7-4950b53d339e, udp: true }
-    - { name: 台湾2|流媒体, type: ss, server: tw2.sknat.top, port: 21682, cipher: chacha20-ietf-poly1305, password: 7ae5a539-5a93-433e-92a7-4950b53d339e, udp: true }
-    - { name: 台湾3|流媒体, type: ss, server: tw3.sknat.top, port: 21683, cipher: chacha20-ietf-poly1305, password: 7ae5a539-5a93-433e-92a7-4950b53d339e, udp: true }
+    - { name: 台湾1|流媒体, type: ss, server: tw1.101.sknat.top, port: 21681, cipher: chacha20-ietf-poly1305, password: 7ae5a539-5a93-433e-92a7-4950b53d339e, udp: true }
+    - { name: 台湾2|流媒体, type: ss, server: tw2.101.sknat.top, port: 21682, cipher: chacha20-ietf-poly1305, password: 7ae5a539-5a93-433e-92a7-4950b53d339e, udp: true }
+    - { name: 台湾3|流媒体, type: ss, server: tw3.101.sknat.top, port: 21683, cipher: chacha20-ietf-poly1305, password: 7ae5a539-5a93-433e-92a7-4950b53d339e, udp: true }
     - { name: 马来西亚1|原生, type: ss, server: my1.sknat.top, port: 41071, cipher: chacha20-ietf-poly1305, password: 7ae5a539-5a93-433e-92a7-4950b53d339e, udp: true }
     - { name: 马来西亚2|原生, type: ss, server: my2.sknat.top, port: 21075, cipher: chacha20-ietf-poly1305, password: 7ae5a539-5a93-433e-92a7-4950b53d339e, udp: true }
     - { name: 马来西亚3|原生, type: ss, server: my3.sknat.top, port: 41073, cipher: chacha20-ietf-poly1305, password: 7ae5a539-5a93-433e-92a7-4950b53d339e, udp: true }
