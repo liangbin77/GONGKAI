@@ -15,10 +15,10 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - { name: '剩余流量：2.63 GB', type: trojan, server: hk8.sknat.top, port: 443, password: e7ab7d79-a93c-4d50-a32b-7c84b2d6327e, udp: true }
-    - { name: '距离下次重置剩余：1 天', type: trojan, server: hk8.sknat.top, port: 443, password: e7ab7d79-a93c-4d50-a32b-7c84b2d6327e, udp: true }
-    - { name: 套餐到期：2024-03-10, type: trojan, server: hk8.sknat.top, port: 443, password: e7ab7d79-a93c-4d50-a32b-7c84b2d6327e, udp: true }
-    - { name: 香港|直连|4倍率, type: trojan, server: hk8.sknat.top, port: 443, password: e7ab7d79-a93c-4d50-a32b-7c84b2d6327e, udp: true }
+    - { name: '剩余流量：2.63 GB', type: trojan, server: 10.hk8.sknat.top, port: 2443, password: e7ab7d79-a93c-4d50-a32b-7c84b2d6327e, udp: true, skip-cert-verify: true }
+    - { name: '距离下次重置剩余：1 天', type: trojan, server: 10.hk8.sknat.top, port: 2443, password: e7ab7d79-a93c-4d50-a32b-7c84b2d6327e, udp: true, skip-cert-verify: true }
+    - { name: 套餐到期：2024-03-10, type: trojan, server: 10.hk8.sknat.top, port: 2443, password: e7ab7d79-a93c-4d50-a32b-7c84b2d6327e, udp: true, skip-cert-verify: true }
+    - { name: 香港|直连|4倍率, type: trojan, server: 10.hk8.sknat.top, port: 2443, password: e7ab7d79-a93c-4d50-a32b-7c84b2d6327e, udp: true, skip-cert-verify: true }
     - { name: 香港1|奈飞, type: ss, server: 10.hk1.sknat.top, port: 41471, cipher: chacha20-ietf-poly1305, password: e7ab7d79-a93c-4d50-a32b-7c84b2d6327e, udp: true }
     - { name: 香港2|奈飞, type: ss, server: 10.hk2.sknat.top, port: 27492, cipher: chacha20-ietf-poly1305, password: e7ab7d79-a93c-4d50-a32b-7c84b2d6327e, udp: true }
     - { name: 香港3|奈飞, type: ss, server: 10.hk3.sknat.top, port: 41473, cipher: chacha20-ietf-poly1305, password: e7ab7d79-a93c-4d50-a32b-7c84b2d6327e, udp: true }
