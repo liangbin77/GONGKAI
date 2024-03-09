@@ -53,7 +53,7 @@ proxies:
     - { name: 香港7|奈飞, type: ss, server: 10.hk7.sknat.top, port: 41477, cipher: chacha20-ietf-poly1305, password: e7ab7d79-a93c-4d50-a32b-7c84b2d6327e, udp: true }
     - { name: 澳大利亚|GPT, type: ss, server: 10.au1.sknat.top, port: 36491, cipher: chacha20-ietf-poly1305, password: e7ab7d79-a93c-4d50-a32b-7c84b2d6327e, udp: true }
     - { name: 韩国|直连|AWS|x4, type: ss, server: 10.kr4.sknat.top, port: 20652, cipher: chacha20-ietf-poly1305, password: e7ab7d79-a93c-4d50-a32b-7c84b2d6327e, udp: true }
-    - { name: 日本|直连|4倍率（备用）, type: ss, server: 10.jp4.sknat.top, port: 37602, cipher: chacha20-ietf-poly1305, password: e7ab7d79-a93c-4d50-a32b-7c84b2d6327e, udp: true }
+    - { name: 日本|直连|4倍率（备用）, type: ss, server: 10.jp4.sknat.top, port: 4433, cipher: chacha20-ietf-poly1305, password: e7ab7d79-a93c-4d50-a32b-7c84b2d6327e, udp: true }
     - { name: 新加坡6|奈飞|GPT, type: ss, server: 10.sg6.sknat.top, port: 43573, cipher: chacha20-ietf-poly1305, password: e7ab7d79-a93c-4d50-a32b-7c84b2d6327e, udp: true }
     - { name: 越南|奈飞|GPT, type: ss, server: 10.vn1.sknat.top, port: 37391, cipher: chacha20-ietf-poly1305, password: e7ab7d79-a93c-4d50-a32b-7c84b2d6327e, udp: true }
     - { name: 香港|直连|4倍率（备用）, type: ss, server: 10.hk8.sknat.top, port: 4433, cipher: chacha20-ietf-poly1305, password: e7ab7d79-a93c-4d50-a32b-7c84b2d6327e, udp: true }
