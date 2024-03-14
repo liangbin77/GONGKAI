@@ -15,51 +15,52 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - { name: '剩余流量：5 GB', type: ss, server: 10.hk1.sknat.top, port: 41471, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 套餐到期：2024-03-14, type: ss, server: 10.hk1.sknat.top, port: 41471, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 香港1|奈飞, type: ss, server: 10.hk1.sknat.top, port: 41471, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 香港2|奈飞, type: ss, server: 10.hk2.sknat.top, port: 27492, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 香港3|奈飞, type: ss, server: 10.hk3.sknat.top, port: 41473, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 香港4|奈飞, type: ss, server: 10.hk4.sknat.top, port: 21474, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 香港5|奈飞, type: ss, server: 10.hk5.sknat.top, port: 41475, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 新加坡1|奈飞|GPT, type: ss, server: 10.sg1.sknat.top, port: 47181, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 新加坡2|奈飞|GPT, type: ss, server: 10.sg2.sknat.top, port: 27182, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 新加坡3|奈飞|GPT, type: ss, server: 10.sg3.sknat.top, port: 47183, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 新加坡5|奈飞|GPT, type: ss, server: 10.sg5.sknat.top, port: 47185, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 台湾1|流媒体, type: ss, server: 10.tw1.sknat.top, port: 21681, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 台湾2|流媒体, type: ss, server: 10.tw2.sknat.top, port: 21682, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 台湾3|流媒体, type: ss, server: 10.tw3.sknat.top, port: 21683, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 马来西亚1|原生, type: ss, server: 10.my1.sknat.top, port: 41071, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 马来西亚2|原生, type: ss, server: 10.my2.sknat.top, port: 21075, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 马来西亚3|原生, type: ss, server: 10.my3.sknat.top, port: 41073, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 韩国1|优化, type: ss, server: 10.kr1.sknat.top, port: 44311, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 韩国2|优化, type: ss, server: 10.kr2.sknat.top, port: 37942, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 德国1|流媒体|GPT, type: ss, server: 10.de1.sknat.top, port: 42911, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 德国2|流媒体|GPT, type: ss, server: 10.de2.sknat.top, port: 42921, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 美国1|GPT, type: ss, server: 10.us1.sknat.top, port: 23075, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 美国2|GPT, type: ss, server: 10.us2.sknat.top, port: 23055, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 日本1|GPT|奈飞, type: ss, server: 10.jp1.sknat.top, port: 14433, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 日本2|GPT|奈飞, type: ss, server: 10.jp2.sknat.top, port: 34937, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 日本3|GPT|奈飞, type: ss, server: 10.jp3.sknat.top, port: 15093, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 韩国3|优化, type: ss, server: 10.kr3.sknat.top, port: 44313, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 奥地利|优化, type: ss, server: 10.at1.sknat.top, port: 34394, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 香港6|奈飞, type: ss, server: 10.hk6.sknat.top, port: 34276, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 新加坡4|奈飞|GPT, type: ss, server: 10.sg4.sknat.top, port: 29184, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 土耳其|GPT, type: ss, server: 10.tr1.sknat.top, port: 39151, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 冰岛|优化, type: ss, server: 10.is1.sknat.top, port: 39741, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 泰国1|GPT, type: ss, server: 10.td1.sknat.top, port: 40761, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 泰国2|GPT, type: ss, server: 10.td2.sknat.top, port: 30762, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 印度|GPT, type: ss, server: 10.in1.sknat.top, port: 31723, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 香港7|奈飞, type: ss, server: 10.hk7.sknat.top, port: 41477, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 澳大利亚|GPT, type: ss, server: 10.au1.sknat.top, port: 36491, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 新加坡6|奈飞|GPT, type: ss, server: 10.sg6.sknat.top, port: 43573, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 越南|奈飞|GPT, type: ss, server: 10.vn1.sknat.top, port: 37391, cipher: chacha20-ietf-poly1305, password: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, udp: true }
-    - { name: 日本|直连|4倍率（备用）, type: vmess, server: 10.jp5.slink8.cyou, port: 4431, uuid: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, alterId: 0, cipher: auto, udp: true, tls: true, servername: 10.jp5.slink8.cyou, network: ws, ws-opts: { path: /, headers: { Host: v2ray.com } }, ws-path: /, ws-headers: { Host: v2ray.com } }
-    - { name: 香港|直连|4倍率（备用）, type: vmess, server: 10.hk8.slink8.cyou, port: 2441, uuid: 86852322-351c-4f94-8fbf-9d64cd2fb1ea, alterId: 0, cipher: auto, udp: true, tls: true, servername: 10.hk8.slink8.cyou, network: ws, ws-opts: { path: /, headers: { Host: u2pdd.com } }, ws-path: /, ws-headers: { Host: u2pdd.com } }
+    - { name: '剩余流量：5 GB', type: ss, server: 10.hk1.sknat.top, port: 41471, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: '距离下次重置剩余：2 天', type: ss, server: 10.hk1.sknat.top, port: 41471, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 套餐到期：2024-03-16, type: ss, server: 10.hk1.sknat.top, port: 41471, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 香港1|奈飞, type: ss, server: 10.hk1.sknat.top, port: 41471, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 香港2|奈飞, type: ss, server: 10.hk2.sknat.top, port: 27492, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 香港3|奈飞, type: ss, server: 10.hk3.sknat.top, port: 41473, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 香港4|奈飞, type: ss, server: 10.hk4.sknat.top, port: 21474, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 香港5|奈飞, type: ss, server: 10.hk5.sknat.top, port: 41475, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 新加坡1|奈飞|GPT, type: ss, server: 10.sg1.sknat.top, port: 47181, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 新加坡2|奈飞|GPT, type: ss, server: 10.sg2.sknat.top, port: 27182, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 新加坡3|奈飞|GPT, type: ss, server: 10.sg3.sknat.top, port: 47183, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 新加坡5|奈飞|GPT, type: ss, server: 10.sg5.sknat.top, port: 47185, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 台湾1|流媒体, type: ss, server: 10.tw1.sknat.top, port: 21681, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 台湾2|流媒体, type: ss, server: 10.tw2.sknat.top, port: 21682, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 台湾3|流媒体, type: ss, server: 10.tw3.sknat.top, port: 21683, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 马来西亚1|原生, type: ss, server: 10.my1.sknat.top, port: 41071, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 马来西亚2|原生, type: ss, server: 10.my2.sknat.top, port: 21075, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 马来西亚3|原生, type: ss, server: 10.my3.sknat.top, port: 41073, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 韩国1|优化, type: ss, server: 10.kr1.sknat.top, port: 44311, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 韩国2|优化, type: ss, server: 10.kr2.sknat.top, port: 37942, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 德国1|流媒体|GPT, type: ss, server: 10.de1.sknat.top, port: 42911, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 德国2|流媒体|GPT, type: ss, server: 10.de2.sknat.top, port: 42921, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 美国1|GPT, type: ss, server: 10.us1.sknat.top, port: 23075, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 美国2|GPT, type: ss, server: 10.us2.sknat.top, port: 23055, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 日本1|GPT|奈飞, type: ss, server: 10.jp1.sknat.top, port: 14433, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 日本2|GPT|奈飞, type: ss, server: 10.jp2.sknat.top, port: 34937, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 日本3|GPT|奈飞, type: ss, server: 10.jp3.sknat.top, port: 15093, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 韩国3|优化, type: ss, server: 10.kr3.sknat.top, port: 44313, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 奥地利|优化, type: ss, server: 10.at1.sknat.top, port: 34394, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 香港6|奈飞, type: ss, server: 10.hk6.sknat.top, port: 34276, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 新加坡4|奈飞|GPT, type: ss, server: 10.sg4.sknat.top, port: 29184, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 土耳其|GPT, type: ss, server: 10.tr1.sknat.top, port: 39151, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 冰岛|优化, type: ss, server: 10.is1.sknat.top, port: 39741, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 泰国1|GPT, type: ss, server: 10.td1.sknat.top, port: 40761, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 泰国2|GPT, type: ss, server: 10.td2.sknat.top, port: 30762, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 印度|GPT, type: ss, server: 10.in1.sknat.top, port: 31723, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 香港7|奈飞, type: ss, server: 10.hk7.sknat.top, port: 41477, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 澳大利亚|GPT, type: ss, server: 10.au1.sknat.top, port: 36491, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 新加坡6|奈飞|GPT, type: ss, server: 10.sg6.sknat.top, port: 43573, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 越南|奈飞|GPT, type: ss, server: 10.vn1.sknat.top, port: 37391, cipher: chacha20-ietf-poly1305, password: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, udp: true }
+    - { name: 日本|直连|4倍率（备用）, type: vmess, server: 10.jp5.slink8.cyou, port: 4431, uuid: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, alterId: 0, cipher: auto, udp: true, tls: true, servername: 10.jp5.slink8.cyou, network: ws, ws-opts: { path: /, headers: { Host: v2ray.com } }, ws-path: /, ws-headers: { Host: v2ray.com } }
+    - { name: 香港|直连|4倍率（备用）, type: vmess, server: 10.hk8.slink8.cyou, port: 2441, uuid: c5e8d7be-41c3-49a9-8c06-10c834b4a67d, alterId: 0, cipher: auto, udp: true, tls: true, servername: 10.hk8.slink8.cyou, network: ws, ws-opts: { path: /, headers: { Host: u2pdd.com } }, ws-path: /, ws-headers: { Host: u2pdd.com } }
 proxy-groups:
-    - { name: 三体云.com, type: select, proxies: [自动选择, 故障转移, '剩余流量：5 GB', 套餐到期：2024-03-14, 香港1|奈飞, 香港2|奈飞, 香港3|奈飞, 香港4|奈飞, 香港5|奈飞, 新加坡1|奈飞|GPT, 新加坡2|奈飞|GPT, 新加坡3|奈飞|GPT, 新加坡5|奈飞|GPT, 台湾1|流媒体, 台湾2|流媒体, 台湾3|流媒体, 马来西亚1|原生, 马来西亚2|原生, 马来西亚3|原生, 韩国1|优化, 韩国2|优化, 德国1|流媒体|GPT, 德国2|流媒体|GPT, 美国1|GPT, 美国2|GPT, 日本1|GPT|奈飞, 日本2|GPT|奈飞, 日本3|GPT|奈飞, 韩国3|优化, 奥地利|优化, 香港6|奈飞, 新加坡4|奈飞|GPT, 土耳其|GPT, 冰岛|优化, 泰国1|GPT, 泰国2|GPT, 印度|GPT, 香港7|奈飞, 澳大利亚|GPT, 新加坡6|奈飞|GPT, 越南|奈飞|GPT, 日本|直连|4倍率（备用）, 香港|直连|4倍率（备用）] }
-    - { name: 自动选择, type: url-test, proxies: ['剩余流量：5 GB', 套餐到期：2024-03-14, 香港1|奈飞, 香港2|奈飞, 香港3|奈飞, 香港4|奈飞, 香港5|奈飞, 新加坡1|奈飞|GPT, 新加坡2|奈飞|GPT, 新加坡3|奈飞|GPT, 新加坡5|奈飞|GPT, 台湾1|流媒体, 台湾2|流媒体, 台湾3|流媒体, 马来西亚1|原生, 马来西亚2|原生, 马来西亚3|原生, 韩国1|优化, 韩国2|优化, 德国1|流媒体|GPT, 德国2|流媒体|GPT, 美国1|GPT, 美国2|GPT, 日本1|GPT|奈飞, 日本2|GPT|奈飞, 日本3|GPT|奈飞, 韩国3|优化, 奥地利|优化, 香港6|奈飞, 新加坡4|奈飞|GPT, 土耳其|GPT, 冰岛|优化, 泰国1|GPT, 泰国2|GPT, 印度|GPT, 香港7|奈飞, 澳大利亚|GPT, 新加坡6|奈飞|GPT, 越南|奈飞|GPT, 日本|直连|4倍率（备用）, 香港|直连|4倍率（备用）], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
-    - { name: 故障转移, type: fallback, proxies: ['剩余流量：5 GB', 套餐到期：2024-03-14, 香港1|奈飞, 香港2|奈飞, 香港3|奈飞, 香港4|奈飞, 香港5|奈飞, 新加坡1|奈飞|GPT, 新加坡2|奈飞|GPT, 新加坡3|奈飞|GPT, 新加坡5|奈飞|GPT, 台湾1|流媒体, 台湾2|流媒体, 台湾3|流媒体, 马来西亚1|原生, 马来西亚2|原生, 马来西亚3|原生, 韩国1|优化, 韩国2|优化, 德国1|流媒体|GPT, 德国2|流媒体|GPT, 美国1|GPT, 美国2|GPT, 日本1|GPT|奈飞, 日本2|GPT|奈飞, 日本3|GPT|奈飞, 韩国3|优化, 奥地利|优化, 香港6|奈飞, 新加坡4|奈飞|GPT, 土耳其|GPT, 冰岛|优化, 泰国1|GPT, 泰国2|GPT, 印度|GPT, 香港7|奈飞, 澳大利亚|GPT, 新加坡6|奈飞|GPT, 越南|奈飞|GPT, 日本|直连|4倍率（备用）, 香港|直连|4倍率（备用）], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
+    - { name: 三体云.com, type: select, proxies: [自动选择, 故障转移, '剩余流量：5 GB', '距离下次重置剩余：2 天', 套餐到期：2024-03-16, 香港1|奈飞, 香港2|奈飞, 香港3|奈飞, 香港4|奈飞, 香港5|奈飞, 新加坡1|奈飞|GPT, 新加坡2|奈飞|GPT, 新加坡3|奈飞|GPT, 新加坡5|奈飞|GPT, 台湾1|流媒体, 台湾2|流媒体, 台湾3|流媒体, 马来西亚1|原生, 马来西亚2|原生, 马来西亚3|原生, 韩国1|优化, 韩国2|优化, 德国1|流媒体|GPT, 德国2|流媒体|GPT, 美国1|GPT, 美国2|GPT, 日本1|GPT|奈飞, 日本2|GPT|奈飞, 日本3|GPT|奈飞, 韩国3|优化, 奥地利|优化, 香港6|奈飞, 新加坡4|奈飞|GPT, 土耳其|GPT, 冰岛|优化, 泰国1|GPT, 泰国2|GPT, 印度|GPT, 香港7|奈飞, 澳大利亚|GPT, 新加坡6|奈飞|GPT, 越南|奈飞|GPT, 日本|直连|4倍率（备用）, 香港|直连|4倍率（备用）] }
+    - { name: 自动选择, type: url-test, proxies: ['剩余流量：5 GB', '距离下次重置剩余：2 天', 套餐到期：2024-03-16, 香港1|奈飞, 香港2|奈飞, 香港3|奈飞, 香港4|奈飞, 香港5|奈飞, 新加坡1|奈飞|GPT, 新加坡2|奈飞|GPT, 新加坡3|奈飞|GPT, 新加坡5|奈飞|GPT, 台湾1|流媒体, 台湾2|流媒体, 台湾3|流媒体, 马来西亚1|原生, 马来西亚2|原生, 马来西亚3|原生, 韩国1|优化, 韩国2|优化, 德国1|流媒体|GPT, 德国2|流媒体|GPT, 美国1|GPT, 美国2|GPT, 日本1|GPT|奈飞, 日本2|GPT|奈飞, 日本3|GPT|奈飞, 韩国3|优化, 奥地利|优化, 香港6|奈飞, 新加坡4|奈飞|GPT, 土耳其|GPT, 冰岛|优化, 泰国1|GPT, 泰国2|GPT, 印度|GPT, 香港7|奈飞, 澳大利亚|GPT, 新加坡6|奈飞|GPT, 越南|奈飞|GPT, 日本|直连|4倍率（备用）, 香港|直连|4倍率（备用）], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
+    - { name: 故障转移, type: fallback, proxies: ['剩余流量：5 GB', '距离下次重置剩余：2 天', 套餐到期：2024-03-16, 香港1|奈飞, 香港2|奈飞, 香港3|奈飞, 香港4|奈飞, 香港5|奈飞, 新加坡1|奈飞|GPT, 新加坡2|奈飞|GPT, 新加坡3|奈飞|GPT, 新加坡5|奈飞|GPT, 台湾1|流媒体, 台湾2|流媒体, 台湾3|流媒体, 马来西亚1|原生, 马来西亚2|原生, 马来西亚3|原生, 韩国1|优化, 韩国2|优化, 德国1|流媒体|GPT, 德国2|流媒体|GPT, 美国1|GPT, 美国2|GPT, 日本1|GPT|奈飞, 日本2|GPT|奈飞, 日本3|GPT|奈飞, 韩国3|优化, 奥地利|优化, 香港6|奈飞, 新加坡4|奈飞|GPT, 土耳其|GPT, 冰岛|优化, 泰国1|GPT, 泰国2|GPT, 印度|GPT, 香港7|奈飞, 澳大利亚|GPT, 新加坡6|奈飞|GPT, 越南|奈飞|GPT, 日本|直连|4倍率（备用）, 香港|直连|4倍率（备用）], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
 rules:
     - 'DOMAIN,stysub.santiyun.xyz,DIRECT'
     - 'DOMAIN-SUFFIX,services.googleapis.cn,三体云.com'
