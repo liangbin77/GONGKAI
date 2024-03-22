@@ -15,26 +15,26 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - { name: '导航网址：https://proxyvip.github.io', type: trojan, server: sh.zj.my1.2.76po.com, port: 31001, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: hk-01.v4vip.top }
-    - { name: '剩余流量：1 GB', type: trojan, server: sh.zj.my1.2.76po.com, port: 31001, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: hk-01.v4vip.top }
-    - { name: 套餐到期：2024-03-27, type: trojan, server: sh.zj.my1.2.76po.com, port: 31001, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: hk-01.v4vip.top }
-    - { name: 🇭🇰香港中继Ⅰ-Trojan, type: trojan, server: sh.zj.my1.2.76po.com, port: 31001, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: hk-01.v4vip.top }
-    - { name: 🇭🇰香港中继Ⅱ-Trojan, type: trojan, server: sh.zj.my1.2.76po.com, port: 31002, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: hk-02.v4vip.top }
-    - { name: 🇭🇰香港中继Ⅲ-Trojan, type: trojan, server: sh.zj.my1.2.76po.com, port: 31003, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: hk-03.v4vip.top }
-    - { name: 🇭🇰香港中继Ⅳ-Trojan, type: trojan, server: sh.zj.my1.2.76po.com, port: 31004, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: hk-04.v4vip.top }
-    - { name: 🇺🇸美国中继Ⅰ-Trojan, type: trojan, server: sh.zj.my1.2.76po.com, port: 31006, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: us-01.v4vip.top }
-    - { name: 🇺🇸美国中继Ⅱ-Trojan, type: trojan, server: sh.zj.my1.2.76po.com, port: 31007, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: us-02.v4vip.top }
-    - { name: 🇺🇸美国中继Ⅲ-Trojan, type: trojan, server: sh.zj.my1.2.76po.com, port: 31008, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: us-03.v4vip.top, skip-cert-verify: true }
-    - { name: 🇺🇸美国中继Ⅳ-Trojan, type: trojan, server: sh.zj.my1.2.76po.com, port: 31009, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: us-04.v4vip.top, skip-cert-verify: true }
-    - { name: 🇸🇬新加坡中继Ⅰ-Trojan, type: trojan, server: sh.zj.my1.2.76po.com, port: 31011, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: sg-01.v4vip.top }
-    - { name: 🇸🇬新加坡中继Ⅱ-Trojan, type: trojan, server: sh.zj.my1.2.76po.com, port: 31012, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: sg-02.v4vip.top }
-    - { name: 🇯🇵日本中继Ⅰ-Trojan, type: trojan, server: sh.zj.my1.2.76po.com, port: 31013, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: jp-01.v4vip.top }
-    - { name: 🇯🇵日本中继Ⅱ-Trojan, type: trojan, server: sh.zj.my1.2.76po.com, port: 31014, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: jp-02.v4vip.top }
-    - { name: 🇨🇦加拿大中继Ⅰ-Trojan, type: trojan, server: sh.zj.my1.2.76po.com, port: 31015, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: ca-01.v4vip.top, skip-cert-verify: true }
-    - { name: 🇬🇧英国中继Ⅰ-Trojan, type: trojan, server: sh.zj.my1.2.76po.com, port: 31016, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: gb-01.v4vip.top }
-    - { name: 🇩🇪德国中继Ⅰ-Trojan, type: trojan, server: sh.zj.my1.2.76po.com, port: 31017, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: de-01.v4vip.top }
-    - { name: 🇮🇳印度中继Ⅰ-Trojan, type: trojan, server: sh.zj.my1.2.76po.com, port: 31018, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: in-01.v4vip.top }
-    - { name: 🇦🇺澳大利亚中继Ⅰ-Trojan, type: trojan, server: sh.zj.my1.2.76po.com, port: 31019, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: au-01.v4vip.top }
+    - { name: '导航网址：https://proxyvip.github.io', type: trojan, server: sz.zj.my.1.76po.com, port: 31001, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: hk-01.v4vip.top }
+    - { name: '剩余流量：1 GB', type: trojan, server: sz.zj.my.1.76po.com, port: 31001, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: hk-01.v4vip.top }
+    - { name: 套餐到期：2024-03-27, type: trojan, server: sz.zj.my.1.76po.com, port: 31001, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: hk-01.v4vip.top }
+    - { name: 🇭🇰香港中继Ⅰ-Trojan, type: trojan, server: sz.zj.my.1.76po.com, port: 31001, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: hk-01.v4vip.top }
+    - { name: 🇭🇰香港中继Ⅱ-Trojan, type: trojan, server: sz.zj.my.1.76po.com, port: 31002, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: hk-02.v4vip.top }
+    - { name: 🇭🇰香港中继Ⅲ-Trojan, type: trojan, server: sz.zj.my.1.76po.com, port: 31003, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: hk-03.v4vip.top }
+    - { name: 🇭🇰香港中继Ⅳ-Trojan, type: trojan, server: sz.zj.my.1.76po.com, port: 31004, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: hk-04.v4vip.top }
+    - { name: 🇺🇸美国中继Ⅰ-Trojan, type: trojan, server: sz.zj.my.1.76po.com, port: 31006, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: us-01.v4vip.top }
+    - { name: 🇺🇸美国中继Ⅱ-Trojan, type: trojan, server: sz.zj.my.1.76po.com, port: 31007, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: us-02.v4vip.top }
+    - { name: 🇺🇸美国中继Ⅲ-Trojan, type: trojan, server: sz.zj.my.1.76po.com, port: 31008, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: us-03.v4vip.top, skip-cert-verify: true }
+    - { name: 🇺🇸美国中继Ⅳ-Trojan, type: trojan, server: sz.zj.my.1.76po.com, port: 31009, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: us-04.v4vip.top, skip-cert-verify: true }
+    - { name: 🇸🇬新加坡中继Ⅰ-Trojan, type: trojan, server: sz.zj.my.1.76po.com, port: 31011, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: sg-01.v4vip.top }
+    - { name: 🇸🇬新加坡中继Ⅱ-Trojan, type: trojan, server: sz.zj.my.1.76po.com, port: 31012, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: sg-02.v4vip.top }
+    - { name: 🇯🇵日本中继Ⅰ-Trojan, type: trojan, server: sz.zj.my.1.76po.com, port: 31013, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: jp-01.v4vip.top }
+    - { name: 🇯🇵日本中继Ⅱ-Trojan, type: trojan, server: sz.zj.my.1.76po.com, port: 31014, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: jp-02.v4vip.top }
+    - { name: 🇨🇦加拿大中继Ⅰ-Trojan, type: trojan, server: sz.zj.my.1.76po.com, port: 31015, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: ca-01.v4vip.top, skip-cert-verify: true }
+    - { name: 🇬🇧英国中继Ⅰ-Trojan, type: trojan, server: sz.zj.my.1.76po.com, port: 31016, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: gb-01.v4vip.top }
+    - { name: 🇩🇪德国中继Ⅰ-Trojan, type: trojan, server: sz.zj.my.1.76po.com, port: 31017, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: de-01.v4vip.top }
+    - { name: 🇮🇳印度中继Ⅰ-Trojan, type: trojan, server: sz.zj.my.1.76po.com, port: 31018, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: in-01.v4vip.top }
+    - { name: 🇦🇺澳大利亚中继Ⅰ-Trojan, type: trojan, server: sz.zj.my.1.76po.com, port: 31019, password: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, udp: true, sni: au-01.v4vip.top }
     - { name: 🇭🇰香港中继Ⅰ-V2ray, type: vmess, server: sz.zj.my.1.76po.com, port: 33001, uuid: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, alterId: 0, cipher: auto, udp: true, tls: true, servername: hk-01.v4vip.top }
     - { name: 🇭🇰香港中继Ⅱ-V2ray, type: vmess, server: sz.zj.my.1.76po.com, port: 33002, uuid: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, alterId: 0, cipher: auto, udp: true, tls: true, servername: hk-02.v4vip.top }
     - { name: 🇭🇰香港中继Ⅲ-V2ray, type: vmess, server: sz.zj.my.1.76po.com, port: 33003, uuid: 9fa6182f-46b9-4d0e-9104-d19b48ba2ff7, alterId: 0, cipher: auto, udp: true, tls: true, servername: hk-03.v4vip.top }
