@@ -15,16 +15,16 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - { name: '剩余流量：2.58 GB', type: ss, server: 10.hk1.sknat.top, port: 41471, cipher: chacha20-ietf-poly1305, password: d868efc2-5e90-4db7-abb2-51cb43c37a34, udp: true }
-    - { name: '距离下次重置剩余：2 天', type: ss, server: 10.hk1.sknat.top, port: 41471, cipher: chacha20-ietf-poly1305, password: d868efc2-5e90-4db7-abb2-51cb43c37a34, udp: true }
-    - { name: 套餐到期：2024-03-29, type: ss, server: 10.hk1.sknat.top, port: 41471, cipher: chacha20-ietf-poly1305, password: d868efc2-5e90-4db7-abb2-51cb43c37a34, udp: true }
-    - { name: 香港1|奈飞, type: ss, server: 10.hk1.sknat.top, port: 41471, cipher: chacha20-ietf-poly1305, password: d868efc2-5e90-4db7-abb2-51cb43c37a34, udp: true }
-    - { name: 香港2|奈飞, type: ss, server: 10.hk2.sknat.top, port: 27492, cipher: chacha20-ietf-poly1305, password: d868efc2-5e90-4db7-abb2-51cb43c37a34, udp: true }
-    - { name: 香港3|奈飞, type: ss, server: 10.hk3.sknat.top, port: 41473, cipher: chacha20-ietf-poly1305, password: d868efc2-5e90-4db7-abb2-51cb43c37a34, udp: true }
-    - { name: 香港4|奈飞, type: ss, server: 10.hk4.sknat.top, port: 21474, cipher: chacha20-ietf-poly1305, password: d868efc2-5e90-4db7-abb2-51cb43c37a34, udp: true }
-    - { name: 香港5|奈飞, type: ss, server: 10.hk5.sknat.top, port: 41475, cipher: chacha20-ietf-poly1305, password: d868efc2-5e90-4db7-abb2-51cb43c37a34, udp: true }
-    - { name: 新加坡1|奈飞|GPT, type: ss, server: 10.sg1.sknat.top, port: 47181, cipher: chacha20-ietf-poly1305, password: d868efc2-5e90-4db7-abb2-51cb43c37a34, udp: true }
-    - { name: 新加坡2|奈飞|GPT, type: ss, server: 10.sg2.sknat.top, port: 27182, cipher: chacha20-ietf-poly1305, password: d868efc2-5e90-4db7-abb2-51cb43c37a34, udp: true }
+    - { name: '剩余流量：2.58 GB', type: ss, server: 10.hk1.styapp.top, port: 41471, cipher: chacha20-ietf-poly1305, password: d868efc2-5e90-4db7-abb2-51cb43c37a34, udp: true }
+    - { name: '距离下次重置剩余：2 天', type: ss, server: 10.hk1.styapp.top, port: 41471, cipher: chacha20-ietf-poly1305, password: d868efc2-5e90-4db7-abb2-51cb43c37a34, udp: true }
+    - { name: 套餐到期：2024-03-29, type: ss, server: 10.hk1.styapp.top, port: 41471, cipher: chacha20-ietf-poly1305, password: d868efc2-5e90-4db7-abb2-51cb43c37a34, udp: true }
+    - { name: 香港1|奈飞, type: ss, server: 10.hk1.styapp.top, port: 41471, cipher: chacha20-ietf-poly1305, password: d868efc2-5e90-4db7-abb2-51cb43c37a34, udp: true }
+    - { name: 香港2|奈飞, type: ss, server: 10.hk2.styapp.top, port: 27492, cipher: chacha20-ietf-poly1305, password: d868efc2-5e90-4db7-abb2-51cb43c37a34, udp: true }
+    - { name: 香港3|奈飞, type: ss, server: 10.hk3.styapp.top, port: 41473, cipher: chacha20-ietf-poly1305, password: d868efc2-5e90-4db7-abb2-51cb43c37a34, udp: true }
+    - { name: 香港4|奈飞, type: ss, server: 10.hk4.styapp.top, port: 21474, cipher: chacha20-ietf-poly1305, password: d868efc2-5e90-4db7-abb2-51cb43c37a34, udp: true }
+    - { name: 香港5|奈飞, type: ss, server: 10.hk5.styapp.top, port: 41475, cipher: chacha20-ietf-poly1305, password: d868efc2-5e90-4db7-abb2-51cb43c37a34, udp: true }
+    - { name: 新加坡1|奈飞|GPT, type: ss, server: 10.sg1.styapp.top, port: 47181, cipher: chacha20-ietf-poly1305, password: d868efc2-5e90-4db7-abb2-51cb43c37a34, udp: true }
+    - { name: 新加坡2|奈飞|GPT, type: ss, server: 10.sg2.styapp.top, port: 27182, cipher: chacha20-ietf-poly1305, password: d868efc2-5e90-4db7-abb2-51cb43c37a34, udp: true }
     - { name: 新加坡3|奈飞|GPT, type: ss, server: 10.sg3.sknat.top, port: 47183, cipher: chacha20-ietf-poly1305, password: d868efc2-5e90-4db7-abb2-51cb43c37a34, udp: true }
     - { name: 新加坡5|奈飞|GPT, type: ss, server: 10.sg5.sknat.top, port: 47185, cipher: chacha20-ietf-poly1305, password: d868efc2-5e90-4db7-abb2-51cb43c37a34, udp: true }
     - { name: 台湾1|流媒体, type: ss, server: 10.tw1.sknat.top, port: 21681, cipher: chacha20-ietf-poly1305, password: d868efc2-5e90-4db7-abb2-51cb43c37a34, udp: true }
