@@ -19,7 +19,7 @@ proxies:
     - { name: '距离下次重置剩余：2 天', type: ss, server: 10.hk1.styapp.top, port: 41471, cipher: chacha20-ietf-poly1305, password: c2376ee5-6a91-4ddc-8f23-618df4a9644b, udp: true }
     - { name: 套餐到期：2024-04-17, type: ss, server: 10.hk1.styapp.top, port: 41471, cipher: chacha20-ietf-poly1305, password: c2376ee5-6a91-4ddc-8f23-618df4a9644b, udp: true }
     - { name: 香港1|奈飞, type: ss, server: 10.hk1.styapp.top, port: 41471, cipher: chacha20-ietf-poly1305, password: c2376ee5-6a91-4ddc-8f23-618df4a9644b, udp: true }
-    - { name: 香港2|奈飞, type: ss, server: 10.hk2.styapp.top, port: 27492, cipher: chacha20-ietf-poly1305, password: c2376ee5-6a91-4ddc-8f23-618df4a9644b, udp: true }
+    - { name: 香港2|奈飞, type: ss, server: terherer.zhuanaz.icu, port: 27492, cipher: chacha20-ietf-poly1305, password: c2376ee5-6a91-4ddc-8f23-618df4a9644b, udp: true }
     - { name: 香港3|奈飞, type: ss, server: 10.hk3.styapp.top, port: 41473, cipher: chacha20-ietf-poly1305, password: c2376ee5-6a91-4ddc-8f23-618df4a9644b, udp: true }
     - { name: 香港4|奈飞, type: ss, server: 10.hk4.styapp.top, port: 21474, cipher: chacha20-ietf-poly1305, password: c2376ee5-6a91-4ddc-8f23-618df4a9644b, udp: true }
     - { name: 香港5|奈飞, type: ss, server: 10.hk5.styapp.top, port: 41475, cipher: chacha20-ietf-poly1305, password: c2376ee5-6a91-4ddc-8f23-618df4a9644b, udp: true }
