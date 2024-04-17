@@ -15,10 +15,10 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - { name: '剩余流量：3.13 GB', type: ss, server: shcm0305.sstr2024.cc, port: 41471, cipher: chacha20-ietf-poly1305, password: e9574875-b90e-4b3e-99fa-c40331a3d0bb, udp: true }
-    - { name: '距离下次重置剩余：1 天', type: ss, server: shcm0305.sstr2024.cc, port: 41471, cipher: chacha20-ietf-poly1305, password: e9574875-b90e-4b3e-99fa-c40331a3d0bb, udp: true }
-    - { name: 套餐到期：2024-04-19, type: ss, server: shcm0305.sstr2024.cc, port: 41471, cipher: chacha20-ietf-poly1305, password: e9574875-b90e-4b3e-99fa-c40331a3d0bb, udp: true }
-    - { name: 香港1|奈飞, type: ss, server: shcm0305.sstr2024.cc, port: 41471, cipher: chacha20-ietf-poly1305, password: e9574875-b90e-4b3e-99fa-c40331a3d0bb, udp: true }
+    - { name: '剩余流量：3.13 GB', type: ss, server: 10.hk1.styapp.top, port: 41471, cipher: chacha20-ietf-poly1305, password: e9574875-b90e-4b3e-99fa-c40331a3d0bb, udp: true }
+    - { name: '距离下次重置剩余：1 天', type: ss, server: 10.hk1.styapp.top, port: 41471, cipher: chacha20-ietf-poly1305, password: e9574875-b90e-4b3e-99fa-c40331a3d0bb, udp: true }
+    - { name: 套餐到期：2024-04-19, type: ss, server: 10.hk1.styapp.top, port: 41471, cipher: chacha20-ietf-poly1305, password: e9574875-b90e-4b3e-99fa-c40331a3d0bb, udp: true }
+    - { name: 香港1|奈飞, type: ss, server: 10.hk1.styapp.top, port: 41471, cipher: chacha20-ietf-poly1305, password: e9574875-b90e-4b3e-99fa-c40331a3d0bb, udp: true }
     - { name: 香港2|奈飞, type: ss, server: 10.hk2.styapp.top, port: 27492, cipher: chacha20-ietf-poly1305, password: e9574875-b90e-4b3e-99fa-c40331a3d0bb, udp: true }
     - { name: 香港3|奈飞, type: ss, server: 10.hk3.styapp.top, port: 41473, cipher: chacha20-ietf-poly1305, password: e9574875-b90e-4b3e-99fa-c40331a3d0bb, udp: true }
     - { name: 香港4|奈飞, type: ss, server: 10.hk4.styapp.top, port: 21474, cipher: chacha20-ietf-poly1305, password: e9574875-b90e-4b3e-99fa-c40331a3d0bb, udp: true }
